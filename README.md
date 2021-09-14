@@ -1,5 +1,9 @@
 # For my love Vici
 
+## In the web
+
+[Go to App](https://iheartvici.surge.sh) or ```https://iheartvici.surge.sh```
+
 ## Technologies
 - ThreeJS
 - Svelte
