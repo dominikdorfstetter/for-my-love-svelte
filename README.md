@@ -1,7 +1,7 @@
 # For my love Vici
 
 ## Technologies
-- Three
+- ThreeJS
 - Svelte
 - TailwindCSS / PostCSS
 
