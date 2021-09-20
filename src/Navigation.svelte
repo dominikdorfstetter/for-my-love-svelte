@@ -9,7 +9,7 @@
 <div class="navmenu p-8">
     <nav class="flex justify-between">
         <div style="color: var(--secondary-color); font-weight: bold;" class="text-xl leading-10">
-            Victoria
+            { $_('logoText') }
         </div>
         <div class="dropdown inline-block relative">
             <button class="btnlanguage font-semibold py-2 px-4 rounded inline-flex items-center">
