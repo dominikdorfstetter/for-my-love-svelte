@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^11.0.0",
     "@rollup/plugin-typescript": "^8.0.0",
     "@tsconfig/svelte": "^2.0.0",
@@ -35,6 +36,7 @@
     "dat.gui": "^0.7.7",
     "rxjs": "^7.3.0",
     "sirv-cli": "^1.0.0",
+    "svelte-i18n": "^3.3.10",
     "svelte-observable": "^0.4.0",
     "three": "^0.132.2"
   }
