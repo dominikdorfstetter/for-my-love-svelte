@@ -1,5 +1,11 @@
 {
   "greeting": "¡Feliz cumpleaños mi amor!",
+  "language": "Idioma",
+  "shortcode": {
+    "de": "Alemán",
+    "en": "Inglés",
+    "es": "Español"
+  },
   "wishes": [
     {
       "id": 0,

@@ -17,9 +17,9 @@
     }
 </script>
 <Navigation />
-<div id="overlay_left"></div>
+<!--<div id="overlay_left"></div>
 <div id="overlay_right"></div>
-<div id="overlay_button" class="heart-shape" on:click={toggleOverlay}></div>
+<div id="overlay_button" class="heart-shape" on:click={toggleOverlay}></div>-->
 
 <Heart />
 <div class="text uppercase m-a">{ $_('greeting') }</div>
@@ -31,7 +31,7 @@
 
     :root {
         --primary-color: #fec5bb;
-        --secondary-color: #f8edeb;
+        --secondary-color: #5F4A47;
     }
 
     .text {

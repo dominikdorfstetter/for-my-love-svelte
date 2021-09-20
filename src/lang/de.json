@@ -1,5 +1,11 @@
 {
   "greeting": "Alles Gute zum Geburtstag mein Schatz!",
+  "language": "Sprache",
+  "shortcode": {
+    "de": "Deutsch",
+    "en": "Englisch",
+    "es": "Spanisch"
+  },
   "wishes": [
     {
       "id": 0,

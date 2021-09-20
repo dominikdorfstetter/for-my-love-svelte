@@ -1,5 +1,11 @@
 {
   "greeting": "Happy Birthday my dear!",
+  "language": "Language",
+  "shortcode": {
+    "de": "German",
+    "en": "English",
+    "es": "Spanish"
+  },
   "wishes": [
     {
       "id": 0,
