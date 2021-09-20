@@ -170,7 +170,7 @@
 <div id="overlay_right"></div>
 <div id="overlay_button" class="heart-shape" on:click={toggleOverlay}></div>
 <div class="text uppercase m-a">Victoria, Te amo!!! Tu Dominik</div>
-<canvas id="bg">
+<canvas style="max-width: 100%; max-height: 100%" id="bg">
     <!-- threejs canvas -->
 </canvas>
 
