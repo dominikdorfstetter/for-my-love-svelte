@@ -7,7 +7,7 @@
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear",
     "check": "svelte-check --tsconfig ./tsconfig.json",
-    "publish": "surge public iheartvici.surge.sh"
+    "publish": "npm run build && surge public iheartvici.surge.sh"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",

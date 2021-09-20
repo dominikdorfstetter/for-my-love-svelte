@@ -260,15 +260,6 @@
             transform: rotate(42deg);
             opacity: 1.0;
         }
-        25% {
-            opacity: 0.75;
-        }
-        50% {
-            opacity: 0.5;
-        }
-        75% {
-            opacity: 0.25;
-        }
         100% {
             opacity: 0;
             transform: rotate(405deg);
