@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b4bf347-c415-4eaa-90e0-2e22e2f0e9d8" name="Changes" comment="wip: update 2">
+    <list default="true" id="f0b1c0e9-9fdd-4536-b147-6c83ed3d4be8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +14,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -32,8 +44,8 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="threejs" />
-                    <option name="lastUsedInstant" value="1631547629" />
+                    <option name="branchName" value="develop" />
+                    <option name="lastUsedInstant" value="1631636897" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
@@ -80,7 +92,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="C:/tools/android-sdk" />
-    <property name="app.teamhub.trackedBranches" value="a6la8k/main" />
+    <property name="app.teamhub.trackedBranches" value="a6la8k/main,a6la8k/develop" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -109,24 +121,11 @@
       <option name="workspaceLocation" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="for-my-love-svelte" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="for-my-love-svelte" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7b4bf347-c415-4eaa-90e0-2e22e2f0e9d8" name="Changes" comment="" />
+      <changelist id="f0b1c0e9-9fdd-4536-b147-6c83ed3d4be8" name="Changes" comment="" />
       <created>1631015699558</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -146,6 +145,9 @@
       <workItem from="1631629232420" duration="4826000" />
       <workItem from="1631634333887" duration="332000" />
       <workItem from="1631634709240" duration="1775000" />
+      <workItem from="1631644643907" duration="19000" />
+      <workItem from="1631969355916" duration="3139000" />
+      <workItem from="1632155320537" duration="1981000" />
     </task>
     <task id="LOCAL-00001" summary="wip: update 2">
       <created>1631635215059</created>
@@ -170,6 +172,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="wip: update 2" />
