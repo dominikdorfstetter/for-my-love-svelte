@@ -217,8 +217,8 @@
         background: var(--secondary-color);
         margin-left: auto;
         margin-right: auto;
-        top: calc(50% - 100px);  /* position the top  edge of the element at the middle of the parent */
-        left: calc(50% - 90px); /* position the left edge of the element at the middle of the parent */
+        top: calc(50% - 5em);  /* position the top  edge of the element at the middle of the parent */
+        left: calc(50% - 5em); /* position the left edge of the element at the middle of the parent */
     }
 
     .scale-down-hor-right {
@@ -271,26 +271,26 @@
 
     .heart-shape {
         position: relative;
-        width: 200px;
-        height: 200px;
+        width: 10em;
+        height: 10em;
         transform: rotate(45deg);
         background-color: var(--secondary-color);
         box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
     }
     .heart-shape:before, .heart-shape:after {
         position: absolute;
-        width: 200px;
-        height: 200px;
+        width: 10em;
+        height: 10em;
         content: '';
         border-radius: 50%;
         background-color: var(--secondary-color);
     }
     .heart-shape:before {
         bottom: 0;
-        left: -100px;
+        left: -5em;
     }
     .heart-shape:after {
-        top: -100px;
+        top: -5em;
         right: 0;
     }
 </style>
