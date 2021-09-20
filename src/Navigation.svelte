@@ -6,7 +6,7 @@
     }
 </script>
 
-<div class="navmenu container mx-auto p-8">
+<div class="navmenu p-8">
     <nav class="flex justify-between">
         <div style="color: var(--secondary-color); font-weight: bold;" class="text-xl leading-10">
             Victoria
@@ -29,6 +29,9 @@
     .navmenu {
         z-index: 3;
         background-color: var(--primary-color);
+        position: absolute;
+        width: 100vw;
+        top: 0;
     }
 
     .dropdown:hover .dropdown-menu {
