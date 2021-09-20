@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0b1c0e9-9fdd-4536-b147-6c83ed3d4be8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Navigation.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Navigation.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/de.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/es.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/es.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,12 +50,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="develop" />
-                    <option name="lastUsedInstant" value="1632166989" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1632168919" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1632158376" />
+                    <option name="branchName" value="develop" />
+                    <option name="lastUsedInstant" value="1632166989" />
                   </RecentBranch>
                 </list>
               </option>
@@ -160,7 +155,7 @@
       <workItem from="1631644643907" duration="19000" />
       <workItem from="1631969355916" duration="3139000" />
       <workItem from="1632155320537" duration="5349000" />
-      <workItem from="1632161051967" duration="7749000" />
+      <workItem from="1632161051967" duration="8198000" />
     </task>
     <task id="LOCAL-00001" summary="wip: update 2">
       <created>1631635215059</created>
