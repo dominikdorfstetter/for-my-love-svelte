@@ -222,13 +222,13 @@
     }
 
     .scale-down-hor-right {
-        animation: scale-down-hor-right 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: scale-down-hor-right 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     }
     .scale-down-hor-left {
-        animation: scale-down-hor-left 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: scale-down-hor-left 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     }
     .rotate-center {
-        animation: rotate-center 2.5s ease-in-out both;
+        animation: fade-out 2.5s ease-in-out both;
     }
     /**
      * ----------------------------------------
@@ -255,14 +255,13 @@
             transform-origin: 100% 100%;
         }
     }
-    @keyframes rotate-center {
+    @keyframes fade-out {
         0% {
-            transform: rotate(42deg);
             opacity: 1.0;
         }
         100% {
             opacity: 0;
-            transform: rotate(405deg);
+            visibility: hidden;
         }
     }
 
