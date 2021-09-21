@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0b1c0e9-9fdd-4536-b147-6c83ed3d4be8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ContentCard.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContentCard.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Heart.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heart.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Navigation.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Navigation.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +161,7 @@
       <workItem from="1632155320537" duration="5349000" />
       <workItem from="1632161051967" duration="8846000" />
       <workItem from="1632170548975" duration="1100000" />
-      <workItem from="1632200111028" duration="6412000" />
+      <workItem from="1632200111028" duration="8223000" />
     </task>
     <task id="LOCAL-00001" summary="wip: update 2">
       <created>1631635215059</created>

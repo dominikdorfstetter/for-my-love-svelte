@@ -6,9 +6,9 @@
     }
 </script>
 
-<div class="navmenu p-8">
+<div class="navmenu p-4 lg:p-8">
     <nav class="flex justify-between">
-        <div style="color: var(--secondary-color); font-weight: bold;" class="text-xl leading-10 uppercase">
+        <div style="color: var(--secondary-color); font-weight: bold;" class="text-xl leading-6 uppercase">
             { $_('logoText') }
         </div>
         <div class="dropdown inline-block relative">
@@ -28,7 +28,7 @@
 <style lang="postcss">
     .navmenu {
         z-index: 3;
-        background-color: var(--primary-color);
+        background-color: rgba(0, 0, 0, 0);
         position: absolute;
         width: 100vw;
         top: 0;

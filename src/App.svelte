@@ -1,7 +1,6 @@
 <script lang="ts">
     import * as i18n from './i18n';
     import Navigation from "./Navigation.svelte";
-    import { _ } from 'svelte-i18n';
     import Heart from "./Heart.svelte";
     import ContentCard from "./ContentCard.svelte";
 
@@ -23,7 +22,6 @@
 <div id="overlay_button" class="heart-shape" on:click={toggleOverlay}></div>
 
 <Heart />
-<div class="text uppercase m-a">{ $_('greeting') }</div>
 <ContentCard />
 
 <style global lang="postcss">
@@ -35,15 +33,6 @@
         --primary-color: #fec5bb;
         --secondary-color: #5F4A47;
         font-family: 'Montserrat', sans-serif;
-    }
-
-    .text {
-        position: absolute;
-        bottom: 1em;
-        color: white;
-        font-size: 2.5em;
-        text-align: center;
-        width: 100%;
     }
 
     #overlay_left {

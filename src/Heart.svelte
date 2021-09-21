@@ -51,17 +51,17 @@
         controls = new OrbitControls(camera, renderer.domElement);
         renderer.setPixelRatio( window.devicePixelRatio );
         renderer.setSize( window.innerWidth, window.innerHeight );
-        camera.position.setZ(30);
-        camera.position.setX(15);
+        camera.position.setZ(50);
+        camera.position.setX(25);
         camera.position.setY(15);
         normalTexture = await textureLoader.load("../assets/normalmap.png");
         backgroundTexture = await textureLoader.load("../assets/background.jpg");
-        scene.background = backgroundTexture;
+        scene.background = new THREE.Color(0xfec5bb);
         material.normalMap = normalTexture;
         scene.add(pointLight, pointLight2);
 
         // add stars
-        Array(200).fill(null).map(addStar);
+        Array(300).fill(null).map(addStar);
 
         addLove();
         animate();
