@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0b1c0e9-9fdd-4536-b147-6c83ed3d4be8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/normalmap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ContentCard.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContentCard.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Heart.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heart.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Navigation.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Navigation.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lang/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/de.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lang/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/en.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lang/es.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/es.json" afterDir="false" />
@@ -167,7 +162,7 @@
       <workItem from="1632161051967" duration="8846000" />
       <workItem from="1632170548975" duration="1100000" />
       <workItem from="1632200111028" duration="9631000" />
-      <workItem from="1632231671964" duration="2366000" />
+      <workItem from="1632231671964" duration="3543000" />
     </task>
     <task id="LOCAL-00001" summary="wip: update 2">
       <created>1631635215059</created>

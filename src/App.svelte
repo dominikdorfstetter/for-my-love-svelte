@@ -35,6 +35,11 @@
         font-family: 'Montserrat', sans-serif;
     }
 
+    ::selection {
+        background: var(--primary-color);
+        color: white;/* WebKit/Blink Browsers */
+    }
+
     #overlay_left {
         position: absolute;
         top: 0;
