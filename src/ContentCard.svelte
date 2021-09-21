@@ -1,15 +1,24 @@
 <script lang="ts">
     import {_} from 'svelte-i18n';
 
-    export let index: number = 0;
+    export let index: number = 0
+    let greetings = 0;
+    let showGreetings = false;
 
     setInterval(() => {
         index = Math.floor(Math.random() * $_('wishes').length);
+        greetings = Math.floor(Math.random() * $_('greetings').length);
+        showGreetings = !showGreetings;
     }, 10000);
 </script>
 
 <div class="content-card">
-    <div class="content-text text-4xl lg:text-5xl text-center">"{$_('wishes')[index].text}"</div>
+    {#if (showGreetings)}
+        <div class="content-text text-4xl lg:text-5xl text-center">"{$_('greetings')[greetings].text}" - {$_('greetings')[greetings].from}</div>
+    {:else}
+        <div class="content-text text-4xl lg:text-5xl text-center">{$_('wishes')[index].text}</div>
+    {/if}
+
 </div>
 
 <style lang="postcss">

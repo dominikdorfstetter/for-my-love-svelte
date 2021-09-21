@@ -22,3 +22,9 @@ D
 src/global.d.ts,c\3\c3ac4770658a5d9f6337d9cd963f074b7db1a5cf
 G
 public/build/bundle.css,5\a\5a068baecb3f7b3275fa725dbd886f54622e7073
+B
+src/_layout.svelte,f\c\fc5155f74d00d6ebb13416ae8758940be75912dc
+=
+tsconfig.json,6\1\61ebb9fd6e8cf9082658121d5d81e297791dacd0
+;
+src/i18n.ts,9\4\94b755d1090dafeaa0244addd61f16720798c9e4

@@ -76,5 +76,17 @@
       "id": 16,
       "text": "Sé algunas cosas. Yo se que te amo. Se que me amo."
     }
+  ],
+  "greetings": [
+    {
+      "id": 0,
+      "text": "Querida Vicki, te hemos llevado a nuestros corazones, eres una persona muy valiosa para nosotros, ¡lo mejor para tu cumpleaños!",
+      "from": "Oma, Opa, Johnny & Moni"
+    },
+    {
+      "id": 1,
+      "text": "Agradezco haberte conocido, eres el mejor regalo para mí. ¡Te amo!",
+      "from": "Dominik"
+    }
   ]
 }

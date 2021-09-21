@@ -76,5 +76,17 @@
       "id": 16,
       "text": "Ich weiß einiges. Ich weiß, ich liebe dich. Ich weiß, du liebst mich."
     }
+  ],
+  "greetings": [
+    {
+      "id": 0,
+      "text": "Liebe Vicki wir haben dich in unser Herz geschlossen du bist ein ganz wertvoller Mensch für uns alles Liebe und Gute zum Geburtstag!",
+      "from": "Oma, Opa, Johnny & Moni"
+    },
+    {
+      "id": 1,
+      "text": "Ich bin dankbar dich kennen gelernt zu haben, du bist das schönste Geschenk für mich. Ich liebe dich!",
+      "from": "Dominik"
+    }
   ]
 }

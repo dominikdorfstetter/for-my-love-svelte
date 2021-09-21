@@ -76,5 +76,17 @@
       "id": 16,
       "text": "I do know some things. I know I love you. I know you love me."
     }
+  ],
+  "greetings": [
+    {
+      "id": 0,
+      "text": "Dear Vicki, we have taken you into our hearts you are a very valuable person for us all the best for your birthday!",
+      "from": "Oma, Opa, Johnny & Moni"
+    },
+    {
+      "id": 1,
+      "text": "I am grateful to have met you, you are the best present for me. I love you!",
+      "from": "Dominik"
+    }
   ]
 }
