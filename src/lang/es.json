@@ -1,6 +1,6 @@
 {
   "greeting": "¡Feliz cumpleaños mi amor!",
-  "logoText": "Para Victoria",
+  "logoText": "Para Victoria, de Dominik",
   "language": "Idioma",
   "shortcode": {
     "de": "Alemán",
@@ -18,123 +18,63 @@
     },
     {
       "id": 2,
-      "text": ""
+      "text": "¡Eres la mejor motivación para mí!"
     },
     {
       "id": 3,
-      "text": ""
+      "text": "¡Tú eres mi mejor amigo!"
     },
     {
       "id": 4,
-      "text": ""
+      "text": "¡Estoy agradecido por cada minuto contigo!"
     },
     {
       "id": 5,
-      "text": ""
+      "text": "¡Siempre logras tus metas!"
     },
     {
       "id": 6,
-      "text": ""
+      "text": "¡Eres hermosa!"
     },
     {
       "id": 7,
-      "text": ""
+      "text": "¡Toda la felicidad del mundo!"
     },
     {
       "id": 8,
-      "text": ""
+      "text": "¡Que cumplas muchos más!"
     },
     {
       "id": 9,
-      "text": ""
+      "text": "Solo la luna sabe cuantas veces mire al cielo pensando en ti."
     },
     {
       "id": 10,
-      "text": ""
+      "text": "Cuando te acaricié me di cuenta que había estado toda mi vida con las manos vacías."
     },
     {
       "id": 11,
-      "text": ""
+      "text": "Una de las cosas más bellas del mundo es encontrar con quien hablar de todas las cosas raras que se te ocurren sin sentirte incómodo."
     },
     {
       "id": 12,
-      "text": ""
+      "text": "Cuando la felicidad del otro se convierte en tu felicidad, eso es amor."
     },
     {
       "id": 13,
-      "text": ""
+      "text": "Eres mi luz en la oscuridad."
     },
     {
       "id": 14,
-      "text": ""
+      "text": "No hay miedo en el amor, pero el amor perfecto aleja el miedo."
     },
     {
       "id": 15,
-      "text": ""
+      "text": "Con una mujer a la que amas, disfruta de la vida todos los días de tu vida."
     },
     {
       "id": 16,
-      "text": ""
-    },
-    {
-      "id": 17,
-      "text": ""
-    },
-    {
-      "id": 18,
-      "text": ""
-    },
-    {
-      "id": 19,
-      "text": ""
-    },
-    {
-      "id": 20,
-      "text": ""
-    },
-    {
-      "id": 21,
-      "text": ""
-    },
-    {
-      "id": 22,
-      "text": ""
-    },
-    {
-      "id": 23,
-      "text": ""
-    },
-    {
-      "id": 24,
-      "text": ""
-    },
-    {
-      "id": 25,
-      "text": ""
-    },
-    {
-      "id": 26,
-      "text": ""
-    },
-    {
-      "id": 27,
-      "text": ""
-    },
-    {
-      "id": 28,
-      "text": ""
-    },
-    {
-      "id": 29,
-      "text": ""
-    },
-    {
-      "id": 30,
-      "text": ""
-    },
-    {
-      "id": 31,
-      "text": ""
+      "text": "Sé algunas cosas. Yo se que te amo. Se que me amo."
     }
   ]
 }

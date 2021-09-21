@@ -1,6 +1,6 @@
 {
   "greeting": "Happy Birthday my dear!",
-  "logoText": "For Victoria",
+  "logoText": "For Victoria, by Dominik",
   "language": "Language",
   "shortcode": {
     "de": "German",
@@ -18,123 +18,63 @@
     },
     {
       "id": 2,
-      "text": ""
+      "text": "You are the best motivation for me!"
     },
     {
       "id": 3,
-      "text": ""
+      "text": "You're my best friend!"
     },
     {
       "id": 4,
-      "text": ""
+      "text": "I am grateful for every minute with you!"
     },
     {
       "id": 5,
-      "text": ""
+      "text": "You always achieve your goals!"
     },
     {
       "id": 6,
-      "text": ""
+      "text": "You're beautiful!"
     },
     {
       "id": 7,
-      "text": ""
+      "text": "I wish you all the luck in the world!"
     },
     {
       "id": 8,
-      "text": ""
+      "text": "To many more birthdays!"
     },
     {
       "id": 9,
-      "text": ""
+      "text": "Only the moon knows how many times I've looked at the stars and thought of you."
     },
     {
       "id": 10,
-      "text": ""
+      "text": "As I caressed you, I realized that I had lived empty-handed my entire life."
     },
     {
       "id": 11,
-      "text": ""
+      "text": "One of the most beautiful things in the world is to meet someone who you can talk to about all your crazy thoughts without feeling weird."
     },
     {
       "id": 12,
-      "text": ""
+      "text": "When the happiness of the other turns into your happiness, that is love."
     },
     {
       "id": 13,
-      "text": ""
+      "text": "You are my light in the darkness."
     },
     {
       "id": 14,
-      "text": ""
+      "text": "There is no fear in love, but perfect love drives away fear."
     },
     {
       "id": 15,
-      "text": ""
+      "text": "With a woman you love, enjoy life all the days of your life."
     },
     {
       "id": 16,
-      "text": ""
-    },
-    {
-      "id": 17,
-      "text": ""
-    },
-    {
-      "id": 18,
-      "text": ""
-    },
-    {
-      "id": 19,
-      "text": ""
-    },
-    {
-      "id": 20,
-      "text": ""
-    },
-    {
-      "id": 21,
-      "text": ""
-    },
-    {
-      "id": 22,
-      "text": ""
-    },
-    {
-      "id": 23,
-      "text": ""
-    },
-    {
-      "id": 24,
-      "text": ""
-    },
-    {
-      "id": 25,
-      "text": ""
-    },
-    {
-      "id": 26,
-      "text": ""
-    },
-    {
-      "id": 27,
-      "text": ""
-    },
-    {
-      "id": 28,
-      "text": ""
-    },
-    {
-      "id": 29,
-      "text": ""
-    },
-    {
-      "id": 30,
-      "text": ""
-    },
-    {
-      "id": 31,
-      "text": ""
+      "text": "I do know some things. I know I love you. I know you love me."
     }
   ]
 }

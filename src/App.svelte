@@ -3,6 +3,7 @@
     import Navigation from "./Navigation.svelte";
     import { _ } from 'svelte-i18n';
     import Heart from "./Heart.svelte";
+    import ContentCard from "./ContentCard.svelte";
 
     i18n;
 
@@ -17,12 +18,13 @@
     }
 </script>
 <Navigation />
-<div id="overlay_left"></div>
+<!--<div id="overlay_left"></div>
 <div id="overlay_right"></div>
-<div id="overlay_button" class="heart-shape" on:click={toggleOverlay}></div>
+<div id="overlay_button" class="heart-shape" on:click={toggleOverlay}></div>-->
 
 <Heart />
 <div class="text uppercase m-a">{ $_('greeting') }</div>
+<ContentCard />
 
 <style global lang="postcss">
     @tailwind base;
@@ -32,6 +34,7 @@
     :root {
         --primary-color: #fec5bb;
         --secondary-color: #5F4A47;
+        font-family: 'Montserrat', sans-serif;
     }
 
     .text {

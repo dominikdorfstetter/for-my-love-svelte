@@ -8,7 +8,7 @@
 
 <div class="navmenu p-8">
     <nav class="flex justify-between">
-        <div style="color: var(--secondary-color); font-weight: bold;" class="text-xl leading-10">
+        <div style="color: var(--secondary-color); font-weight: bold;" class="text-xl leading-10 uppercase">
             { $_('logoText') }
         </div>
         <div class="dropdown inline-block relative">

@@ -1,7 +1,7 @@
 {
   "greeting": "Alles Gute zum Geburtstag mein Schatz!",
   "language": "Sprache",
-  "logoText": "Für Victoria",
+  "logoText": "Für Victoria, von Dominik",
   "shortcode": {
     "de": "Deutsch",
     "en": "Englisch",
@@ -18,123 +18,63 @@
     },
     {
       "id": 2,
-      "text": ""
+      "text": "Du bist die schönste Motivation für mich!"
     },
     {
       "id": 3,
-      "text": ""
+      "text": "Du bist meine beste Freundin!"
     },
     {
       "id": 4,
-      "text": ""
+      "text": "Ich bin dankbar für jede Minute mit dir!"
     },
     {
       "id": 5,
-      "text": ""
+      "text": "Du erreichst immer deine Ziele!"
     },
     {
       "id": 6,
-      "text": ""
+      "text": "Du bist wunderschön!"
     },
     {
       "id": 7,
-      "text": ""
+      "text": "Ich wünsche dir alles Glück der Welt!"
     },
     {
       "id": 8,
-      "text": ""
+      "text": "Auf viele weitere Geburtstage!"
     },
     {
       "id": 9,
-      "text": ""
+      "text": "Nur der Mond weiß, wie oft ich in die Sterne geschaut und an Dich gedacht habe."
     },
     {
       "id": 10,
-      "text": ""
+      "text": "Als ich Dich liebkoste wurde mir klar, dass ich mein ganzes Leben lang mit leeren Händen gelebt hatte."
     },
     {
       "id": 11,
-      "text": ""
+      "text": "Eine der schönsten Dinge der Welt ist es den zu treffen, mit dem Du über all Deine verrückten Gedanken sprechen kannst, ohne Dich dabei komisch zu fühlen."
     },
     {
       "id": 12,
-      "text": ""
+      "text": "Wenn sich das Glück des Anderen in Dein Glück verwandelt, das ist Liebe."
     },
     {
       "id": 13,
-      "text": ""
+      "text": "Du bist mein Licht in der Dunkelheit."
     },
     {
       "id": 14,
-      "text": ""
+      "text": "Furcht gibt es in der Liebe nicht, sondern die vollkommene Liebe vertreibt die Furcht."
     },
     {
       "id": 15,
-      "text": ""
+      "text": "Mit einer Frau, die du liebst, genieß das Leben alle Tage deines Lebens."
     },
     {
       "id": 16,
-      "text": ""
-    },
-    {
-      "id": 17,
-      "text": ""
-    },
-    {
-      "id": 18,
-      "text": ""
-    },
-    {
-      "id": 19,
-      "text": ""
-    },
-    {
-      "id": 20,
-      "text": ""
-    },
-    {
-      "id": 21,
-      "text": ""
-    },
-    {
-      "id": 22,
-      "text": ""
-    },
-    {
-      "id": 23,
-      "text": ""
-    },
-    {
-      "id": 24,
-      "text": ""
-    },
-    {
-      "id": 25,
-      "text": ""
-    },
-    {
-      "id": 26,
-      "text": ""
-    },
-    {
-      "id": 27,
-      "text": ""
-    },
-    {
-      "id": 28,
-      "text": ""
-    },
-    {
-      "id": 29,
-      "text": ""
-    },
-    {
-      "id": 30,
-      "text": ""
-    },
-    {
-      "id": 31,
-      "text": ""
+      "text": "Ich weiß einiges. Ich weiß, ich liebe dich. Ich weiß, du liebst mich."
     }
   ]
 }
