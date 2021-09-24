@@ -4,6 +4,7 @@
     import Heart from "./Heart.svelte";
     import ContentCard from "./ContentCard.svelte";
 
+    // initializes localization
     i18n;
 
     function toggleOverlay() {

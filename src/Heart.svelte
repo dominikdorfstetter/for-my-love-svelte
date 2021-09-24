@@ -25,7 +25,7 @@
     const ambientLight = new THREE.AmbientLight(0xFFFFFF);
     const pointLight = new THREE.PointLight(0xFA3600);
     const pointLight2 = new THREE.PointLight(0x009BFA);
-    pointLight.position.set(20, 30, 20);
+    pointLight.position.set(-20, 30, 20);
     pointLight2.position.set(20, -5, 20);
 
     const lightHelper = new THREE.PointLightHelper(pointLight);
@@ -51,8 +51,8 @@
         controls = new OrbitControls(camera, renderer.domElement);
         renderer.setPixelRatio( window.devicePixelRatio );
         renderer.setSize( window.innerWidth, window.innerHeight );
-        camera.position.setZ(50);
-        camera.position.setX(25);
+        camera.position.setZ(60);
+        camera.position.setX(45);
         camera.position.setY(15);
 
         scene.background = new THREE.Color(0xfec5bb);
@@ -93,7 +93,7 @@
         heart = new THREE.Mesh(geometryHeart, material);
         let flip = new THREE.Matrix4().makeScale(1,-1,1);
         heart.applyMatrix4(flip);
-        heart.translateY(-20);
+        heart.translateY(-40);
         heart.scale.set(0.15, 0.15, 0.15);
         scene.add(heart);
     }

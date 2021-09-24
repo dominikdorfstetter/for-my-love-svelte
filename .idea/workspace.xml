@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0b1c0e9-9fdd-4536-b147-6c83ed3d4be8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ContentCard.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContentCard.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Heart.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heart.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Navigation.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Navigation.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lang/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/de.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lang/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/en.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lang/es.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/es.json" afterDir="false" />
@@ -84,7 +88,7 @@
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="jdkForImporter" value="16 (2)" />
+        <option name="jdkForImporter" value="#JAVA_HOME" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -113,7 +117,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="show.migrate.to.gradle.popup" value="false" />
     <property name="ts.external.directory.path" value="E:\projects\for-my-love-svelte\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -162,7 +166,13 @@
       <workItem from="1632161051967" duration="8846000" />
       <workItem from="1632170548975" duration="1100000" />
       <workItem from="1632200111028" duration="9631000" />
-      <workItem from="1632231671964" duration="3543000" />
+      <workItem from="1632231671964" duration="3964000" />
+      <workItem from="1632244879085" duration="1430000" />
+      <workItem from="1632290953362" duration="400000" />
+      <workItem from="1632372880121" duration="2118000" />
+      <workItem from="1632393362284" duration="2860000" />
+      <workItem from="1632415502904" duration="1287000" />
+      <workItem from="1632490008079" duration="2041000" />
     </task>
     <task id="LOCAL-00001" summary="wip: update 2">
       <created>1631635215059</created>

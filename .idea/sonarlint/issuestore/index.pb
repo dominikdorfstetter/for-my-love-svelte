@@ -28,3 +28,7 @@ B
 tsconfig.json,6\1\61ebb9fd6e8cf9082658121d5d81e297791dacd0
 ;
 src/i18n.ts,9\4\94b755d1090dafeaa0244addd61f16720798c9e4
+A
+public/index.html,f\4\f43ecdf8d666ee908aacce037b4cd72159e4741b
+A
+public/global.css,5\d\5db2aef60e7ec22b045f6be7637d6098907080c1
