@@ -25,7 +25,7 @@
     .content-card {
         @apply absolute items-center justify-center flex max-h-36;
         @apply bg-transparent pointer-events-none text-secondary font-serif;
-        @apply top-1/2;
+        @apply top-1/2 w-full text-center;
     }
     .greeter {
         @apply font-bold mt-4;

@@ -8,7 +8,7 @@ import typescript from '@rollup/plugin-typescript';
 import json from '@rollup/plugin-json'
 import css from "rollup-plugin-css-only";
 
-const production = !process.env.ROLLUP_WATCH;
+const production = process.env.PRODUCTION;
 
 function serve() {
 	let server;
@@ -34,7 +34,7 @@ function serve() {
 export default {
 	input: 'src/main.ts',
 	output: {
-		sourcemap: true,
+		sourcemap: !production,
 		format: 'iife',
 		name: 'app',
 		file: 'public/build/bundle.js'
@@ -73,7 +73,7 @@ export default {
 		}),
 		typescript({
 			sourceMap: !production,
-			inlineSources: !production
+			inlineSources: false
 		}),
 
 		// In dev mode, call `npm run start` once
