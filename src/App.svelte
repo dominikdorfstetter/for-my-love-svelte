@@ -18,8 +18,8 @@
     }
 </script>
 <Navigation />
-<div id="overlay_left"></div>
-<div id="overlay_right"></div>
+<div id="overlay_left" class="overlay overlay-left"></div>
+<div id="overlay_right" class="overlay overlay-right"></div>
 <div id="overlay_button" class="heart-shape" on:click={toggleOverlay}></div>
 
 <Heart />
@@ -31,42 +31,27 @@
 	@tailwind utilities;
 
     :root {
-        --primary-color: #fec5bb;
-        --secondary-color: #5F4A47;
-        font-family: 'Montserrat', sans-serif;
+        @apply font-sans;
     }
 
     ::selection {
-        background: var(--primary-color);
-        color: white;/* WebKit/Blink Browsers */
+        @apply bg-primary text-white;
     }
 
-    #overlay_left {
-        position: absolute;
-        top: 0;
-        right: 0;
-        z-index: 1;
-        width: 50vw;
-        height: 100vh;
-        background: var(--primary-color);
+    .overlay {
+        @apply absolute top-0 z-10 w-1/2 h-screen bg-primary;
     }
 
-    #overlay_right {
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 1;
-        width: 50vw;
-        height: 100vh;
-        background: var(--primary-color);
+    .overlay-left {
+        @apply right-0;
+    }
+
+    .overlay-right {
+        @apply left-0;
     }
 
     #overlay_button {
-        position: absolute;
-        z-index: 2;
-        background: var(--secondary-color);
-        margin-left: auto;
-        margin-right: auto;
+        @apply absolute z-20 ml-auto mr-auto;
         top: calc(50% - 5em);  /* position the top  edge of the element at the middle of the parent */
         left: calc(50% - 5em); /* position the left edge of the element at the middle of the parent */
     }
@@ -121,30 +106,21 @@
     }
 
     .heart-shape {
-        position: relative;
-        width: 10em;
-        height: 10em;
-        transform: rotate(45deg);
-        background-color: var(--secondary-color);
+        @apply relative w-40 h-40 transform-gpu bg-secondary rotate-45;
         box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.35);
     }
 
     .heart-shape:before, .heart-shape:after {
-        position: absolute;
-        width: 10em;
-        height: 10em;
+        @apply absolute w-40 h-40 bg-secondary;
         content: '';
         border-radius: 50%;
-        background-color: var(--secondary-color);
     }
 
     .heart-shape:before {
-        bottom: 0;
-        left: -5em;
+        @apply bottom-0 -left-20;
     }
 
     .heart-shape:after {
-        top: -5em;
-        right: 0;
+        @apply right-0 -top-20;
     }
 </style>

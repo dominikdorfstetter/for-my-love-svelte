@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0b1c0e9-9fdd-4536-b147-6c83ed3d4be8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/0918cbb76f2c44f223706cec9d31a32cd1177ce4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/d/5db2aef60e7ec22b045f6be7637d6098907080c1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fc5155f74d00d6ebb13416ae8758940be75912dc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ContentCard.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContentCard.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Heart.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heart.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Navigation.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Navigation.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lang/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/de.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lang/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/en.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lang/es.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/es.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,12 +61,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1632168919" />
+                    <option name="branchName" value="develop" />
+                    <option name="lastUsedInstant" value="1632492335" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="develop" />
-                    <option name="lastUsedInstant" value="1632166989" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1632168919" />
                   </RecentBranch>
                 </list>
               </option>
@@ -117,7 +120,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
     <property name="ts.external.directory.path" value="E:\projects\for-my-love-svelte\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -173,6 +176,14 @@
       <workItem from="1632393362284" duration="2860000" />
       <workItem from="1632415502904" duration="1287000" />
       <workItem from="1632490008079" duration="2041000" />
+      <workItem from="1632492265618" duration="89000" />
+      <workItem from="1632519772979" duration="4000" />
+      <workItem from="1632552632960" duration="1073000" />
+      <workItem from="1632570176570" duration="831000" />
+      <workItem from="1632586977775" duration="2200000" />
+      <workItem from="1632695175012" duration="786000" />
+      <workItem from="1632850262986" duration="410000" />
+      <workItem from="1632853291749" duration="1428000" />
     </task>
     <task id="LOCAL-00001" summary="wip: update 2">
       <created>1631635215059</created>

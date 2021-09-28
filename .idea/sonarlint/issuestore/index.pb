@@ -1,11 +1,6 @@
 
-:
-
-.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 A
 package-lock.json,f\a\fa288d1472d29beccb489a676f68739ad365fc47
-B
-tailwind.config.js,0\9\0918cbb76f2c44f223706cec9d31a32cd1177ce4
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 A
@@ -22,13 +17,9 @@ D
 src/global.d.ts,c\3\c3ac4770658a5d9f6337d9cd963f074b7db1a5cf
 G
 public/build/bundle.css,5\a\5a068baecb3f7b3275fa725dbd886f54622e7073
-B
-src/_layout.svelte,f\c\fc5155f74d00d6ebb13416ae8758940be75912dc
 =
 tsconfig.json,6\1\61ebb9fd6e8cf9082658121d5d81e297791dacd0
 ;
 src/i18n.ts,9\4\94b755d1090dafeaa0244addd61f16720798c9e4
 A
 public/index.html,f\4\f43ecdf8d666ee908aacce037b4cd72159e4741b
-A
-public/global.css,5\d\5db2aef60e7ec22b045f6be7637d6098907080c1
