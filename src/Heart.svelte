@@ -128,12 +128,12 @@
     }
 </script>
 
-<canvas style="max-width: 100%; max-height: 100%" id="bg">
+<canvas id="bg">
     <!-- threejs canvas -->
 </canvas>
 
 <style lang="postcss">
     #bg {
-        z-index: 0;
+        @apply max-w-full max-h-full z-0;
     }
 </style>
