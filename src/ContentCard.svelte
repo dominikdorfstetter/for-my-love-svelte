@@ -1,5 +1,5 @@
 <script lang="ts">
-    import {_, json} from 'svelte-i18n';
+    import {json} from 'svelte-i18n';
 
     export let index: number = 0
     let greetings = 0;
@@ -14,7 +14,7 @@
 
 <div class="content-card">
     {#if (showGreetings)}
-        <div class="greeting">"{$json('greetings')[greetings].text}"<br><div class="greeter">{$_('greetings')[greetings].from}</div></div>
+        <div class="greeting">"{$json('greetings')[greetings].text}"<br><div class="greeter">{$json('greetings')[greetings].from}</div></div>
     {:else}
         <div class="greeting">{$json('wishes')[index].text}</div>
     {/if}
@@ -23,25 +23,15 @@
 
 <style lang="postcss">
     .content-card {
-        background-color: rgba(0,0,0,0);
-        pointer-events: none;
-        color: var(--secondary-color);
-        position: absolute;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        top: 30vh;
-        width: 100vw;
-        max-height: 40vh;
-        min-height: 40vh;
+        @apply absolute items-center justify-center flex max-h-36;
+        @apply bg-transparent pointer-events-none text-secondary font-serif;
+        @apply top-1/2;
     }
     .greeter {
-        margin-top: 1em;
-        font-weight: bold;
+        @apply font-bold mt-4;
     }
     .greeting {
-        font-family: 'Playfair Display', serif;
-        max-width: 960px;
         @apply text-4xl lg:text-5xl text-center leading-10 p-6;
+        @apply max-w-screen-lg;
     }
 </style>
