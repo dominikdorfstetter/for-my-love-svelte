@@ -7,19 +7,19 @@
 </script>
 
 <div class="navmenu p-4 lg:p-8">
-    <nav class="flex justify-between" style="align-items: center; max-width: 960px; margin:auto;">
-        <div style="color: var(--secondary-color); font-weight: bold; pointer-events: none" class="text-xl leading-6 uppercase">
+    <nav class="navbar">
+        <div class="heading">
             { $_('logoText') }
         </div>
         <div class="dropdown inline-block relative">
             <button class="btnlanguage font-semibold py-2 px-4 rounded inline-flex items-center">
                 <span>{ $_('language') }</span>
-                <svg class="pfeil fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
+                <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
             </button>
-            <ul class="dropdown-menu absolute rounded hidden pt-1 bg-white">
+            <ul class="dropdown-menu">
                 <li class="p-5 hover:cursor-pointer hover:underline" on:click={() => changeLocale('es')}>{ $_('shortcode.es') }</li>
-                <li class="pr-5 pb-5 pl-5 hover:cursor-pointer hover:underline" on:click={() => changeLocale('de')}>{ $_('shortcode.de') }</li>
-                <li class="pr-5 pb-5 pl-5 hover:cursor-pointer hover:underline" on:click={() => changeLocale('en')}>{ $_('shortcode.en') }</li>
+                <li class="dropdown-item" on:click={() => changeLocale('de')}>{ $_('shortcode.de') }</li>
+                <li class="dropdown-item" on:click={() => changeLocale('en')}>{ $_('shortcode.en') }</li>
             </ul>
         </div>
     </nav>
@@ -27,36 +27,37 @@
 
 <style lang="postcss">
     .navmenu {
-        z-index: 3;
-        background-color: rgba(0, 0, 0, 0);
-        position: absolute;
-        width: 100vw;
-        top: 0;
+        @apply z-30 bg-transparent absolute w-full top-0;
     }
 
     .dropdown:hover .dropdown-menu {
-        display: block;
+        @apply block;
     }
 
     .btnlanguage {
-        background-color: var(--primary-color);
-        border: 2px var(--secondary-color) solid;
-        color: var(--secondary-color);
-        display: flex;
-        justify-content: space-between;
-        width: 8.7em;
+        @apply bg-primary text-secondary flex justify-between w-36;
+        @apply border-2 border-solid border-secondary;
     }
 
     .dropdown-menu {
-        background-color: var(--primary-color);
-        border: 2px var(--secondary-color) solid;
-        color: var(--secondary-color);
-        font-weight: bold;
-        width: 8.7em;
-        margin-top: -2px;
+        @apply bg-primary border-2 border-secondary border-solid rounded;
+        @apply text-secondary font-bold w-36 -mt-0.5 absolute hidden pt-1;
     }
 
-    .pfeil {
-        color: var(--secondary-color);
+    .dropdown-item {
+        @apply pr-5 pb-5 pl-5 hover:cursor-pointer hover:underline;
+    }
+
+    .arrow {
+        @apply text-secondary fill-current h-4 w-4;
+    }
+
+    .heading {
+        @apply text-secondary font-bold pointer-events-none;
+        @apply text-xl leading-6 uppercase;
+    }
+
+    .navbar {
+        @apply flex justify-between items-center max-w-screen-lg m-auto;
     }
 </style>
