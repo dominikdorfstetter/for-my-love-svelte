@@ -7,8 +7,11 @@ import sveltePreprocess from 'svelte-preprocess';
 import typescript from '@rollup/plugin-typescript';
 import json from '@rollup/plugin-json'
 import css from "rollup-plugin-css-only";
+import * as childProcess from 'child_process';
+import tailwindcss from 'tailwindcss';
+import autoprefixer from 'autoprefixer';
 
-const production = process.env.PRODUCTION;
+const production = process.env.PRODUCTION === 'true';
 
 function serve() {
 	let server;
@@ -20,7 +23,7 @@ function serve() {
 	return {
 		writeBundle() {
 			if (server) return;
-			server = require('child_process').spawn('npm', ['run', 'start', '--', '--dev'], {
+			server = childProcess.spawn('npm', ['run', 'start', '--', '--dev'], {
 				stdio: ['ignore', 'inherit', 'inherit'],
 				shell: true
 			});
@@ -45,8 +48,8 @@ export default {
 				sourceMap: !production,
 				postcss: {
 					plugins: [
-						require("tailwindcss"),
-						require("autoprefixer")
+						tailwindcss,
+						autoprefixer
 					]
 				}
 			}),

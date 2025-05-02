@@ -1,8 +1,7 @@
 const colors = require('tailwindcss/colors');
 
 module.exports = {
-  mode: 'jit',
-  purge: ['./src/**/*.svelte'],
+  content: ['./src/**/*.svelte'],
   theme: {
     fontFamily: {
       'sans': ['Montserrat', 'Arial', 'sans-serif'],

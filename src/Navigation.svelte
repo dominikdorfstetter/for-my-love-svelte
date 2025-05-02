@@ -1,6 +1,9 @@
 <script lang="ts">
     import { locale, _ } from 'svelte-i18n';
-    import { onMount } from 'svelte';
+    import { onMount, createEventDispatcher } from 'svelte';
+
+    // Create event dispatcher
+    const dispatch = createEventDispatcher();
 
     // Use $props() for Svelte 5 instead of export let
     const { language = 'en' } = $props();
@@ -8,23 +11,26 @@
 
     // Track dropdown open state
     let isDropdownOpen = $state(false);
-    
+
     // Track focused menu item index
     let focusedIndex = $state(-1);
-    
+
     // Computed property for available languages (excluding current)
     let availableLanguages = $derived([
         { code: 'es', name: $_('shortcode.es') },
         { code: 'de', name: $_('shortcode.de') },
         { code: 'en', name: $_('shortcode.en') }
     ].filter(item => item.code !== appLanguage));
-    
+
     function changeLocale(l: string) {
         locale.set(l);
         appLanguage = l;
         isDropdownOpen = false;
+
+        // Dispatch event to notify parent component of language change
+        dispatch('languageChange', l);
     }
-    
+
     function toggleDropdown() {
         isDropdownOpen = !isDropdownOpen;
         if (isDropdownOpen) {
@@ -36,7 +42,7 @@
             }, 10);
         }
     }
-    
+
     function handleKeyDown(event: KeyboardEvent) {
         if (!isDropdownOpen) {
             if (event.key === 'Enter' || event.key === ' ' || event.key === 'ArrowDown') {
@@ -74,14 +80,14 @@
                 break;
         }
     }
-    
+
     function handleMenuItemKeyDown(event: KeyboardEvent, langCode: string) {
         if (event.key === 'Enter' || event.key === ' ') {
             event.preventDefault();
             changeLocale(langCode);
         }
     }
-    
+
     // Close dropdown when clicking outside
     function handleClickOutside(event: MouseEvent) {
         const dropdown = document.querySelector('.dropdown');
@@ -89,7 +95,7 @@
             isDropdownOpen = false;
         }
     }
-    
+
     onMount(() => {
         document.addEventListener('click', handleClickOutside);
         return () => {
@@ -101,11 +107,11 @@
 <div class="navmenu p-4 lg:p-8">
     <nav class="navbar" aria-label="Main navigation">
         <a href="#main" class="skip-link">Skip to main content</a>
-        
+
         <h1 class="heading">
             { $_('logoText') }
         </h1>
-        
+
         <div class="dropdown inline-block relative">
             <button 
                 id="language-selector"
@@ -127,7 +133,7 @@
                     <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
                 </svg>
             </button>
-            
+
             {#if isDropdownOpen && availableLanguages.length > 0}
                 <ul 
                     class="dropdown-menu"
@@ -172,7 +178,7 @@
         /* Ensure good padding for touch targets */
         @apply py-2 px-4 rounded;
     }
-    
+
     /* Focus and hover state */
     .btnlanguage:hover, 
     .btnlanguage:focus {
@@ -193,7 +199,7 @@
         @apply py-3 px-4;
         transition: background-color 0.2s;
     }
-    
+
     /* Focus and hover state for items */
     .dropdown-item:hover,
     .dropdown-item:focus {
@@ -205,7 +211,7 @@
         @apply text-secondary fill-current h-4 w-4;
         @apply ml-2;
     }
-    
+
     /* Flip arrow when dropdown is open */
     [aria-expanded="true"] .arrow {
         transform: rotate(180deg);

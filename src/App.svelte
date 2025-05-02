@@ -8,12 +8,76 @@
 
     i18n;
 
-    let appTitle = $state('For my love Vici');
     let appLanguage = $state('de');
     let isContentRevealed = $state(false);
 
-    // Accessibility text for click hint
+    // Derived values from translations
+    let appTitle = $derived($_('title'));
+    let metaDescription = $derived($_('meta.description'));
+    let metaKeywords = $derived($_('meta.keywords'));
+    let metaAuthor = $derived($_('meta.author'));
     let heartClickHint = $derived($_('heart.clickHint'));
+
+    // Update meta tags when language changes
+    function updateMetaTags() {
+        // Update document title
+        document.title = appTitle;
+
+        // Update document language
+        document.documentElement.lang = appLanguage;
+
+        // Update meta description
+        let metaDescEl = document.querySelector('meta[name="description"]');
+        if (!metaDescEl) {
+            metaDescEl = document.createElement('meta');
+            metaDescEl.setAttribute('name', 'description');
+            document.head.appendChild(metaDescEl);
+        }
+        metaDescEl.setAttribute('content', metaDescription);
+
+        // Update meta keywords
+        let metaKeywordsEl = document.querySelector('meta[name="keywords"]');
+        if (!metaKeywordsEl) {
+            metaKeywordsEl = document.createElement('meta');
+            metaKeywordsEl.setAttribute('name', 'keywords');
+            document.head.appendChild(metaKeywordsEl);
+        }
+        metaKeywordsEl.setAttribute('content', metaKeywords);
+
+        // Update meta author
+        let metaAuthorEl = document.querySelector('meta[name="author"]');
+        if (!metaAuthorEl) {
+            metaAuthorEl = document.createElement('meta');
+            metaAuthorEl.setAttribute('name', 'author');
+            document.head.appendChild(metaAuthorEl);
+        }
+        metaAuthorEl.setAttribute('content', metaAuthor);
+
+        // Add Open Graph meta tags
+        let ogTitleEl = document.querySelector('meta[property="og:title"]');
+        if (!ogTitleEl) {
+            ogTitleEl = document.createElement('meta');
+            ogTitleEl.setAttribute('property', 'og:title');
+            document.head.appendChild(ogTitleEl);
+        }
+        ogTitleEl.setAttribute('content', appTitle);
+
+        let ogDescEl = document.querySelector('meta[property="og:description"]');
+        if (!ogDescEl) {
+            ogDescEl = document.createElement('meta');
+            ogDescEl.setAttribute('property', 'og:description');
+            document.head.appendChild(ogDescEl);
+        }
+        ogDescEl.setAttribute('content', metaDescription);
+
+        let ogTypeEl = document.querySelector('meta[property="og:type"]');
+        if (!ogTypeEl) {
+            ogTypeEl = document.createElement('meta');
+            ogTypeEl.setAttribute('property', 'og:type');
+            document.head.appendChild(ogTypeEl);
+        }
+        ogTypeEl.setAttribute('content', 'website');
+    }
 
     function toggleOverlay() {
         const overlay_right = document.getElementById('overlay_right');
@@ -32,10 +96,16 @@
         }, 1500);
     }
 
+    // Update meta tags when language changes
+    $effect(() => {
+        if (appLanguage && appTitle && metaDescription) {
+            updateMetaTags();
+        }
+    });
+
     onMount(() => {
-        // Update document lang attribute dynamically based on the selected language
-        document.documentElement.lang = appLanguage;
-        document.title = appTitle;
+        // Initial update of meta tags
+        updateMetaTags();
 
         // Add pulsing animation to heart button to draw attention
         const heartButton = document.getElementById('overlay_button');
@@ -47,7 +117,6 @@
                 heartButton.classList.remove('pulse-animation');
             }, { once: true });
         }
-
     });
 </script>
 
@@ -57,7 +126,10 @@
 <!-- Rest of the application on top of it -->
 <div class="app-container" role="application" aria-label="Interactive love message display">
     <header>
-        <Navigation language={appLanguage} />
+        <Navigation 
+            language={appLanguage} 
+            on:languageChange={(e) => appLanguage = e.detail} 
+        />
     </header>
 
     <main>
