@@ -473,6 +473,68 @@
 <style lang="postcss">
     /* Direct font styles - we'll load the font dynamically in the script */
 
+    /* Consolidated CSS variables */
+    :root {
+        /* Greeting card variables */
+        --greeting-max-width: 55rem;
+        --greeting-width: 90vw;
+        --greeting-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        --greeting-border-radius: 0.75rem;
+        --greeting-padding: 1.5rem;
+        --greeting-font-size: clamp(1.5rem, 4vw, 2.3rem);
+        --greeting-bg-color: rgba(255, 255, 255, 0.2);
+        --greeting-blur: 10px;
+        --greeting-max-height: 70vh;
+        --greeting-scrollbar-color: rgba(255, 255, 255, 0.5);
+
+        /* Controls variables */
+        --controls-max-width: 28rem;
+        --controls-gap: 1rem;
+        --controls-bg-color: rgba(255, 255, 255, 0.3);
+        --controls-blur: 8px;
+        --controls-padding: 0.75rem 1rem 0.5rem;
+        --controls-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+        /* Progress bar variables */
+        --progress-height: 4px;
+        --progress-bg-color: rgba(255, 255, 255, 0.2);
+        --progress-z-index: 100;
+        --progress-transition: width 0.1s linear;
+        --progress-shadow: 0 0 3px rgba(255, 255, 255, 0.5);
+
+        /* Button variables */
+        --button-size: 2.5rem;
+        --button-font-size: 1.25rem;
+        --button-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        --button-transition: transform 0.2s;
+        --button-focus-shadow: 0 0 0 2px white, 0 0 0 4px var(--secondary-color);
+        --button-scale: 1.1;
+        --disabled-opacity: 0.5;
+
+        /* Navigation button variables */
+        --nav-button-size: 2rem;
+        --nav-button-gap: 0.5rem;
+        --nav-margin-left: 0.75rem;
+        --nav-transition: transform 0.2s, opacity 0.2s;
+        --nav-icon-font-size: 1rem;
+        --nav-icon-line-height: 2rem;
+        --prev-icon-font-size: 1.1rem;
+        --button-hover-scale: 1.1;
+
+        /* Slider variables */
+        --slider-height: 0.5rem;
+        --slider-margin: 0.5rem;
+        --slider-bg: rgba(255, 255, 255, 0.3);
+        --slider-radius: 15px;
+        --thumb-size: 18px;
+        --thumb-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+        --thumb-transition: transform 0.1s;
+        --thumb-hover-scale: 1.2;
+        --slider-focus-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5), 0 0 0 4px var(--secondary-color);
+        --slider-focus-opacity: 0.5;
+        --thumb-focus-shadow: 0 0 0 2px white;
+    }
+
     .content-display-container {
         @apply fixed inset-0 flex flex-col justify-between overflow-hidden;
         @apply bg-transparent text-secondary;
@@ -500,43 +562,37 @@
         @apply px-4;
     }
 
+    /* Greeting card styling */
+
     .greeting {
-        position: relative;
-        text-align: center;
+        @apply relative text-center mx-auto pointer-events-auto flex flex-col justify-start;
         line-height: 1.6;
-        max-width: 55rem; /* Increased from 42rem to 55rem for wider display */
-        width: 90vw; /* Take 90% of viewport width */
-        margin-left: auto;
-        margin-right: auto;
-        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-        pointer-events: auto; /* Make this element clickable */
-        border-radius: 0.75rem;
-        padding: 1.5rem; /* Slightly more padding */
+        max-width: var(--greeting-max-width);
+        width: var(--greeting-width);
+        box-shadow: var(--greeting-box-shadow);
+        border-radius: var(--greeting-border-radius);
+        padding: var(--greeting-padding);
 
         /* Apply cursive font directly */
         font-family: "Dancing Script", cursive !important;
-        font-size: clamp(1.5rem, 4vw, 2.3rem); /* Adjusted responsive font size */
+        font-size: var(--greeting-font-size);
 
         /* Semi-transparent background */
-        background-color: rgba(255, 255, 255, 0.2);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
-        border: 1px solid rgba(255, 255, 255, 0.1);
+        background-color: var(--greeting-bg-color);
+        backdrop-filter: blur(var(--greeting-blur));
+        -webkit-backdrop-filter: blur(var(--greeting-blur));
+        @apply border border-white/10;
 
         /* Added scrolling for long content */
-        max-height: 70vh; /* Limit height */
-        overflow-y: auto; /* Enable vertical scrolling */
+        max-height: var(--greeting-max-height);
+        @apply overflow-y-auto;
 
         /* Smooth scrolling */
         scroll-behavior: smooth;
 
         /* Style scrollbar */
         scrollbar-width: thin; /* Firefox */
-        scrollbar-color: rgba(255, 255, 255, 0.5) transparent; /* Firefox */
-
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start; /* Align content to top for scrolling */
+        scrollbar-color: var(--greeting-scrollbar-color) transparent; /* Firefox */
     }
 
     /* Webkit scrollbar styling */
@@ -589,45 +645,36 @@
         z-index: 30; /* Ensure controls are above other elements */
     }
 
+    /* Controls styling */
+
     /* Controls */
     .controls {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 1rem;
-        max-width: 28rem;
-        width: 100%;
-        border-radius: 9999px;
-        background-color: rgba(255, 255, 255, 0.3);
-        backdrop-filter: blur(8px);
-        -webkit-backdrop-filter: blur(8px);
-        padding: 0.75rem 1rem 0.5rem;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        pointer-events: auto; /* Make controls clickable */
-        border: 1px solid rgba(255, 255, 255, 0.3);
-        position: relative; /* For absolute positioning of progress bar */
+        @apply flex flex-row items-center justify-center relative w-full pointer-events-auto;
+        @apply rounded-full border border-white/30;
+        gap: var(--controls-gap);
+        max-width: var(--controls-max-width);
+        background-color: var(--controls-bg-color);
+        backdrop-filter: blur(var(--controls-blur));
+        -webkit-backdrop-filter: blur(var(--controls-blur));
+        padding: var(--controls-padding);
+        box-shadow: var(--controls-box-shadow);
     }
+
+    /* Progress bar styling */
 
     /* Top progress bar container */
     .top-progress-container {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        height: 4px;
-        background-color: rgba(255, 255, 255, 0.2);
-        overflow: hidden;
-        z-index: 100; /* Ensure it appears above everything */
-        pointer-events: none; /* Allow clicks to pass through */
+        @apply fixed top-0 left-0 right-0 overflow-hidden pointer-events-none;
+        height: var(--progress-height);
+        background-color: var(--progress-bg-color);
+        z-index: var(--progress-z-index); /* Ensure it appears above everything */
     }
 
     /* Actual top progress bar */
     .top-progress-bar {
-        height: 100%;
-        background-color: var(--secondary-color);
-        transition: width 0.1s linear;
-        box-shadow: 0 0 3px rgba(255, 255, 255, 0.5);
+        @apply h-full bg-secondary;
+        transition: var(--progress-transition);
+        box-shadow: var(--progress-shadow);
     }
 
     /* Style for paused progress */
@@ -652,28 +699,31 @@
         100% { background-position: 20px 0; }
     }
 
+    /* Define variables for pause button */
+    :root {
+        --button-size: 2.5rem;
+        --button-font-size: 1.25rem;
+        --button-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        --button-transition: transform 0.2s;
+        --button-focus-shadow: 0 0 0 2px white, 0 0 0 4px var(--secondary-color);
+        --button-scale: 1.1;
+    }
+
     /* Pause button */
     .pause-button {
-        background-color: var(--secondary-color);
-        color: var(--primary-color);
-        border-radius: 9999px;
-        width: 2.5rem;
-        height: 2.5rem; 
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 1.25rem;
-        border: none;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        flex-shrink: 0;
-        transition: transform 0.2s;
+        @apply bg-secondary text-primary rounded-full flex items-center justify-center border-none flex-shrink-0;
+        width: var(--button-size);
+        height: var(--button-size); 
+        font-size: var(--button-font-size);
+        box-shadow: var(--button-shadow);
+        transition: var(--button-transition);
     }
 
     .pause-button:hover,
     .pause-button:focus {
-        transform: scale(1.1);
-        outline: none;
-        box-shadow: 0 0 0 2px white, 0 0 0 4px var(--secondary-color);
+        @apply outline-none;
+        transform: scale(var(--button-scale));
+        box-shadow: var(--button-focus-shadow);
     }
 
     /* Speed control container */
@@ -709,117 +759,149 @@
         white-space: nowrap;
     }
 
+    /* Define variables for navigation buttons */
+    :root {
+        --nav-button-size: 2rem;
+        --nav-button-gap: 0.5rem;
+        --nav-margin-left: 0.75rem;
+        --nav-transition: transform 0.2s, opacity 0.2s;
+    }
+
     /* History navigation styling */
     .history-navigation {
-        display: flex;
-        gap: 0.5rem;
-        margin-left: 0.75rem;
+        @apply flex;
+        gap: var(--nav-button-gap);
+        margin-left: var(--nav-margin-left);
     }
 
     .nav-button {
-        width: 2rem;
-        height: 2rem;
-        border-radius: 9999px;
-        background-color: var(--secondary-color);
-        color: var(--primary-color);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: none;
-        cursor: pointer;
-        transition: transform 0.2s, opacity 0.2s;
-        padding: 0; /* Remove default padding */
-        line-height: 1; /* Ensure consistent line height */
+        @apply rounded-full bg-secondary text-primary flex items-center justify-center;
+        @apply border-none cursor-pointer p-0 leading-none;
+        width: var(--nav-button-size);
+        height: var(--nav-button-size);
+        transition: var(--nav-transition);
+    }
+
+    /* Define variables for nav icon */
+    :root {
+        --nav-icon-font-size: 1rem;
     }
 
     .nav-icon {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 1rem; /* Increased size for better visibility */
-        height: 100%;
-        width: 100%;
-        position: relative;
+        @apply flex items-center justify-center relative h-full w-full;
+        font-size: var(--nav-icon-font-size); /* Increased size for better visibility */
+    }
+
+    /* Define variables for button icon alignment */
+    :root {
+        --nav-icon-line-height: 2rem; /* Match the button height */
+        --prev-icon-font-size: 1.1rem; /* Slightly larger than the base size */
     }
 
     /* Make sure both icons are centered properly */
     .prev-button .nav-icon,
     .next-button .nav-icon {
-        display: block;
-        text-align: center;
-        line-height: 2rem; /* Match the button height */
+        @apply block text-center;
+        line-height: var(--nav-icon-line-height);
     }
 
     /* Make the prev icon slightly larger to match the next icon's visual size */
     .prev-button .nav-icon {
-        font-size: 1.1rem; /* Slightly larger than the base size */
+        font-size: var(--prev-icon-font-size);
+    }
+
+    /* Define variables for button states */
+    :root {
+        --disabled-opacity: 0.5;
+        --button-hover-scale: 1.1;
     }
 
     .nav-button:disabled {
-        opacity: 0.5;
-        cursor: not-allowed;
+        @apply cursor-not-allowed;
+        opacity: var(--disabled-opacity);
     }
 
     .nav-button:not(:disabled):hover,
     .nav-button:not(:disabled):focus {
-        transform: scale(1.1);
-        outline: none;
+        @apply outline-none;
+        transform: scale(var(--button-hover-scale));
+    }
+
+    /* Define variables for slider */
+    :root {
+        --slider-height: 0.5rem;
+        --slider-margin: 0.5rem;
+        --slider-bg: rgba(255, 255, 255, 0.3);
+        --slider-radius: 15px;
     }
 
     /* Custom slider styling */
     .speed-slider {
-        width: 100%;
-        height: 0.5rem;
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
+        @apply w-full outline-none;
+        height: var(--slider-height);
+        margin-left: var(--slider-margin);
+        margin-right: var(--slider-margin);
         -webkit-appearance: none;
         appearance: none;
-        background: rgba(255, 255, 255, 0.3);
-        outline: none;
-        border-radius: 15px;
+        background: var(--slider-bg);
+        border-radius: var(--slider-radius);
+    }
+
+    /* Define variables for slider thumb */
+    :root {
+        --thumb-size: 18px;
+        --thumb-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+        --thumb-transition: transform 0.1s;
     }
 
     .speed-slider::-webkit-slider-thumb {
         -webkit-appearance: none;
         appearance: none;
-        width: 18px;
-        height: 18px;
-        background-color: var(--secondary-color);
-        border-radius: 9999px;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-        cursor: pointer;
-        transition: transform 0.1s;
+        width: var(--thumb-size);
+        height: var(--thumb-size);
+        @apply bg-secondary rounded-full cursor-pointer;
+        box-shadow: var(--thumb-shadow);
+        transition: var(--thumb-transition);
     }
 
     .speed-slider::-moz-range-thumb {
-        width: 18px;
-        height: 18px;
-        background-color: var(--secondary-color);
-        border-radius: 9999px;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-        border: none;
-        cursor: pointer;
-        transition: transform 0.1s;
+        width: var(--thumb-size);
+        height: var(--thumb-size);
+        @apply bg-secondary rounded-full cursor-pointer border-none;
+        box-shadow: var(--thumb-shadow);
+        transition: var(--thumb-transition);
+    }
+
+    /* Define variables for slider states */
+    :root {
+        --thumb-hover-scale: 1.2;
+        --slider-focus-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5), 0 0 0 4px var(--secondary-color);
+        --slider-focus-opacity: 0.5;
     }
 
     .speed-slider::-webkit-slider-thumb:hover,
     .speed-slider::-moz-range-thumb:hover {
-        transform: scale(1.2);
+        transform: scale(var(--thumb-hover-scale));
     }
 
     .speed-slider:focus {
-        outline: none;
-        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5), 0 0 0 4px var(--secondary-color);
-        opacity: 0.5;
+        @apply outline-none;
+        box-shadow: var(--slider-focus-shadow);
+        opacity: var(--slider-focus-opacity);
+    }
+
+    /* Define variables for thumb focus */
+    :root {
+        --thumb-focus-shadow: 0 0 0 2px white;
     }
 
     /* Focus styles for accessibility */
     .speed-slider:focus::-webkit-slider-thumb {
-        box-shadow: 0 0 0 2px white;
+        box-shadow: var(--thumb-focus-shadow);
     }
 
     .speed-slider:focus::-moz-range-thumb {
-        box-shadow: 0 0 0 2px white;
+        box-shadow: var(--thumb-focus-shadow);
     }
 
     /* Media query for smaller screens */

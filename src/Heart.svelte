@@ -153,10 +153,15 @@
 <style lang="postcss">
     .canvas-container {
         @apply fixed top-0 left-0 w-screen h-screen overflow-hidden;
-        z-index: -1;
+        z-index: -10;
     }
+    /* Define variables for heart canvas */
+    :root {
+        --heart-bg-color: #fec5bb;
+    }
+
     canvas {
         @apply block w-full h-full max-w-full max-h-full;
-        background-color: #fec5bb;
+        background-color: var(--heart-bg-color);
     }
 </style>

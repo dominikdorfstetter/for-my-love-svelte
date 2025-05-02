@@ -100,8 +100,32 @@
 	/* Import a nice cursive font for the footer love message */
     @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
 
+    /* Consolidated CSS variables */
     :root {
+        /* Base styles */
         @apply font-sans;
+
+        /* Button variables */
+        --button-offset: 5em;
+        --button-transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+        /* Pulse animation variables */
+        --pulse-color: rgba(255, 165, 175, 0.7);
+        --pulse-scale: 1.05;
+
+        /* Heart shape variables */
+        --heart-size: 10rem;
+        --heart-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.35);
+
+        /* Click hint variables */
+        --hint-top-position: 30%;
+        --hint-animation-duration: 2s;
+
+        /* Footer variables */
+        --footer-padding: 0.75rem;
+        --footer-text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+        --footer-hover-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+        --footer-z-index: 25;
     }
 
     ::selection {
@@ -129,53 +153,41 @@
     }
 
     .app-container {
-        @apply min-h-screen relative;
-        background: transparent;
-        z-index: 1;
+        @apply min-h-screen relative bg-transparent z-[1];
     }
 
     main {
-        @apply relative min-h-screen w-full;
-        position: relative;
-        z-index: 2;
-        background: transparent;
+        @apply relative min-h-screen w-full z-[2] bg-transparent;
     }
 
     .overlay {
-        position: absolute;
-        top: 0;
-        z-index: 10;
-        width: 50%;
-        height: 100vh;
-        background-color: var(--primary-color);
+        @apply absolute top-0 w-1/2 h-screen z-[10] bg-primary;
     }
 
     .overlay-left {
-        right: 0;
+        @apply right-0;
     }
 
     .overlay-right {
-        left: 0;
+        @apply left-0;
     }
 
     /* Click hint styling */
+
     .click-hint {
-        @apply absolute z-50 flex flex-col items-center;
-        top: 30%;
-        left: 50%;
+        @apply absolute z-50 flex flex-col items-center left-1/2;
+        top: var(--hint-top-position);
         transform: translateX(-50%);
-        animation: float 2s ease-in-out infinite;
+        animation: float var(--hint-animation-duration) ease-in-out infinite;
     }
 
     .hint-text {
         @apply mb-2 px-4 py-2 rounded-lg bg-white/80 backdrop-blur-sm text-primary font-medium;
-        @apply shadow-md text-center;
-        border: 1px solid rgba(255, 255, 255, 0.5);
+        @apply shadow-md text-center border border-white/50;
     }
 
     .arrow-down {
-        width: 0;
-        height: 0;
+        @apply w-0 h-0;
         border-left: 10px solid transparent;
         border-right: 10px solid transparent;
         border-top: 10px solid rgba(255, 255, 255, 0.8);
@@ -200,15 +212,14 @@
         }
     }
 
+    /* Overlay button positioning */
+
     #overlay_button {
-        @apply absolute z-50 ml-auto mr-auto;
-        @apply cursor-pointer;
-        @apply border-none;
-        top: calc(50% - 5em);  /* position the top edge of the element at the middle of the parent */
-        left: calc(50% - 5em); /* position the left edge of the element at the middle of the parent */
-        display: block !important; /* Ensure it's always displayed */
+        @apply absolute z-50 mx-auto cursor-pointer border-none block;
+        top: calc(50% - var(--button-offset));  /* position the top edge of the element at the middle of the parent */
+        left: calc(50% - var(--button-offset)); /* position the left edge of the element at the middle of the parent */
         transform: rotate(45deg);
-        transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        transition: transform var(--button-transition);
     }
 
     /* Pulsing animation for the heart button */
@@ -216,14 +227,16 @@
         animation: pulse 2s infinite;
     }
 
+    /* Pulse animation */
+
     @keyframes pulse {
         0% {
             transform: rotate(45deg) scale(1);
-            box-shadow: 0 0 0 0 rgba(255, 165, 175, 0.7);
+            box-shadow: 0 0 0 0 var(--pulse-color);
         }
 
         70% {
-            transform: rotate(45deg) scale(1.05);
+            transform: rotate(45deg) scale(var(--pulse-scale));
             box-shadow: 0 0 0 15px rgba(255, 165, 175, 0);
         }
 
@@ -301,25 +314,31 @@
         }
     }
 
+    /* Heart shape styling */
+
     .heart-shape {
-        @apply relative w-40 h-40 transform-gpu bg-secondary;
-        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.35);
-        position: absolute !important; /* Ensure it's positioned correctly */
-        z-index: 50 !important; /* Make sure it's on top of other elements */
+        @apply relative transform-gpu bg-secondary absolute z-50;
+        width: var(--heart-size);
+        height: var(--heart-size);
+        box-shadow: var(--heart-shadow);
     }
 
     .heart-shape:before, .heart-shape:after {
-        @apply absolute w-40 h-40 bg-secondary;
+        @apply absolute bg-secondary;
         content: '';
+        width: var(--heart-size);
+        height: var(--heart-size);
         border-radius: 50%;
     }
 
     .heart-shape:before {
-        @apply bottom-0 -left-20;
+        @apply bottom-0;
+        left: calc(-1 * var(--heart-size) / 2); /* -20 = -40/2 */
     }
 
     .heart-shape:after {
-        @apply right-0 -top-20;
+        @apply right-0;
+        top: calc(-1 * var(--heart-size) / 2); /* -20 = -40/2 */
     }
 
     /* Add reduced motion preferences for users who prefer reduced motion */
@@ -339,42 +358,31 @@
 
     /* Copyright Footer Styles */
     .copyright-footer {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        padding: 0.75rem;
+        @apply fixed bottom-0 left-0 w-full text-center text-xs text-secondary pointer-events-none;
+        padding: var(--footer-padding);
         padding-bottom: 1rem;
-        text-align: center;
-        font-size: 0.75rem;
-        color: var(--secondary-color); /* Secondary color for better readability */
-        z-index: 25; /* Above the heart but below the controls */
-        pointer-events: none; /* Allow clicks to pass through */
+        z-index: var(--footer-z-index); /* Above the heart but below the controls */
     }
 
     .copyright-footer p {
-        margin: 0.25rem 0;
-        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); /* Text shadow for better readability */
+        @apply my-1;
+        text-shadow: var(--footer-text-shadow); /* Text shadow for better readability */
     }
 
     .copyright-footer a {
-        color: var(--secondary-color);
-        text-decoration: none;
-        pointer-events: auto; /* Make the link clickable */
+        @apply text-secondary no-underline pointer-events-auto font-bold;
         transition: color 0.2s, text-shadow 0.2s;
-        font-weight: bold;
     }
 
     .copyright-footer a:hover,
     .copyright-footer a:focus {
-        color: white;
-        text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
-        outline: none;
+        @apply text-white outline-none;
+        text-shadow: var(--footer-hover-shadow);
     }
 
     .love-message {
+        @apply text-secondary;
         font-family: 'Dancing Script', cursive;
         font-size: 1rem;
-        color: var(--secondary-color);
     }
 </style>
