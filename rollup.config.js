@@ -42,6 +42,17 @@ export default {
 		name: 'app',
 		file: 'public/build/bundle.js'
 	},
+	// Custom warning handler to suppress specific warnings
+	// This is needed because Svelte 5 has some circular dependencies in its internal modules
+	// These warnings don't affect the functionality of the application but can clutter the build output
+	onwarn: (warning, warn) => {
+		// Ignore circular dependency warnings coming from Svelte internals
+		if (warning.code === 'CIRCULAR_DEPENDENCY' && warning.message.includes('node_modules/svelte/')) {
+			return;
+		}
+		// Pass all other warnings through to default handler
+		warn(warning);
+	},
 	plugins: [
 		svelte({
 			preprocess: sveltePreprocess({

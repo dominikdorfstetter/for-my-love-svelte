@@ -97,32 +97,13 @@
             clearInterval(activeInterval);
         }
 
-        // Set interval for future rotations
-        activeInterval = setInterval(() => {
-            if (!isPaused) {
-                // Store current message in history before changing
-                addToHistory();
+        // We no longer need to set an interval for message rotations
+        // because the progress bar will trigger the message change when it reaches 100%
+        // This ensures the message only changes when the progress bar completes
 
-                // Compute new random values that are different from current ones
-                let newIndex, newGreetings;
-
-                do {
-                    newIndex = Math.floor(Math.random() * getWishesLength());
-                } while (newIndex === currentIndex && getWishesLength() > 1);
-
-                do {
-                    newGreetings = Math.floor(Math.random() * getGreetingsLength());
-                } while (newGreetings === greetings && getGreetingsLength() > 1);
-
-                // Update with new random values
-                currentIndex = newIndex;
-                greetings = newGreetings;
-                showGreetings = !showGreetings;
-
-                // Reset progress animation when message changes
-                resetProgressBar();
-            }
-        }, messageInterval);
+        // The activeInterval variable is still used in other parts of the code,
+        // but it's no longer needed for message rotation
+        activeInterval = null;
     }
 
     // Helper function to properly render emoji characters
@@ -286,13 +267,9 @@
         // Start progress bar immediately - this needs to happen FIRST
         resetProgressBar();
 
-        // Set interval for message rotations
-        activeInterval = setInterval(() => {
-            if (!isPaused && historyPosition === -1) { // Only rotate if we're not looking at history
-                // Use the changeMessage function to change to a new message
-                changeMessage();
-            }
-        }, messageInterval);
+        // We no longer need to set an interval for message rotations
+        // because the progress bar will trigger the message change when it reaches 100%
+        // This ensures the message only changes when the progress bar completes
     }
 
     // Ensure the progress bar is initialized right away
@@ -336,17 +313,12 @@
         // Start message rotation immediately
         startMessageRotation();
 
-        // First message change in 3 seconds, but don't set up a new interval
-        const firstChangeTimeout = setTimeout(() => {
-            // Use the changeMessage function to change to a new message
-            changeMessage();
-
-            // We don't need to set up a new interval here since we already started
-            // message rotation at the beginning of onMount
-        }, 3000);
+        // Instead of changing the message after a fixed timeout,
+        // we'll let the progress bar naturally reach 100% for the first change
+        // This ensures the first message change is also synchronized with the progress bar
 
         return () => {
-            clearTimeout(firstChangeTimeout);
+            // No need to clear firstChangeTimeout as it no longer exists
             if (activeInterval) clearInterval(activeInterval);
             if (progressInterval) clearInterval(progressInterval);
             prefersHighContrast.removeEventListener('change', () => {});
