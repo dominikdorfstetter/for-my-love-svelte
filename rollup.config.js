@@ -52,7 +52,13 @@ export default {
 			}),
 			compilerOptions: {
 				// enable run-time checks when not in production
-				dev: !production
+				dev: !production,
+				// Enable Svelte 5 runes mode
+				runes: true,
+				// Enable compatibility with Svelte 4 component API
+				compatibility: {
+					componentApi: 4
+				}
 			}
 		}),
 		// we'll extract any component CSS out into

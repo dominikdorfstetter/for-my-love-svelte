@@ -1,6 +1,26 @@
 {
   "logoText": "Para Victoria, de Dominik",
   "language": "Idioma",
+  "heart": {
+    "description": "Visualización de corazón 3D animado",
+    "clickHint": "Haz clic en el corazón para revelar el contenido"
+  },
+  "ui": {
+    "messageSpeed": "Velocidad de rotación de mensajes",
+    "slow": "Lento",
+    "medium": "Medio",
+    "fast": "Rápido",
+    "footerMessage": "Para mi esposa Vici, te amo",
+    "pauseButton": "Pausar rotación de mensajes",
+    "resumeButton": "Reanudar rotación de mensajes",
+    "prevButton": "Mostrar mensaje anterior",
+    "nextButton": "Mostrar mensaje siguiente",
+    "greetingLabel": "Saludo",
+    "messageLabel": "Mensaje de amor",
+    "fromLabel": "De",
+    "messageNavigation": "Navegación de mensajes",
+    "progressBar": "Progreso del mensaje"
+  },
   "shortcode": {
     "de": "Alemán",
     "en": "Inglés",

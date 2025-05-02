@@ -1,6 +1,26 @@
 {
   "language": "Sprache",
   "logoText": "Für Victoria, von Dominik",
+  "heart": {
+    "description": "3D animierte Herz-Visualisierung",
+    "clickHint": "Klick auf das Herz um Inhalte anzuzeigen"
+  },
+  "ui": {
+    "messageSpeed": "Nachrichtenwechselgeschwindigkeit",
+    "slow": "Langsam",
+    "medium": "Mittel",
+    "fast": "Schnell",
+    "footerMessage": "Für meine Frau Vici, ich liebe dich",
+    "pauseButton": "Nachrichtenrotation pausieren",
+    "resumeButton": "Nachrichtenrotation fortsetzen",
+    "prevButton": "Vorherige Nachricht anzeigen",
+    "nextButton": "Nächste Nachricht anzeigen",
+    "greetingLabel": "Grußbotschaft",
+    "messageLabel": "Liebesnachricht",
+    "fromLabel": "Von",
+    "messageNavigation": "Nachrichtennavigation",
+    "progressBar": "Nachrichtenfortschritt"
+  },
   "shortcode": {
     "de": "Deutsch",
     "en": "Englisch",
@@ -154,7 +174,7 @@
     },
     {
       "id": 15,
-      "text": "Mein Viky, du verdienst das Beste auf der Welt, weil du dieser spirituelle Mensch und voller Liebe zu anderen bist, mit einer Karriere, die Schritt für Schritt gemacht wurde, mit großen Anstrengungen, das Leben hat große Segnungen für dich, dieses Glück, ❣️ und Prost sei immer bei dir \\uD83C\\uDF82\\uD83D\\uDE4F\\uD83E\\uDD17\\nIch liebe dich sehr deine Tante",
+      "text": "Mein Viky, du verdienst das Beste auf der Welt, weil du dieser spirituelle Mensch und voller Liebe zu anderen bist, mit einer Karriere, die Schritt für Schritt gemacht wurde, mit großen Anstrengungen, das Leben hat große Segnungen für dich, dieses Glück, ❣️ und Prost sei immer bei dir 🎂🙏🤗\nIch liebe dich sehr deine Tante",
       "from": "Sony"
     }
   ]

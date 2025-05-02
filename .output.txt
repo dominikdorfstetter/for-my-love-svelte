@@ -1,0 +1,4604 @@
+er-3.0.0.tgz",
++      "integrity": "sha512-SW13ws7BjaeJ6p7Q6CO2nchbYEc3X3J6WrmTTDto7yMPqVSZTUyY5Tjbid+Ab8gLnATtygYtiDIJGQRRn2ZOiA==",
++      "license": "MIT"
++    },
++    "node_modules/lodash": {
+       "version": "4.17.21",
+       "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz",
+       "integrity": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==",
+       "dev": true
+     },
+-    "lodash.topath": {
++    "node_modules/lodash.topath": {
+       "version": "4.5.2",
+       "resolved": "https://registry.npmjs.org/lodash.topath/-/lodash.topath-4.5.2.tgz",
+       "integrity": "sha1-NhY1Hzu6YZlKCTGYlmC9AyVP0Ak=",
+       "dev": true
+     },
+-    "magic-string": {
++    "node_modules/lru-queue": {
++      "version": "0.1.0",
++      "resolved": "https://registry.npmjs.org/lru-queue/-/lru-queue-0.1.0.tgz",
++      "integrity": "sha512-BpdYkt9EvGl8OfWHDQPISVpcl5xZthb+XPsbELj5AQXxIC8IriDZIQYjBJPEm5rS420sjZ0TLEzRcq5KdBhYrQ==",
++      "license": "MIT",
++      "dependencies": {
++        "es5-ext": "~0.10.2"
++      }
++    },
++    "node_modules/magic-string": {
+       "version": "0.25.7",
+       "resolved": "https://registry.npmjs.org/magic-string/-/magic-string-0.25.7.tgz",
+       "integrity": "sha512-4CrMT5DOHTDk4HYDlzmwu4FVCcIYI8gauveasrdCu2IKIFOJ3f0v/8MDGJCDL9oD2ppz/Av1b0Nj345H9M+XIA==",
+       "dev": true,
+-      "requires": {
++      "dependencies": {
+         "sourcemap-codec": "^1.4.4"
+       }
+     },
+-    "merge-stream": {
+-      "version": "2.0.0",
+-      "resolved": "https://registry.npmjs.org/merge-stream/-/merge-stream-2.0.0.tgz",
+-      "integrity": "sha512-abv/qOcuPfk3URPfDzmZU1LKmuw8kT+0nIHvKrKgFrwifol/doWcdA4ZqsWQ8ENrFKkd67Mfpo/LovbIUsbt3w==",
+-      "dev": true
+-    },
+-    "merge2": {
++    "node_modules/math-intrinsics": {
++      "version": "1.1.0",
++      "resolved": "https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.1.0.tgz",
++      "integrity": "sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==",
++      "dev": true,
++      "license": "MIT",
++      "engines": {
++        "node": ">= 0.4"
++      }
++    },
++    "node_modules/memoizee": {
++      "version": "0.4.17",
++      "resolved": "https://registry.npmjs.org/memoizee/-/memoizee-0.4.17.tgz",
++      "integrity": "sha512-DGqD7Hjpi/1or4F/aYAspXKNm5Yili0QDAFAY4QYvpqpgiY6+1jOfqpmByzjxbWd/T9mChbCArXAbDAsTm5oXA==",
++      "license": "ISC",
++      "dependencies": {
++        "d": "^1.0.2",
++        "es5-ext": "^0.10.64",
++        "es6-weak-map": "^2.0.3",
++        "event-emitter": "^0.3.5",
++        "is-promise": "^2.2.2",
++        "lru-queue": "^0.1.0",
++        "next-tick": "^1.1.0",
++        "timers-ext": "^0.1.7"
++      },
++      "engines": {
++        "node": ">=0.12"
++      }
++    },
++    "node_modules/merge-stream": {
++      "version": "2.0.0",
++      "resolved": "https://registry.npmjs.org/merge-stream/-/merge-stream-2.0.0.tgz",
++      "integrity": "sha512-abv/qOcuPfk3URPfDzmZU1LKmuw8kT+0nIHvKrKgFrwifol/doWcdA4ZqsWQ8ENrFKkd67Mfpo/LovbIUsbt3w==",
++      "dev": true
++    },
++    "node_modules/merge2": {
+       "version": "1.4.1",
+       "resolved": "https://registry.npmjs.org/merge2/-/merge2-1.4.1.tgz",
+       "integrity": "sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==",
+-      "dev": true
++      "dev": true,
++      "engines": {
++        "node": ">= 8"
++      }
+     },
+-    "micromatch": {
++    "node_modules/meshoptimizer": {
++      "version": "0.18.1",
++      "resolved": "https://registry.npmjs.org/meshoptimizer/-/meshoptimizer-0.18.1.tgz",
++      "integrity": "sha512-ZhoIoL7TNV4s5B6+rx5mC//fw8/POGyNxS/DZyCJeiZ12ScLfVwRE/GfsxwiTkMYYD5DmK2/JXnEVXqL4rF+Sw==",
++      "dev": true,
++      "license": "MIT"
++    },
++    "node_modules/micromatch": {
+       "version": "4.0.4",
+       "resolved": "https://registry.npmjs.org/micromatch/-/micromatch-4.0.4.tgz",
+       "integrity": "sha512-pRmzw/XUcwXGpD9aI9q/0XOwLNygjETJ8y0ao0wdqprrzDa4YnxLcz7fQRZr8voh8V10kGhABbNcHVk5wHgWwg==",
+       "dev": true,
+-      "requires": {
++      "dependencies": {
+         "braces": "^3.0.1",
+         "picomatch": "^2.2.3"
++      },
++      "engines": {
++        "node": ">=8.6"
+       }
+     },
+-    "mime": {
++    "node_modules/mime": {
+       "version": "2.5.2",
+       "resolved": "https://registry.npmjs.org/mime/-/mime-2.5.2.tgz",
+-      "integrity": "sha512-tqkh47FzKeCPD2PUiPB6pkbMzsCasjxAfC62/Wap5qrUWcb+sFasXUC5I3gYM5iBM8v/Qpn4UK0x+j0iHyFPDg=="
++      "integrity": "sha512-tqkh47FzKeCPD2PUiPB6pkbMzsCasjxAfC62/Wap5qrUWcb+sFasXUC5I3gYM5iBM8v/Qpn4UK0x+j0iHyFPDg==",
++      "bin": {
++        "mime": "cli.js"
++      },
++      "engines": {
++        "node": ">=4.0.0"
++      }
+     },
+-    "mime-db": {
++    "node_modules/mime-db": {
+       "version": "1.49.0",
+       "resolved": "https://registry.npmjs.org/mime-db/-/mime-db-1.49.0.tgz",
+       "integrity": "sha512-CIc8j9URtOVApSFCQIF+VBkX1RwXp/oMMOrqdyXSBXq5RWNEsRfyj1kiRnQgmNXmHxPoFIxOroKA3zcU9P+nAA==",
+-      "dev": true
++      "dev": true,
++      "engines": {
++        "node": ">= 0.6"
++      }
+     },
+-    "mime-types": {
++    "node_modules/mime-types": {
+       "version": "2.1.32",
+       "resolved": "https://registry.npmjs.org/mime-types/-/mime-types-2.1.32.tgz",
+       "integrity": "sha512-hJGaVS4G4c9TSMYh2n6SQAGrC4RnfU+daP8G7cSCmaqNjiOoUY0VHCMS42pxnQmVF1GWwFhbHWn3RIxCqTmZ9A==",
+       "dev": true,
+-      "requires": {
++      "dependencies": {
+         "mime-db": "1.49.0"
++      },
++      "engines": {
++        "node": ">= 0.6"
+       }
+     },
+-    "mimic-fn": {
+-      "version": "1.2.0",
+-      "resolved": "https://registry.npmjs.org/mimic-fn/-/mimic-fn-1.2.0.tgz",
+-      "integrity": "sha512-jf84uxzwiuiIVKiOLpfYk7N46TSy8ubTonmneY9vrpHNAnp0QBt2BxWV9dO3/j+BoVAb+a5G6YDPW3M5HOdMWQ==",
+-      "dev": true
+-    },
+-    "min-indent": {
++    "node_modules/min-indent": {
+       "version": "1.0.1",
+       "resolved": "https://registry.npmjs.org/min-indent/-/min-indent-1.0.1.tgz",
+       "integrity": "sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg==",
+-      "dev": true
++      "dev": true,
++      "license": "MIT",
++      "engines": {
++        "node": ">=4"
++      }
+     },
+-    "minimatch": {
+-      "version": "3.0.4",
+-      "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-3.0.4.tgz",
+-      "integrity": "sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==",
++    "node_modules/minimatch": {
++      "version": "3.1.2",
++      "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-3.1.2.tgz",
++      "integrity": "sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==",
+       "dev": true,
+-      "requires": {
++      "license": "ISC",
++      "dependencies": {
+         "brace-expansion": "^1.1.7"
++      },
++      "engines": {
++        "node": "*"
+       }
+     },
+-    "minimist": {
+-      "version": "1.2.5",
+-      "resolved": "https://registry.npmjs.org/minimist/-/minimist-1.2.5.tgz",
+-      "integrity": "sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==",
+-      "dev": true
++    "node_modules/minimist": {
++      "version": "1.2.8",
++      "resolved": "https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz",
++      "integrity": "sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==",
++      "dev": true,
++      "license": "MIT",
++      "funding": {
++        "url": "https://github.com/sponsors/ljharb"
++      }
+     },
+-    "mkdirp": {
++    "node_modules/mkdirp": {
+       "version": "0.5.5",
+       "resolved": "https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.5.tgz",
+       "integrity": "sha512-NKmAlESf6jMGym1++R0Ra7wvhV+wFW63FaSOFPwRahvea0gMUcGUhVeAg/0BC0wiv9ih5NYPB1Wn1UEI1/L+xQ==",
+       "dev": true,
+-      "requires": {
++      "dependencies": {
+         "minimist": "^1.2.5"
++      },
++      "bin": {
++        "mkdirp": "bin/cmd.js"
+       }
+     },
+-    "modern-normalize": {
++    "node_modules/modern-normalize": {
+       "version": "1.1.0",
+       "resolved": "https://registry.npmjs.org/modern-normalize/-/modern-normalize-1.1.0.tgz",
+       "integrity": "sha512-2lMlY1Yc1+CUy0gw4H95uNN7vjbpoED7NNRSBHE25nWfLBdmMzFCsPshlzbxHz+gYMcBEUN8V4pU16prcdPSgA==",
+-      "dev": true
++      "dev": true,
++      "engines": {
++        "node": ">=6"
++      },
++      "funding": {
++        "url": "https://github.com/sponsors/sindresorhus"
++      }
+     },
+-    "moniker": {
++    "node_modules/moniker": {
+       "version": "0.1.2",
+       "resolved": "https://registry.npmjs.org/moniker/-/moniker-0.1.2.tgz",
+       "integrity": "sha1-hy37pXXc6o+gSlE1sT1fJL7MyX4=",
+-      "dev": true
++      "dev": true,
++      "engines": {
++        "node": "*"
++      }
+     },
+-    "mri": {
++    "node_modules/mri": {
+       "version": "1.1.6",
+       "resolved": "https://registry.npmjs.org/mri/-/mri-1.1.6.tgz",
+-      "integrity": "sha512-oi1b3MfbyGa7FJMP9GmLTttni5JoICpYBRlq+x5V16fZbLsnL9N3wFqqIm/nIG43FjUFkFh9Epzp/kzUGUnJxQ=="
++      "integrity": "sha512-oi1b3MfbyGa7FJMP9GmLTttni5JoICpYBRlq+x5V16fZbLsnL9N3wFqqIm/nIG43FjUFkFh9Epzp/kzUGUnJxQ==",
++      "engines": {
++        "node": ">=4"
++      }
+     },
+-    "mute-stream": {
++    "node_modules/mute-stream": {
+       "version": "0.0.7",
+       "resolved": "https://registry.npmjs.org/mute-stream/-/mute-stream-0.0.7.tgz",
+       "integrity": "sha1-MHXOk7whuPq0PhvE2n6BFe0ee6s=",
+       "dev": true
+     },
+-    "nanoid": {
+-      "version": "3.1.25",
+-      "resolved": "https://registry.npmjs.org/nanoid/-/nanoid-3.1.25.tgz",
+-      "integrity": "sha512-rdwtIXaXCLFAQbnfqDRnI6jaRHp9fTcYBjtFKE8eezcZ7LuLjhUaQGNeMXf1HmRoCH32CLz6XwX0TtxEOS/A3Q==",
+-      "dev": true
++    "node_modules/nanoid": {
++      "version": "3.3.11",
++      "resolved": "https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz",
++      "integrity": "sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==",
++      "dev": true,
++      "funding": [
++        {
++          "type": "github",
++          "url": "https://github.com/sponsors/ai"
++        }
++      ],
++      "license": "MIT",
++      "bin": {
++        "nanoid": "bin/nanoid.cjs"
++      },
++      "engines": {
++        "node": "^10 || ^12 || ^13.7 || ^14 || >=15.0.1"
++      }
+     },
+-    "netrc": {
++    "node_modules/netrc": {
+       "version": "0.1.4",
+       "resolved": "https://registry.npmjs.org/netrc/-/netrc-0.1.4.tgz",
+       "integrity": "sha1-a+lPysqNd63gqWcNxGCRTJRHJEQ=",
+       "dev": true
+     },
+-    "node-emoji": {
++    "node_modules/next-tick": {
++      "version": "1.1.0",
++      "resolved": "https://registry.npmjs.org/next-tick/-/next-tick-1.1.0.tgz",
++      "integrity": "sha512-CXdUiJembsNjuToQvxayPZF9Vqht7hewsvy2sOWafLvi2awflj9mOC6bHIg50orX8IJvWKY9wYQ/zB2kogPslQ==",
++      "license": "ISC"
++    },
++    "node_modules/node-emoji": {
+       "version": "1.11.0",
+       "resolved": "https://registry.npmjs.org/node-emoji/-/node-emoji-1.11.0.tgz",
+       "integrity": "sha512-wo2DpQkQp7Sjm2A0cq+sN7EHKO6Sl0ctXeBdFZrL9T9+UywORbufTcTZxom8YqpLQt/FqNMUkOpkZrJVYSKD3A==",
+       "dev": true,
+-      "requires": {
++      "dependencies": {
+         "lodash": "^4.17.21"
+       }
+     },
+-    "node-releases": {
+-      "version": "1.1.75",
+-      "resolved": "https://registry.npmjs.org/node-releases/-/node-releases-1.1.75.tgz",
+-      "integrity": "sha512-Qe5OUajvqrqDSy6wrWFmMwfJ0jVgwiw4T3KqmbTcZ62qW0gQkheXYhcFM1+lOVcGUoRxcEcfyvFMAnDgaF1VWw==",
+-      "dev": true
++    "node_modules/node-releases": {
++      "version": "2.0.19",
++      "resolved": "https://registry.npmjs.org/node-releases/-/node-releases-2.0.19.tgz",
++      "integrity": "sha512-xxOWJsBKtzAq7DY0J+DTzuz58K8e7sJbdgwkbMWQe8UYB6ekmsQ45q0M/tJDsGaZmbC+l7n57UV8Hl5tHxO9uw==",
++      "dev": true,
++      "license": "MIT"
+     },
+-    "normalize-path": {
++    "node_modules/normalize-path": {
+       "version": "3.0.0",
+       "resolved": "https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz",
+       "integrity": "sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==",
+-      "dev": true
++      "dev": true,
++      "engines": {
++        "node": ">=0.10.0"
++      }
+     },
+-    "normalize-range": {
++    "node_modules/normalize-range": {
+       "version": "0.1.2",
+       "resolved": "https://registry.npmjs.org/normalize-range/-/normalize-range-0.1.2.tgz",
+       "integrity": "sha1-LRDAa9/TEuqXd2laTShDlFa3WUI=",
+-      "dev": true
++      "dev": true,
++      "engines": {
++        "node": ">=0.10.0"
++      }
+     },
+-    "oauth-sign": {
++    "node_modules/oauth-sign": {
+       "version": "0.9.0",
+       "resolved": "https://registry.npmjs.org/oauth-sign/-/oauth-sign-0.9.0.tgz",
+       "integrity": "sha512-fexhUFFPTGV8ybAtSIGbV6gOkSv8UtRbDBnAyLQw4QPKkgNlsH2ByPGtMUqdWkos6YCRmAqViwgZrJc/mRDzZQ==",
+-      "dev": true
+-    },
+-    "object-assign": {
+-      "version": "4.1.1",
+-      "resolved": "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz",
+-      "integrity": "sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=",
+-      "dev": true
++      "dev": true,
++      "engines": {
++        "node": "*"
++      }
+     },
+-    "object-hash": {
++    "node_modules/object-hash": {
+       "version": "2.2.0",
+       "resolved": "https://registry.npmjs.org/object-hash/-/object-hash-2.2.0.tgz",
+       "integrity": "sha512-gScRMn0bS5fH+IuwyIFgnh9zBdo4DV+6GhygmWM9HyNJSgS0hScp1f5vjtm7oIIOiT9trXrShAkLFSc2IqKNgw==",
+-      "dev": true
++      "dev": true,
++      "engines": {
++        "node": ">= 6"
++      }
+     },
+-    "once": {
++    "node_modules/once": {
+       "version": "1.4.0",
+       "resolved": "https://registry.npmjs.org/once/-/once-1.4.0.tgz",
+       "integrity": "sha1-WDsap3WWHUsROsF9nFC6753Xa9E=",
+       "dev": true,
+-      "requires": {
++      "dependencies": {
+         "wrappy": "1"
+       }
+     },
+-    "onetime": {
+-      "version": "2.0.1",
+-      "resolved": "https://registry.npmjs.org/onetime/-/onetime-2.0.1.tgz",
+-      "integrity": "sha1-BnQoIw/WdEOyeUsiu6UotoZ5YtQ=",
+-      "dev": true,
+-      "requires": {
+-        "mimic-fn": "^1.0.0"
+-      }
+-    },
+-    "opts": {
++    "node_modules/opts": {
+       "version": "2.0.2",
+       "resolved": "https://registry.npmjs.org/opts/-/opts-2.0.2.tgz",
+       "integrity": "sha512-k41FwbcLnlgnFh69f4qdUfvDQ+5vaSDnVPFI/y5XuhKRq97EnVVneO9F1ESVCdiVu4fCS2L8usX3mU331hB7pg==",
+       "dev": true
+     },
+-    "os-tmpdir": {
+-      "version": "1.0.2",
+-      "resolved": "https://registry.npmjs.org/os-tmpdir/-/os-tmpdir-1.0.2.tgz",
+-      "integrity": "sha1-u+Z0BseaqFxc/sdm/lc0VV36EnQ=",
+-      "dev": true
+-    },
+-    "parent-module": {
++    "node_modules/parent-module": {
+       "version": "1.0.1",
+       "resolved": "https://registry.npmjs.org/parent-module/-/parent-module-1.0.1.tgz",
+       "integrity": "sha512-GQ2EWRpQV8/o+Aw8YqtfZZPfNRWZYkbidE9k5rpl/hC3vtHHBfGm2Ifi6qWV+coDGkrUKZAxE3Lot5kcsRlh+g==",
+       "dev": true,
+-      "requires": {
++      "dependencies": {
+         "callsites": "^3.0.0"
++      },
++      "engines": {
++        "node": ">=6"
+       }
+     },
+-    "parse-json": {
++    "node_modules/parse-json": {
+       "version": "5.2.0",
+       "resolved": "https://registry.npmjs.org/parse-json/-/parse-json-5.2.0.tgz",
+       "integrity": "sha512-ayCKvm/phCGxOkYRSCM82iDwct8/EonSEgCSxWxD7ve6jHggsFl4fZVQBPRNgQoKiuV/odhFrGzQXZwbifC8Rg==",
+       "dev": true,
+-      "requires": {
++      "dependencies": {
+         "@babel/code-frame": "^7.0.0",
+         "error-ex": "^1.3.1",
+         "json-parse-even-better-errors": "^2.3.0",
+         "lines-and-columns": "^1.1.6"
++      },
++      "engines": {
++        "node": ">=8"
++      },
++      "funding": {
++        "url": "https://github.com/sponsors/sindresorhus"
+       }
+     },
+-    "path-is-absolute": {
++    "node_modules/path-is-absolute": {
+       "version": "1.0.1",
+       "resolved": "https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz",
+       "integrity": "sha1-F0uSaHNVNP+8es5r9TpanhtcX18=",
+-      "dev": true
++      "dev": true,
++      "engines": {
++        "node": ">=0.10.0"
++      }
+     },
+-    "path-parse": {
++    "node_modules/path-parse": {
+       "version": "1.0.7",
+       "resolved": "https://registry.npmjs.org/path-parse/-/path-parse-1.0.7.tgz",
+       "integrity": "sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==",
+       "dev": true
+     },
+-    "path-type": {
++    "node_modules/path-type": {
+       "version": "4.0.0",
+       "resolved": "https://registry.npmjs.org/path-type/-/path-type-4.0.0.tgz",
+       "integrity": "sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==",
+-      "dev": true
++      "dev": true,
++      "engines": {
++        "node": ">=8"
++      }
+     },
+-    "performance-now": {
++    "node_modules/performance-now": {
+       "version": "2.1.0",
+       "resolved": "https://registry.npmjs.org/performance-now/-/performance-now-2.1.0.tgz",
+       "integrity": "sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=",
+       "dev": true
+     },
+-    "picomatch": {
++    "node_modules/picocolors": {
++      "version": "1.1.1",
++      "resolved": "https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz",
++      "integrity": "sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==",
++      "dev": true,
++      "license": "ISC"
++    },
++    "node_modules/picomatch": {
+       "version": "2.3.0",
+       "resolved": "https://registry.npmjs.org/picomatch/-/picomatch-2.3.0.tgz",
+       "integrity": "sha512-lY1Q/PiJGC2zOv/z391WOTD+Z02bCgsFfvxoXXf6h7kv9o+WmsmzYqrAwY63sNgOxE4xEdq0WyUnXfKeBrSvYw==",
+-      "dev": true
++      "dev": true,
++      "engines": {
++        "node": ">=8.6"
++      },
++      "funding": {
++        "url": "https://github.com/sponsors/jonschlinkert"
++      }
+     },
+-    "postcss": {
+-      "version": "8.3.6",
+-      "resolved": "https://registry.npmjs.org/postcss/-/postcss-8.3.6.tgz",
+-      "integrity": "sha512-wG1cc/JhRgdqB6WHEuyLTedf3KIRuD0hG6ldkFEZNCjRxiC+3i6kkWUUbiJQayP28iwG35cEmAbe98585BYV0A==",
++    "node_modules/postcss": {
++      "version": "8.5.3",
++      "resolved": "https://registry.npmjs.org/postcss/-/postcss-8.5.3.tgz",
++      "integrity": "sha512-dle9A3yYxlBSrt8Fu+IpjGT8SY8hN0mlaA6GY8t0P5PjIOZemULz/E2Bnm/2dcUOena75OTNkHI76uZBNUUq3A==",
+       "dev": true,
+-      "requires": {
+-        "colorette": "^1.2.2",
+-        "nanoid": "^3.1.23",
+-        "source-map-js": "^0.6.2"
++      "funding": [
++        {
++          "type": "opencollective",
++          "url": "https://opencollective.com/postcss/"
++        },
++        {
++          "type": "tidelift",
++          "url": "https://tidelift.com/funding/github/npm/postcss"
++        },
++        {
++          "type": "github",
++          "url": "https://github.com/sponsors/ai"
++        }
++      ],
++      "license": "MIT",
++      "dependencies": {
++        "nanoid": "^3.3.8",
++        "picocolors": "^1.1.1",
++        "source-map-js": "^1.2.1"
++      },
++      "engines": {
++        "node": "^10 || ^12 || >=14"
+       }
+     },
+-    "postcss-js": {
++    "node_modules/postcss-js": {
+       "version": "3.0.3",
+       "resolved": "https://registry.npmjs.org/postcss-js/-/postcss-js-3.0.3.tgz",
+       "integrity": "sha512-gWnoWQXKFw65Hk/mi2+WTQTHdPD5UJdDXZmX073EY/B3BWnYjO4F4t0VneTCnCGQ5E5GsCdMkzPaTXwl3r5dJw==",
+       "dev": true,
+-      "requires": {
++      "dependencies": {
+         "camelcase-css": "^2.0.1",
+         "postcss": "^8.1.6"
++      },
++      "engines": {
++        "node": ">=10.0"
++      },
++      "funding": {
++        "type": "opencollective",
++        "url": "https://opencollective.com/postcss/"
+       }
+     },
+-    "postcss-load-config": {
++    "node_modules/postcss-load-config": {
+       "version": "3.1.0",
+       "resolved": "https://registry.npmjs.org/postcss-load-config/-/postcss-load-config-3.1.0.tgz",
+       "integrity": "sha512-ipM8Ds01ZUophjDTQYSVP70slFSYg3T0/zyfII5vzhN6V57YSxMgG5syXuwi5VtS8wSf3iL30v0uBdoIVx4Q0g==",
+       "dev": true,
+-      "requires": {
++      "dependencies": {
+         "import-cwd": "^3.0.0",
+         "lilconfig": "^2.0.3",
+         "yaml": "^1.10.2"
++      },
++      "engines": {
++        "node": ">= 10"
++      },
++      "funding": {
++        "type": "opencollective",
++        "url": "https://opencollective.com/postcss/"
++      },
++      "peerDependencies": {
++        "ts-node": ">=9.0.0"
++      },
++      "peerDependenciesMeta": {
++        "ts-node": {
++          "optional": true
++        }
+       }
+     },
+-    "postcss-nested": {
++    "node_modules/postcss-nested": {
+       "version": "5.0.6",
+       "resolved": "https://registry.npmjs.org/postcss-nested/-/postcss-nested-5.0.6.tgz",
+       "integrity": "sha512-rKqm2Fk0KbA8Vt3AdGN0FB9OBOMDVajMG6ZCf/GoHgdxUJ4sBFp0A/uMIRm+MJUdo33YXEtjqIz8u7DAp8B7DA==",
+       "dev": true,
+-      "requires": {
++      "dependencies": {
+         "postcss-selector-parser": "^6.0.6"
++      },
++      "engines": {
++        "node": ">=12.0"
++      },
++      "funding": {
++        "type": "opencollective",
++        "url": "https://opencollective.com/postcss/"
++      },
++      "peerDependencies": {
++        "postcss": "^8.2.14"
+       }
+     },
+-    "postcss-selector-parser": {
++    "node_modules/postcss-selector-parser": {
+       "version": "6.0.6",
+       "resolved": "https://registry.npmjs.org/postcss-selector-parser/-/postcss-selector-parser-6.0.6.tgz",
+       "integrity": "sha512-9LXrvaaX3+mcv5xkg5kFwqSzSH1JIObIx51PrndZwlmznwXRfxMddDvo9gve3gVR8ZTKgoFDdWkbRFmEhT4PMg==",
+       "dev": true,
+-      "requires": {
++      "dependencies": {
+         "cssesc": "^3.0.0",
+         "util-deprecate": "^1.0.2"
++      },
++      "engines": {
++        "node": ">=4"
+       }
+     },
+-    "postcss-value-parser": {
+-      "version": "4.1.0",
+-      "resolved": "https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-4.1.0.tgz",
+-      "integrity": "sha512-97DXOFbQJhk71ne5/Mt6cOu6yxsSfM0QGQyl0L25Gca4yGWEGJaig7l7gbCX623VqTBNGLRLaVUCnNkcedlRSQ==",
+-      "dev": true
++    "node_modules/postcss-value-parser": {
++      "version": "4.2.0",
++      "resolved": "https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz",
++      "integrity": "sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==",
++      "dev": true,
++      "license": "MIT"
+     },
+-    "pretty-hrtime": {
++    "node_modules/pretty-hrtime": {
+       "version": "1.0.3",
+       "resolved": "https://registry.npmjs.org/pretty-hrtime/-/pretty-hrtime-1.0.3.tgz",
+       "integrity": "sha1-t+PqQkNaTJsnWdmeDyAesZWALuE=",
+-      "dev": true
++      "dev": true,
++      "engines": {
++        "node": ">= 0.8"
++      }
+     },
+-    "progress": {
+-      "version": "1.1.8",
+-      "resolved": "https://registry.npmjs.org/progress/-/progress-1.1.8.tgz",
+-      "integrity": "sha1-4mDHj2Fhzdmw5WzD4Khd4Xx6V74=",
+-      "dev": true
++    "node_modules/progress": {
++      "version": "2.0.3",
++      "resolved": "https://registry.npmjs.org/progress/-/progress-2.0.3.tgz",
++      "integrity": "sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==",
++      "dev": true,
++      "license": "MIT",
++      "engines": {
++        "node": ">=0.4.0"
++      }
++    },
++    "node_modules/prompts": {
++      "version": "2.4.2",
++      "resolved": "https://registry.npmjs.org/prompts/-/prompts-2.4.2.tgz",
++      "integrity": "sha512-NxNv/kLguCA7p3jE8oL2aEBsrJWgAakBpgmgK6lpPWV+WuOmY6r2/zbAVnP+T8bQlA0nzHXSJSJW0Hq7ylaD2Q==",
++      "dev": true,
++      "license": "MIT",
++      "dependencies": {
++        "kleur": "^3.0.3",
++        "sisteransi": "^1.0.5"
++      },
++      "engines": {
++        "node": ">= 6"
++      }
++    },
++    "node_modules/proxy-from-env": {
++      "version": "1.1.0",
++      "resolved": "https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz",
++      "integrity": "sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==",
++      "dev": true,
++      "license": "MIT"
+     },
+-    "psl": {
++    "node_modules/psl": {
+       "version": "1.8.0",
+       "resolved": "https://registry.npmjs.org/psl/-/psl-1.8.0.tgz",
+       "integrity": "sha512-RIdOzyoavK+hA18OGGWDqUTsCLhtA7IcZ/6NCs4fFJaHBDab+pDDmDIByWFRQJq2Cd7r1OoQxBGKOaztq+hjIQ==",
+       "dev": true
+     },
+-    "punycode": {
++    "node_modules/punycode": {
+       "version": "2.1.1",
+       "resolved": "https://registry.npmjs.org/punycode/-/punycode-2.1.1.tgz",
+       "integrity": "sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==",
+-      "dev": true
++      "dev": true,
++      "engines": {
++        "node": ">=6"
++      }
+     },
+-    "purgecss": {
++    "node_modules/purgecss": {
+       "version": "4.0.3",
+       "resolved": "https://registry.npmjs.org/purgecss/-/purgecss-4.0.3.tgz",
+       "integrity": "sha512-PYOIn5ibRIP34PBU9zohUcCI09c7drPJJtTDAc0Q6QlRz2/CHQ8ywGLdE7ZhxU2VTqB7p5wkvj5Qcm05Rz3Jmw==",
+       "dev": true,
+-      "requires": {
++      "dependencies": {
+         "commander": "^6.0.0",
+         "glob": "^7.0.0",
+         "postcss": "^8.2.1",
+         "postcss-selector-parser": "^6.0.2"
+       },
+-      "dependencies": {
+-        "commander": {
+-          "version": "6.2.1",
+-          "resolved": "https://registry.npmjs.org/commander/-/commander-6.2.1.tgz",
+-          "integrity": "sha512-U7VdrJFnJgo4xjrHpTzu0yrHPGImdsmD95ZlgYSEajAn2JKzDhDTPG9kBTefmObL2w/ngeZnilk+OV9CG3d7UA==",
+-          "dev": true
+-        }
++      "bin": {
++        "purgecss": "bin/purgecss.js"
+       }
+     },
+-    "qs": {
+-      "version": "6.5.2",
+-      "resolved": "https://registry.npmjs.org/qs/-/qs-6.5.2.tgz",
+-      "integrity": "sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==",
+-      "dev": true
++    "node_modules/purgecss/node_modules/commander": {
++      "version": "6.2.1",
++      "resolved": "https://registry.npmjs.org/commander/-/commander-6.2.1.tgz",
++      "integrity": "sha512-U7VdrJFnJgo4xjrHpTzu0yrHPGImdsmD95ZlgYSEajAn2JKzDhDTPG9kBTefmObL2w/ngeZnilk+OV9CG3d7UA==",
++      "dev": true,
++      "engines": {
++        "node": ">= 6"
++      }
++    },
++    "node_modules/qs": {
++      "version": "6.5.3",
++      "resolved": "https://registry.npmjs.org/qs/-/qs-6.5.3.tgz",
++      "integrity": "sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==",
++      "dev": true,
++      "license": "BSD-3-Clause",
++      "engines": {
++        "node": ">=0.6"
++      }
+     },
+-    "queue-microtask": {
++    "node_modules/queue-microtask": {
+       "version": "1.2.3",
+       "resolved": "https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz",
+       "integrity": "sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==",
+-      "dev": true
++      "dev": true,
++      "funding": [
++        {
++          "type": "github",
++          "url": "https://github.com/sponsors/feross"
++        },
++        {
++          "type": "patreon",
++          "url": "https://www.patreon.com/feross"
++        },
++        {
++          "type": "consulting",
++          "url": "https://feross.org/support"
++        }
++      ]
+     },
+-    "quick-lru": {
++    "node_modules/quick-lru": {
+       "version": "5.1.1",
+       "resolved": "https://registry.npmjs.org/quick-lru/-/quick-lru-5.1.1.tgz",
+       "integrity": "sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==",
+-      "dev": true
++      "dev": true,
++      "engines": {
++        "node": ">=10"
++      },
++      "funding": {
++        "url": "https://github.com/sponsors/sindresorhus"
++      }
+     },
+-    "randombytes": {
++    "node_modules/randombytes": {
+       "version": "2.1.0",
+       "resolved": "https://registry.npmjs.org/randombytes/-/randombytes-2.1.0.tgz",
+       "integrity": "sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ==",
+       "dev": true,
+-      "requires": {
++      "dependencies": {
+         "safe-buffer": "^5.1.0"
+       }
+     },
+-    "read": {
++    "node_modules/read": {
+       "version": "1.0.5",
+       "resolved": "https://registry.npmjs.org/read/-/read-1.0.5.tgz",
+       "integrity": "sha1-AHo9FpR4qnEKSRcn5FPv+5LnYgM=",
+       "dev": true,
+-      "requires": {
++      "dependencies": {
+         "mute-stream": "~0.0.4"
++      },
++      "engines": {
++        "node": ">=0.8"
+       }
+     },
+-    "readdirp": {
++    "node_modules/readdirp": {
+       "version": "3.6.0",
+       "resolved": "https://registry.npmjs.org/readdirp/-/readdirp-3.6.0.tgz",
+       "integrity": "sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==",
+       "dev": true,
+-      "requires": {
++      "dependencies": {
+         "picomatch": "^2.2.1"
++      },
++      "engines": {
++        "node": ">=8.10.0"
+       }
+     },
+-    "reduce-css-calc": {
++    "node_modules/reduce-css-calc": {
+       "version": "2.1.8",
+       "resolved": "https://registry.npmjs.org/reduce-css-calc/-/reduce-css-calc-2.1.8.tgz",
+       "integrity": "sha512-8liAVezDmUcH+tdzoEGrhfbGcP7nOV4NkGE3a74+qqvE7nt9i4sKLGBuZNOnpI4WiGksiNPklZxva80061QiPg==",
+       "dev": true,
+-      "requires": {
++      "dependencies": {
+         "css-unit-converter": "^1.1.1",
+         "postcss-value-parser": "^3.3.0"
+-      },
+-      "dependencies": {
+-        "postcss-value-parser": {
+-          "version": "3.3.1",
+-          "resolved": "https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-3.3.1.tgz",
+-          "integrity": "sha512-pISE66AbVkp4fDQ7VHBwRNXzAAKJjw4Vw7nWI/+Q3vuly7SNfgYXvm6i5IgFylHGK5sP/xHAbB7N49OS4gWNyQ==",
+-          "dev": true
+-        }
+       }
+     },
+-    "request": {
++    "node_modules/reduce-css-calc/node_modules/postcss-value-parser": {
++      "version": "3.3.1",
++      "resolved": "https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-3.3.1.tgz",
++      "integrity": "sha512-pISE66AbVkp4fDQ7VHBwRNXzAAKJjw4Vw7nWI/+Q3vuly7SNfgYXvm6i5IgFylHGK5sP/xHAbB7N49OS4gWNyQ==",
++      "dev": true
++    },
++    "node_modules/request": {
+       "version": "2.88.2",
+       "resolved": "https://registry.npmjs.org/request/-/request-2.88.2.tgz",
+       "integrity": "sha512-MsvtOrfG9ZcrOwAW+Qi+F6HbD0CWXEh9ou77uOb7FM2WPhwT7smM833PzanhJLsgXjN89Ir6V2PczXNnMpwKhw==",
++      "deprecated": "request has been deprecated, see https://github.com/request/request/issues/3142",
+       "dev": true,
+-      "requires": {
++      "dependencies": {
+         "aws-sign2": "~0.7.0",
+         "aws4": "^1.8.0",
+         "caseless": "~0.12.0",
+@@ -1837,251 +3304,331 @@
+         "tough-cookie": "~2.5.0",
+         "tunnel-agent": "^0.6.0",
+         "uuid": "^3.3.2"
++      },
++      "engines": {
++        "node": ">= 6"
+       }
+     },
+-    "require-relative": {
+-      "version": "0.8.7",
+-      "resolved": "https://registry.npmjs.org/require-relative/-/require-relative-0.8.7.tgz",
+-      "integrity": "sha1-eZlTn8ngR6N5KPoZb44VY9q9Nt4=",
+-      "dev": true
+-    },
+-    "resolve": {
++    "node_modules/resolve": {
+       "version": "1.20.0",
+       "resolved": "https://registry.npmjs.org/resolve/-/resolve-1.20.0.tgz",
+       "integrity": "sha512-wENBPt4ySzg4ybFQW2TT1zMQucPK95HSh/nq2CFTZVOGut2+pQvSsgtda4d26YrYcr067wjbmzOG8byDPBX63A==",
+       "dev": true,
+-      "requires": {
++      "dependencies": {
+         "is-core-module": "^2.2.0",
+         "path-parse": "^1.0.6"
++      },
++      "funding": {
++        "url": "https://github.com/sponsors/ljharb"
+       }
+     },
+-    "resolve-from": {
++    "node_modules/resolve-from": {
+       "version": "4.0.0",
+       "resolved": "https://registry.npmjs.org/resolve-from/-/resolve-from-4.0.0.tgz",
+       "integrity": "sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==",
+-      "dev": true
++      "dev": true,
++      "engines": {
++        "node": ">=4"
++      }
+     },
+-    "restore-cursor": {
+-      "version": "2.0.0",
+-      "resolved": "https://registry.npmjs.org/restore-cursor/-/restore-cursor-2.0.0.tgz",
+-      "integrity": "sha1-n37ih/gv0ybU/RYpI9YhKe7g368=",
++    "node_modules/resolve.exports": {
++      "version": "2.0.3",
++      "resolved": "https://registry.npmjs.org/resolve.exports/-/resolve.exports-2.0.3.tgz",
++      "integrity": "sha512-OcXjMsGdhL4XnbShKpAcSqPMzQoYkYyhbEaeSko47MjRP9NfEQMhZkXL1DoFlt9LWQn4YttrdnV6X2OiyzBi+A==",
+       "dev": true,
+-      "requires": {
+-        "onetime": "^2.0.0",
+-        "signal-exit": "^3.0.2"
++      "license": "MIT",
++      "engines": {
++        "node": ">=10"
+       }
+     },
+-    "reusify": {
++    "node_modules/reusify": {
+       "version": "1.0.4",
+       "resolved": "https://registry.npmjs.org/reusify/-/reusify-1.0.4.tgz",
+       "integrity": "sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==",
+-      "dev": true
++      "dev": true,
++      "engines": {
++        "iojs": ">=1.0.0",
++        "node": ">=0.10.0"
++      }
+     },
+-    "rgb-regex": {
++    "node_modules/rgb-regex": {
+       "version": "1.0.1",
+       "resolved": "https://registry.npmjs.org/rgb-regex/-/rgb-regex-1.0.1.tgz",
+       "integrity": "sha1-wODWiC3w4jviVKR16O3UGRX+rrE=",
+       "dev": true
+     },
+-    "rgba-regex": {
++    "node_modules/rgba-regex": {
+       "version": "1.0.0",
+       "resolved": "https://registry.npmjs.org/rgba-regex/-/rgba-regex-1.0.0.tgz",
+       "integrity": "sha1-QzdOLiyglosO8VI0YLfXMP8i7rM=",
+       "dev": true
+     },
+-    "rimraf": {
++    "node_modules/rimraf": {
+       "version": "2.7.1",
+       "resolved": "https://registry.npmjs.org/rimraf/-/rimraf-2.7.1.tgz",
+       "integrity": "sha512-uWjbaKIK3T1OSVptzX7Nl6PvQ3qAGtKEtVRjRuazjfL3Bx5eI409VZSqgND+4UNnmzLVdPj9FqFJNPqBZFve4w==",
++      "deprecated": "Rimraf versions prior to v4 are no longer supported",
+       "dev": true,
+-      "requires": {
++      "dependencies": {
+         "glob": "^7.1.3"
++      },
++      "bin": {
++        "rimraf": "bin.js"
+       }
+     },
+-    "rollup": {
+-      "version": "2.56.3",
+-      "resolved": "https://registry.npmjs.org/rollup/-/rollup-2.56.3.tgz",
+-      "integrity": "sha512-Au92NuznFklgQCUcV96iXlxUbHuB1vQMaH76DHl5M11TotjOHwqk9CwcrT78+Tnv4FN9uTBxq6p4EJoYkpyekg==",
++    "node_modules/rollup": {
++      "version": "2.79.2",
++      "resolved": "https://registry.npmjs.org/rollup/-/rollup-2.79.2.tgz",
++      "integrity": "sha512-fS6iqSPZDs3dr/y7Od6y5nha8dW1YnbgtsyotCVvoFGKbERG++CVRFv1meyGDE1SNItQA8BrnCw7ScdAhRJ3XQ==",
+       "dev": true,
+-      "requires": {
++      "license": "MIT",
++      "bin": {
++        "rollup": "dist/bin/rollup"
++      },
++      "engines": {
++        "node": ">=10.0.0"
++      },
++      "optionalDependencies": {
+         "fsevents": "~2.3.2"
+       }
+     },
+-    "rollup-plugin-css-only": {
+-      "version": "3.1.0",
+-      "resolved": "https://registry.npmjs.org/rollup-plugin-css-only/-/rollup-plugin-css-only-3.1.0.tgz",
+-      "integrity": "sha512-TYMOE5uoD76vpj+RTkQLzC9cQtbnJNktHPB507FzRWBVaofg7KhIqq1kGbcVOadARSozWF883Ho9KpSPKH8gqA==",
+-      "dev": true,
+-      "requires": {
+-        "@rollup/pluginutils": "4"
+-      },
+-      "dependencies": {
+-        "@rollup/pluginutils": {
+-          "version": "4.1.1",
+-          "resolved": "https://registry.npmjs.org/@rollup/pluginutils/-/pluginutils-4.1.1.tgz",
+-          "integrity": "sha512-clDjivHqWGXi7u+0d2r2sBi4Ie6VLEAzWMIkvJLnDmxoOhBYOTfzGbOQBA32THHm11/LiJbd01tJUpJsbshSWQ==",
+-          "dev": true,
+-          "requires": {
+-            "estree-walker": "^2.0.1",
+-            "picomatch": "^2.2.2"
+-          }
++    "node_modules/rollup-plugin-css-only": {
++      "version": "4.5.2",
++      "resolved": "https://registry.npmjs.org/rollup-plugin-css-only/-/rollup-plugin-css-only-4.5.2.tgz",
++      "integrity": "sha512-7rj9+jB17Pz8LNcPgtMUb16JcgD8lxQMK9HcGfAVhMK3na/WXes3oGIo5QsrQQVqtgAU6q6KnQNXJrYunaUIQQ==",
++      "dev": true,
++      "license": "MIT",
++      "dependencies": {
++        "@rollup/pluginutils": "5"
++      },
++      "engines": {
++        "node": ">=14"
++      },
++      "peerDependencies": {
++        "rollup": "<5"
++      }
++    },
++    "node_modules/rollup-plugin-css-only/node_modules/@rollup/pluginutils": {
++      "version": "5.1.4",
++      "resolved": "https://registry.npmjs.org/@rollup/pluginutils/-/pluginutils-5.1.4.tgz",
++      "integrity": "sha512-USm05zrsFxYLPdWWq+K3STlWiT/3ELn3RcV5hJMghpeAIhxfsUIg6mt12CBJBInWMV4VneoV7SfGv8xIwo2qNQ==",
++      "dev": true,
++      "license": "MIT",
++      "dependencies": {
++        "@types/estree": "^1.0.0",
++        "estree-walker": "^2.0.2",
++        "picomatch": "^4.0.2"
++      },
++      "engines": {
++        "node": ">=14.0.0"
++      },
++      "peerDependencies": {
++        "rollup": "^1.20.0||^2.0.0||^3.0.0||^4.0.0"
++      },
++      "peerDependenciesMeta": {
++        "rollup": {
++          "optional": true
+         }
+       }
+     },
+-    "rollup-plugin-livereload": {
++    "node_modules/rollup-plugin-css-only/node_modules/@types/estree": {
++      "version": "1.0.7",
++      "resolved": "https://registry.npmjs.org/@types/estree/-/estree-1.0.7.tgz",
++      "integrity": "sha512-w28IoSUCJpidD/TGviZwwMJckNESJZXFu7NBZ5YJ4mEUnNraUn9Pm8HSZm/jDF1pDWYKspWE7oVphigUPRakIQ==",
++      "dev": true,
++      "license": "MIT"
++    },
++    "node_modules/rollup-plugin-css-only/node_modules/picomatch": {
++      "version": "4.0.2",
++      "resolved": "https://registry.npmjs.org/picomatch/-/picomatch-4.0.2.tgz",
++      "integrity": "sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==",
++      "dev": true,
++      "license": "MIT",
++      "engines": {
++        "node": ">=12"
++      },
++      "funding": {
++        "url": "https://github.com/sponsors/jonschlinkert"
++      }
++    },
++    "node_modules/rollup-plugin-livereload": {
+       "version": "2.0.5",
+       "resolved": "https://registry.npmjs.org/rollup-plugin-livereload/-/rollup-plugin-livereload-2.0.5.tgz",
+       "integrity": "sha512-vqQZ/UQowTW7VoiKEM5ouNW90wE5/GZLfdWuR0ELxyKOJUIaj+uismPZZaICU4DnWPVjnpCDDxEqwU7pcKY/PA==",
+       "dev": true,
+-      "requires": {
++      "dependencies": {
+         "livereload": "^0.9.1"
++      },
++      "engines": {
++        "node": ">=8.3"
+       }
+     },
+-    "rollup-plugin-svelte": {
+-      "version": "7.1.0",
+-      "resolved": "https://registry.npmjs.org/rollup-plugin-svelte/-/rollup-plugin-svelte-7.1.0.tgz",
+-      "integrity": "sha512-vopCUq3G+25sKjwF5VilIbiY6KCuMNHP1PFvx2Vr3REBNMDllKHFZN2B9jwwC+MqNc3UPKkjXnceLPEjTjXGXg==",
++    "node_modules/rollup-plugin-svelte": {
++      "version": "7.2.2",
++      "resolved": "https://registry.npmjs.org/rollup-plugin-svelte/-/rollup-plugin-svelte-7.2.2.tgz",
++      "integrity": "sha512-hgnIblTRewaBEVQD6N0Q43o+y6q1TmDRhBjaEzQCi50bs8TXqjc+d1zFZyE8tsfgcfNHZQzclh4RxlFUB85H8Q==",
+       "dev": true,
+-      "requires": {
+-        "require-relative": "^0.8.7",
+-        "rollup-pluginutils": "^2.8.2"
++      "license": "MIT",
++      "dependencies": {
++        "@rollup/pluginutils": "^4.1.0",
++        "resolve.exports": "^2.0.0"
++      },
++      "engines": {
++        "node": ">=10"
++      },
++      "peerDependencies": {
++        "rollup": ">=2.0.0",
++        "svelte": ">=3.5.0"
++      }
++    },
++    "node_modules/rollup-plugin-svelte/node_modules/@rollup/pluginutils": {
++      "version": "4.2.1",
++      "resolved": "https://registry.npmjs.org/@rollup/pluginutils/-/pluginutils-4.2.1.tgz",
++      "integrity": "sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ==",
++      "dev": true,
++      "license": "MIT",
++      "dependencies": {
++        "estree-walker": "^2.0.1",
++        "picomatch": "^2.2.2"
++      },
++      "engines": {
++        "node": ">= 8.0.0"
+       }
+     },
+-    "rollup-plugin-terser": {
++    "node_modules/rollup-plugin-terser": {
+       "version": "7.0.2",
+       "resolved": "https://registry.npmjs.org/rollup-plugin-terser/-/rollup-plugin-terser-7.0.2.tgz",
+       "integrity": "sha512-w3iIaU4OxcF52UUXiZNsNeuXIMDvFrr+ZXK6bFZ0Q60qyVfq4uLptoS4bbq3paG3x216eQllFZX7zt6TIImguQ==",
++      "deprecated": "This package has been deprecated and is no longer maintained. Please use @rollup/plugin-terser",
+       "dev": true,
+-      "requires": {
++      "dependencies": {
+         "@babel/code-frame": "^7.10.4",
+         "jest-worker": "^26.2.1",
+         "serialize-javascript": "^4.0.0",
+         "terser": "^5.0.0"
+-      }
+-    },
+-    "rollup-pluginutils": {
+-      "version": "2.8.2",
+-      "resolved": "https://registry.npmjs.org/rollup-pluginutils/-/rollup-pluginutils-2.8.2.tgz",
+-      "integrity": "sha512-EEp9NhnUkwY8aif6bxgovPHMoMoNr2FulJziTndpt5H9RdwC47GSGuII9XxpSdzVGM0GWrNPHV6ie1LTNJPaLQ==",
+-      "dev": true,
+-      "requires": {
+-        "estree-walker": "^0.6.1"
+       },
+-      "dependencies": {
+-        "estree-walker": {
+-          "version": "0.6.1",
+-          "resolved": "https://registry.npmjs.org/estree-walker/-/estree-walker-0.6.1.tgz",
+-          "integrity": "sha512-SqmZANLWS0mnatqbSfRP5g8OXZC12Fgg1IwNtLsyHDzJizORW4khDfjPqJZsemPWBB2uqykUah5YpQ6epsqC/w==",
+-          "dev": true
+-        }
++      "peerDependencies": {
++        "rollup": "^2.0.0"
+       }
+     },
+-    "run-async": {
+-      "version": "2.4.1",
+-      "resolved": "https://registry.npmjs.org/run-async/-/run-async-2.4.1.tgz",
+-      "integrity": "sha512-tvVnVv01b8c1RrA6Ep7JkStj85Guv/YrMcwqYQnwjsAS2cTmmPGBBjAjpCW7RrSodNSoE2/qg9O4bceNvUuDgQ==",
+-      "dev": true
+-    },
+-    "run-parallel": {
++    "node_modules/run-parallel": {
+       "version": "1.2.0",
+       "resolved": "https://registry.npmjs.org/run-parallel/-/run-parallel-1.2.0.tgz",
+       "integrity": "sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==",
+       "dev": true,
+-      "requires": {
++      "funding": [
++        {
++          "type": "github",
++          "url": "https://github.com/sponsors/feross"
++        },
++        {
++          "type": "patreon",
++          "url": "https://www.patreon.com/feross"
++        },
++        {
++          "type": "consulting",
++          "url": "https://feross.org/support"
++        }
++      ],
++      "dependencies": {
+         "queue-microtask": "^1.2.2"
+       }
+     },
+-    "rxjs": {
+-      "version": "7.3.0",
+-      "resolved": "https://registry.npmjs.org/rxjs/-/rxjs-7.3.0.tgz",
+-      "integrity": "sha512-p2yuGIg9S1epc3vrjKf6iVb3RCaAYjYskkO+jHIaV0IjOPlJop4UnodOoFb2xeNwlguqLYvGw1b1McillYb5Gw==",
+-      "requires": {
+-        "tslib": "~2.1.0"
+-      },
++    "node_modules/sade": {
++      "version": "1.8.1",
++      "resolved": "https://registry.npmjs.org/sade/-/sade-1.8.1.tgz",
++      "integrity": "sha512-xal3CZX1Xlo/k4ApwCFrHVACi9fBqJ7V+mwhBsuf/1IOKbBy098Fex+Wa/5QMubw09pSZ/u8EY8PWgevJsXp1A==",
++      "license": "MIT",
+       "dependencies": {
+-        "tslib": {
+-          "version": "2.1.0",
+-          "resolved": "https://registry.npmjs.org/tslib/-/tslib-2.1.0.tgz",
+-          "integrity": "sha512-hcVC3wYEziELGGmEEXue7D75zbwIIVUMWAVbHItGPx0ziyXxrOMQx4rQEVEV45Ut/1IotuEvwqPopzIOkDMf0A=="
+-        }
+-      }
+-    },
+-    "sade": {
+-      "version": "1.7.4",
+-      "resolved": "https://registry.npmjs.org/sade/-/sade-1.7.4.tgz",
+-      "integrity": "sha512-y5yauMD93rX840MwUJr7C1ysLFBgMspsdTo4UVrDg3fXDvtwOyIqykhVAAm6fk/3au77773itJStObgK+LKaiA==",
+-      "requires": {
+         "mri": "^1.1.0"
++      },
++      "engines": {
++        "node": ">=6"
+       }
+     },
+-    "safe-buffer": {
++    "node_modules/safe-buffer": {
+       "version": "5.2.1",
+       "resolved": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz",
+       "integrity": "sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==",
+-      "dev": true
++      "dev": true,
++      "funding": [
++        {
++          "type": "github",
++          "url": "https://github.com/sponsors/feross"
++        },
++        {
++          "type": "patreon",
++          "url": "https://www.patreon.com/feross"
++        },
++        {
++          "type": "consulting",
++          "url": "https://feross.org/support"
++        }
++      ]
+     },
+-    "safer-buffer": {
++    "node_modules/safer-buffer": {
+       "version": "2.1.2",
+       "resolved": "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz",
+       "integrity": "sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==",
+       "dev": true
+     },
+-    "sander": {
++    "node_modules/sander": {
+       "version": "0.5.1",
+       "resolved": "https://registry.npmjs.org/sander/-/sander-0.5.1.tgz",
+-      "integrity": "sha1-dB4kXiMfB8r7b98PEzrfohalAq0=",
++      "integrity": "sha512-3lVqBir7WuKDHGrKRDn/1Ye3kwpXaDOMsiRP1wd6wpZW56gJhsbp5RqQpA6JG/P+pkXizygnr1dKR8vzWaVsfA==",
+       "dev": true,
+-      "requires": {
++      "license": "MIT",
++      "dependencies": {
+         "es6-promise": "^3.1.2",
+         "graceful-fs": "^4.1.3",
+         "mkdirp": "^0.5.1",
+         "rimraf": "^2.5.2"
+       }
+     },
+-    "semiver": {
++    "node_modules/semiver": {
+       "version": "1.1.0",
+       "resolved": "https://registry.npmjs.org/semiver/-/semiver-1.1.0.tgz",
+-      "integrity": "sha512-QNI2ChmuioGC1/xjyYwyZYADILWyW6AmS1UH6gDj/SFUUUS4MBAWs/7mxnkRPc/F4iHezDP+O8t0dO8WHiEOdg=="
++      "integrity": "sha512-QNI2ChmuioGC1/xjyYwyZYADILWyW6AmS1UH6gDj/SFUUUS4MBAWs/7mxnkRPc/F4iHezDP+O8t0dO8WHiEOdg==",
++      "engines": {
++        "node": ">=6"
++      }
+     },
+-    "serialize-javascript": {
++    "node_modules/serialize-javascript": {
+       "version": "4.0.0",
+       "resolved": "https://registry.npmjs.org/serialize-javascript/-/serialize-javascript-4.0.0.tgz",
+       "integrity": "sha512-GaNA54380uFefWghODBWEGisLZFj00nS5ACs6yHa9nLqlLpVLO8ChDGeKRjZnV4Nh4n0Qi7nhYZD/9fCPzEqkw==",
+       "dev": true,
+-      "requires": {
++      "dependencies": {
+         "randombytes": "^2.1.0"
+       }
+     },
+-    "signal-exit": {
+-      "version": "3.0.3",
+-      "resolved": "https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.3.tgz",
+-      "integrity": "sha512-VUJ49FC8U1OxwZLxIbTTrDvLnf/6TDgxZcK8wxR8zs13xpx7xbG60ndBlhNrFi2EMuFRoeDoJO7wthSLq42EjA==",
+-      "dev": true
+-    },
+-    "simple-swizzle": {
++    "node_modules/simple-swizzle": {
+       "version": "0.2.2",
+       "resolved": "https://registry.npmjs.org/simple-swizzle/-/simple-swizzle-0.2.2.tgz",
+       "integrity": "sha1-pNprY1/8zMoz9w0Xy5JZLeleVXo=",
+       "dev": true,
+-      "requires": {
++      "dependencies": {
+         "is-arrayish": "^0.3.1"
+       }
+     },
+-    "sirv": {
++    "node_modules/sirv": {
+       "version": "1.0.17",
+       "resolved": "https://registry.npmjs.org/sirv/-/sirv-1.0.17.tgz",
+       "integrity": "sha512-qx9go5yraB7ekT7bCMqUHJ5jEaOC/GXBxUWv+jeWnb7WzHUFdcQPGWk7YmAwFBaQBrogpuSqd/azbC2lZRqqmw==",
+-      "requires": {
++      "dependencies": {
+         "@polka/url": "^1.0.0-next.20",
+         "mime": "^2.3.1",
+         "totalist": "^1.0.0"
++      },
++      "engines": {
++        "node": ">= 10"
+       }
+     },
+-    "sirv-cli": {
++    "node_modules/sirv-cli": {
+       "version": "1.0.14",
+       "resolved": "https://registry.npmjs.org/sirv-cli/-/sirv-cli-1.0.14.tgz",
+       "integrity": "sha512-yyUTNr984ANKDloqepkYbBSqvx3buwYg2sQKPWjSU+IBia5loaoka2If8N9CMwt8AfP179cdEl7kYJ//iWJHjQ==",
+-      "requires": {
++      "dependencies": {
+         "console-clear": "^1.1.0",
+         "get-port": "^3.2.0",
+         "kleur": "^3.0.0",
+@@ -2090,71 +3637,94 @@
+         "semiver": "^1.0.0",
+         "sirv": "^1.0.13",
+         "tinydate": "^1.0.0"
++      },
++      "bin": {
++        "sirv": "bin.js"
++      },
++      "engines": {
++        "node": ">= 10"
+       }
+     },
+-    "sorcery": {
+-      "version": "0.10.0",
+-      "resolved": "https://registry.npmjs.org/sorcery/-/sorcery-0.10.0.tgz",
+-      "integrity": "sha1-iukK19fLBfxZ8asMY3hF1cFaUrc=",
++    "node_modules/sisteransi": {
++      "version": "1.0.5",
++      "resolved": "https://registry.npmjs.org/sisteransi/-/sisteransi-1.0.5.tgz",
++      "integrity": "sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==",
++      "dev": true,
++      "license": "MIT"
++    },
++    "node_modules/sorcery": {
++      "version": "0.11.1",
++      "resolved": "https://registry.npmjs.org/sorcery/-/sorcery-0.11.1.tgz",
++      "integrity": "sha512-o7npfeJE6wi6J9l0/5LKshFzZ2rMatRiCDwYeDQaOzqdzRJwALhX7mk/A/ecg6wjMu7wdZbmXfD2S/vpOg0bdQ==",
+       "dev": true,
+-      "requires": {
+-        "buffer-crc32": "^0.2.5",
++      "license": "MIT",
++      "dependencies": {
++        "@jridgewell/sourcemap-codec": "^1.4.14",
++        "buffer-crc32": "^1.0.0",
+         "minimist": "^1.2.0",
+-        "sander": "^0.5.0",
+-        "sourcemap-codec": "^1.3.0"
++        "sander": "^0.5.0"
++      },
++      "bin": {
++        "sorcery": "bin/sorcery"
+       }
+     },
+-    "source-map": {
+-      "version": "0.7.3",
+-      "resolved": "https://registry.npmjs.org/source-map/-/source-map-0.7.3.tgz",
+-      "integrity": "sha512-CkCj6giN3S+n9qrYiBTX5gystlENnRW5jZeNLHpe6aue+SrHcG5VYwujhW9s4dY31mEGsxBDrHR6oI69fTXsaQ==",
+-      "dev": true
+-    },
+-    "source-map-js": {
+-      "version": "0.6.2",
+-      "resolved": "https://registry.npmjs.org/source-map-js/-/source-map-js-0.6.2.tgz",
+-      "integrity": "sha512-/3GptzWzu0+0MBQFrDKzw/DvvMTUORvgY6k6jd/VS6iCR4RDTKWH6v6WPwQoUO8667uQEf9Oe38DxAYWY5F/Ug==",
+-      "dev": true
++    "node_modules/source-map-js": {
++      "version": "1.2.1",
++      "resolved": "https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz",
++      "integrity": "sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==",
++      "dev": true,
++      "license": "BSD-3-Clause",
++      "engines": {
++        "node": ">=0.10.0"
++      }
+     },
+-    "source-map-support": {
+-      "version": "0.5.19",
+-      "resolved": "https://registry.npmjs.org/source-map-support/-/source-map-support-0.5.19.tgz",
+-      "integrity": "sha512-Wonm7zOCIJzBGQdB+thsPar0kYuCIzYvxZwlBa87yi/Mdjv7Tip2cyVbLj5o0cFPN4EVkuTwb3GDDyUx2DGnGw==",
++    "node_modules/source-map-support": {
++      "version": "0.5.21",
++      "resolved": "https://registry.npmjs.org/source-map-support/-/source-map-support-0.5.21.tgz",
++      "integrity": "sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==",
+       "dev": true,
+-      "requires": {
++      "license": "MIT",
++      "dependencies": {
+         "buffer-from": "^1.0.0",
+         "source-map": "^0.6.0"
+-      },
+-      "dependencies": {
+-        "source-map": {
+-          "version": "0.6.1",
+-          "resolved": "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz",
+-          "integrity": "sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==",
+-          "dev": true
+-        }
+       }
+     },
+-    "sourcemap-codec": {
++    "node_modules/source-map-support/node_modules/source-map": {
++      "version": "0.6.1",
++      "resolved": "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz",
++      "integrity": "sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==",
++      "dev": true,
++      "license": "BSD-3-Clause",
++      "engines": {
++        "node": ">=0.10.0"
++      }
++    },
++    "node_modules/sourcemap-codec": {
+       "version": "1.4.8",
+       "resolved": "https://registry.npmjs.org/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz",
+       "integrity": "sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==",
++      "deprecated": "Please use @jridgewell/sourcemap-codec instead",
+       "dev": true
+     },
+-    "split": {
+-      "version": "0.3.1",
+-      "resolved": "https://registry.npmjs.org/split/-/split-0.3.1.tgz",
+-      "integrity": "sha1-zrzxQr9hu7ZLFBYo5ttIKikUZUw=",
++    "node_modules/split": {
++      "version": "1.0.1",
++      "resolved": "https://registry.npmjs.org/split/-/split-1.0.1.tgz",
++      "integrity": "sha512-mTyOoPbrivtXnwnIxZRFYRrPNtEFKlpB2fvjSnCQUiAA6qAZzqwna5envK4uk6OIeP17CsdF3rSBGYVBsU0Tkg==",
+       "dev": true,
+-      "requires": {
++      "license": "MIT",
++      "dependencies": {
+         "through": "2"
++      },
++      "engines": {
++        "node": "*"
+       }
+     },
+-    "sshpk": {
++    "node_modules/sshpk": {
+       "version": "1.16.1",
+       "resolved": "https://registry.npmjs.org/sshpk/-/sshpk-1.16.1.tgz",
+       "integrity": "sha512-HXXqVUq7+pcKeLqqZj6mHFUMvXtOJt1uoUx09pFW6011inTMxqI8BA8PM95myrIyyKwdnzjdFjLiE6KBPVtJIg==",
+       "dev": true,
+-      "requires": {
++      "dependencies": {
+         "asn1": "~0.2.3",
+         "assert-plus": "^1.0.0",
+         "bcrypt-pbkdf": "^1.0.0",
+@@ -2164,204 +3734,376 @@
+         "jsbn": "~0.1.0",
+         "safer-buffer": "^2.0.2",
+         "tweetnacl": "~0.14.0"
++      },
++      "bin": {
++        "sshpk-conv": "bin/sshpk-conv",
++        "sshpk-sign": "bin/sshpk-sign",
++        "sshpk-verify": "bin/sshpk-verify"
++      },
++      "engines": {
++        "node": ">=0.10.0"
+       }
+     },
+-    "string-width": {
+-      "version": "2.1.1",
+-      "resolved": "https://registry.npmjs.org/string-width/-/string-width-2.1.1.tgz",
+-      "integrity": "sha512-nOqH59deCq9SRHlxq1Aw85Jnt4w6KvLKqWVik6oA9ZklXLNIOlqg4F2yrT1MVaTjAqvVwdfeZ7w7aCvJD7ugkw==",
++    "node_modules/string-width": {
++      "version": "4.2.3",
++      "resolved": "https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz",
++      "integrity": "sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==",
+       "dev": true,
+-      "requires": {
+-        "is-fullwidth-code-point": "^2.0.0",
+-        "strip-ansi": "^4.0.0"
++      "license": "MIT",
++      "dependencies": {
++        "emoji-regex": "^8.0.0",
++        "is-fullwidth-code-point": "^3.0.0",
++        "strip-ansi": "^6.0.1"
++      },
++      "engines": {
++        "node": ">=8"
+       }
+     },
+-    "strip-ansi": {
+-      "version": "4.0.0",
+-      "resolved": "https://registry.npmjs.org/strip-ansi/-/strip-ansi-4.0.0.tgz",
+-      "integrity": "sha1-qEeQIusaw2iocTibY1JixQXuNo8=",
++    "node_modules/strip-ansi": {
++      "version": "6.0.1",
++      "resolved": "https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz",
++      "integrity": "sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==",
+       "dev": true,
+-      "requires": {
+-        "ansi-regex": "^3.0.0"
++      "license": "MIT",
++      "dependencies": {
++        "ansi-regex": "^5.0.1"
++      },
++      "engines": {
++        "node": ">=8"
+       }
+     },
+-    "strip-indent": {
++    "node_modules/strip-indent": {
+       "version": "3.0.0",
+       "resolved": "https://registry.npmjs.org/strip-indent/-/strip-indent-3.0.0.tgz",
+       "integrity": "sha512-laJTa3Jb+VQpaC6DseHhF7dXVqHTfJPCRDaEbid/drOhgitgYku/letMUqOXFoWV0zIIUbjpdH2t+tYj4bQMRQ==",
+       "dev": true,
+-      "requires": {
++      "license": "MIT",
++      "dependencies": {
+         "min-indent": "^1.0.0"
++      },
++      "engines": {
++        "node": ">=8"
+       }
+     },
+-    "supports-color": {
++    "node_modules/supports-color": {
+       "version": "5.5.0",
+       "resolved": "https://registry.npmjs.org/supports-color/-/supports-color-5.5.0.tgz",
+       "integrity": "sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==",
+       "dev": true,
+-      "requires": {
++      "dependencies": {
+         "has-flag": "^3.0.0"
++      },
++      "engines": {
++        "node": ">=4"
+       }
+     },
+-    "surge": {
+-      "version": "0.23.0",
+-      "resolved": "https://registry.npmjs.org/surge/-/surge-0.23.0.tgz",
+-      "integrity": "sha512-9SJEREttCb/aMpp7hcNHh33hniv1Lh3hI22TqHKGHU6YEYU4Iovs11K4vtgWhODAyCY1md2/vHj1M35MI6WnBg==",
++    "node_modules/surge": {
++      "version": "0.24.6",
++      "resolved": "https://registry.npmjs.org/surge/-/surge-0.24.6.tgz",
++      "integrity": "sha512-tfJpTBlTyrAgmEVp21cyagcszFXNBZA6Ba9SkngRHHtKtfbJdJXQ7G1udW6HTLaUkzWDB7aheiyG+NSkZy/0PQ==",
+       "dev": true,
+-      "requires": {
+-        "cli-table3": "^0.5.1",
+-        "colors": "^1.4.0",
+-        "inquirer": "^6.2.2",
++      "license": "ISC",
++      "dependencies": {
++        "babar": "^0.2.0",
++        "cli-table3": "0.6.1",
++        "colors": "1.4.0",
++        "human-readable-numbers": "^0.9.5",
+         "is-domain": "0.0.1",
+-        "minimist": "1.2.3",
++        "minimist": "1.2.6",
+         "moniker": "0.1.2",
+         "netrc": "0.1.4",
+-        "progress": "1.1.8",
++        "progress": "2.0.3",
++        "prompts": "*",
+         "read": "1.0.5",
+         "request": "^2.88.0",
+-        "split": "0.3.1",
+-        "surge-fstream-ignore": "^1.0.6",
+         "surge-ignore": "0.2.0",
+-        "tarr": "1.1.0",
+-        "url-parse-as-address": "1.0.0"
++        "surge-sdk": "0.6.4",
++        "surge-stream": "0.6.4",
++        "url-parse-as-address": "1.0.0",
++        "xbytes": "^1.7.0"
+       },
++      "bin": {
++        "surge": "bin/surge"
++      }
++    },
++    "node_modules/surge-fstream-ignore": {
++      "version": "1.1.0",
++      "resolved": "https://registry.npmjs.org/surge-fstream-ignore/-/surge-fstream-ignore-1.1.0.tgz",
++      "integrity": "sha512-A3PZYu/d1/gCQtfI0k8uWQN5/WTKKsIAC1wGtCREbctXjE9cxgORZxJm6TCq/Wy6L1jl6PFQIpf4NidcWSkKMQ==",
++      "dev": true,
++      "license": "ISC",
+       "dependencies": {
+-        "minimist": {
+-          "version": "1.2.3",
+-          "resolved": "https://registry.npmjs.org/minimist/-/minimist-1.2.3.tgz",
+-          "integrity": "sha512-+bMdgqjMN/Z77a6NlY/I3U5LlRDbnmaAk6lDveAPKwSpcPM4tKAuYsvYF8xjhOPXhOYGe/73vVLVez5PW+jqhw==",
+-          "dev": true
+-        }
++        "fstream": "1.0.12",
++        "inherits": "2.0.4",
++        "minimatch": "7.4.6"
+       }
+     },
+-    "surge-fstream-ignore": {
+-      "version": "1.0.6",
+-      "resolved": "https://registry.npmjs.org/surge-fstream-ignore/-/surge-fstream-ignore-1.0.6.tgz",
+-      "integrity": "sha512-hNN52cz2fYCAzhlHmWPn4aE3bFbpBt01AkWFLljrtSzFvxlipLAeLuLtQ3t4f0RKoUkjzXWCAFK13WoET2iM1A==",
++    "node_modules/surge-fstream-ignore/node_modules/brace-expansion": {
++      "version": "2.0.1",
++      "resolved": "https://registry.npmjs.org/brace-expansion/-/brace-expansion-2.0.1.tgz",
++      "integrity": "sha512-XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA==",
+       "dev": true,
+-      "requires": {
+-        "fstream": ">=1.0.12",
+-        "inherits": "2",
+-        "minimatch": "^3.0.0"
++      "license": "MIT",
++      "dependencies": {
++        "balanced-match": "^1.0.0"
+       }
+     },
+-    "surge-ignore": {
++    "node_modules/surge-fstream-ignore/node_modules/minimatch": {
++      "version": "7.4.6",
++      "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-7.4.6.tgz",
++      "integrity": "sha512-sBz8G/YjVniEz6lKPNpKxXwazJe4c19fEfV2GDMX6AjFz+MX9uDWIZW8XreVhkFW3fkIdTv/gxWr/Kks5FFAVw==",
++      "dev": true,
++      "license": "ISC",
++      "dependencies": {
++        "brace-expansion": "^2.0.1"
++      },
++      "engines": {
++        "node": ">=10"
++      },
++      "funding": {
++        "url": "https://github.com/sponsors/isaacs"
++      }
++    },
++    "node_modules/surge-ignore": {
+       "version": "0.2.0",
+       "resolved": "https://registry.npmjs.org/surge-ignore/-/surge-ignore-0.2.0.tgz",
+       "integrity": "sha1-Wn+KIKcRiM+edaLP6OsYLekNrzs=",
+       "dev": true
+     },
+-    "svelte": {
+-      "version": "3.42.4",
+-      "resolved": "https://registry.npmjs.org/svelte/-/svelte-3.42.4.tgz",
+-      "integrity": "sha512-DqC0AmDdBrrbIA+Kzl3yhBb6qCn4vZOAfxye2pTnIpinLegyagC5sLI8Pe9GPlXu9VpHBXIwpDDedpMfu++epA==",
+-      "dev": true
++    "node_modules/surge-sdk": {
++      "version": "0.6.4",
++      "resolved": "https://registry.npmjs.org/surge-sdk/-/surge-sdk-0.6.4.tgz",
++      "integrity": "sha512-v22+Kz8oyO/SL9EULWj2d+WuZFEL07UWfOaCBMDrcwSi1gf1GNmadhlJRSlvZ/IVUW1/PoyVlckKNkYXqiuxTw==",
++      "dev": true,
++      "license": "ISC",
++      "dependencies": {
++        "axios": "1.7.3"
++      }
++    },
++    "node_modules/surge-stream": {
++      "version": "0.6.4",
++      "resolved": "https://registry.npmjs.org/surge-stream/-/surge-stream-0.6.4.tgz",
++      "integrity": "sha512-wf2Pl/R5vPMFNQkEajzNggRWhWHeeeW7XtTbfUWhjndId651yk3eLbns5B3t56L2Z5SzWEec7SIeKgoTph2A6g==",
++      "dev": true,
++      "license": "ISC",
++      "dependencies": {
++        "axios": "1.7.3",
++        "request": "^2.88.0",
++        "split": "^1.0.1",
++        "surge-fstream-ignore": "^1.1.0",
++        "surge-ignore": "^0.3.0",
++        "tarr": "^1.1.0"
++      }
++    },
++    "node_modules/surge-stream/node_modules/surge-ignore": {
++      "version": "0.3.0",
++      "resolved": "https://registry.npmjs.org/surge-ignore/-/surge-ignore-0.3.0.tgz",
++      "integrity": "sha512-tFq03FSTC2w6iVyJkzgFzwa2+lW4DZheIvStTO4Vn82Mk1x9aJyt/WUz5sKZE9woCn5dPB7nLARVFqJXDv5trA==",
++      "dev": true,
++      "license": "MIT"
+     },
+-    "svelte-check": {
+-      "version": "2.2.5",
+-      "resolved": "https://registry.npmjs.org/svelte-check/-/svelte-check-2.2.5.tgz",
+-      "integrity": "sha512-EstDoqxjqWStWELh7Z0qytqUDl/ikdNEr21dveNc4fUDnhnqO2F2jHEufqoNnC3GfBji3GIUHvoXsp/I5lMbCg==",
++    "node_modules/surge/node_modules/minimist": {
++      "version": "1.2.6",
++      "resolved": "https://registry.npmjs.org/minimist/-/minimist-1.2.6.tgz",
++      "integrity": "sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==",
+       "dev": true,
+-      "requires": {
+-        "chalk": "^4.0.0",
++      "license": "MIT"
++    },
++    "node_modules/svelte": {
++      "version": "5.28.2",
++      "resolved": "https://registry.npmjs.org/svelte/-/svelte-5.28.2.tgz",
++      "integrity": "sha512-FbWBxgWOpQfhKvoGJv/TFwzqb4EhJbwCD17dB0tEpQiw1XyUEKZJtgm4nA4xq3LLsMo7hu5UY/BOFmroAxKTMg==",
++      "license": "MIT",
++      "dependencies": {
++        "@ampproject/remapping": "^2.3.0",
++        "@jridgewell/sourcemap-codec": "^1.5.0",
++        "@sveltejs/acorn-typescript": "^1.0.5",
++        "@types/estree": "^1.0.5",
++        "acorn": "^8.12.1",
++        "aria-query": "^5.3.1",
++        "axobject-query": "^4.1.0",
++        "clsx": "^2.1.1",
++        "esm-env": "^1.2.1",
++        "esrap": "^1.4.6",
++        "is-reference": "^3.0.3",
++        "locate-character": "^3.0.0",
++        "magic-string": "^0.30.11",
++        "zimmerframe": "^1.1.2"
++      },
++      "engines": {
++        "node": ">=18"
++      }
++    },
++    "node_modules/svelte-check": {
++      "version": "3.8.6",
++      "resolved": "https://registry.npmjs.org/svelte-check/-/svelte-check-3.8.6.tgz",
++      "integrity": "sha512-ij0u4Lw/sOTREP13BdWZjiXD/BlHE6/e2e34XzmVmsp5IN4kVa3PWP65NM32JAgwjZlwBg/+JtiNV1MM8khu0Q==",
++      "dev": true,
++      "license": "MIT",
++      "dependencies": {
++        "@jridgewell/trace-mapping": "^0.3.17",
+         "chokidar": "^3.4.1",
+-        "glob": "^7.1.6",
+-        "import-fresh": "^3.2.1",
+-        "minimist": "^1.2.5",
++        "picocolors": "^1.0.0",
+         "sade": "^1.7.4",
+-        "source-map": "^0.7.3",
+-        "svelte-preprocess": "^4.0.0",
+-        "typescript": "*"
+-      },
+-      "dependencies": {
+-        "ansi-styles": {
+-          "version": "4.3.0",
+-          "resolved": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz",
+-          "integrity": "sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==",
+-          "dev": true,
+-          "requires": {
+-            "color-convert": "^2.0.1"
+-          }
++        "svelte-preprocess": "^5.1.3",
++        "typescript": "^5.0.3"
++      },
++      "bin": {
++        "svelte-check": "bin/svelte-check"
++      },
++      "peerDependencies": {
++        "svelte": "^3.55.0 || ^4.0.0-next.0 || ^4.0.0 || ^5.0.0-next.0"
++      }
++    },
++    "node_modules/svelte-i18n": {
++      "version": "4.0.1",
++      "resolved": "https://registry.npmjs.org/svelte-i18n/-/svelte-i18n-4.0.1.tgz",
++      "integrity": "sha512-jaykGlGT5PUaaq04JWbJREvivlCnALtT+m87Kbm0fxyYHynkQaxQMnIKHLm2WeIuBRoljzwgyvz0Z6/CMwfdmQ==",
++      "license": "MIT",
++      "dependencies": {
++        "cli-color": "^2.0.3",
++        "deepmerge": "^4.2.2",
++        "esbuild": "^0.19.2",
++        "estree-walker": "^2",
++        "intl-messageformat": "^10.5.3",
++        "sade": "^1.8.1",
++        "tiny-glob": "^0.2.9"
++      },
++      "bin": {
++        "svelte-i18n": "dist/cli.js"
++      },
++      "engines": {
++        "node": ">= 16"
++      },
++      "peerDependencies": {
++        "svelte": "^3 || ^4 || ^5"
++      }
++    },
++    "node_modules/svelte-preprocess": {
++      "version": "5.1.4",
++      "resolved": "https://registry.npmjs.org/svelte-preprocess/-/svelte-preprocess-5.1.4.tgz",
++      "integrity": "sha512-IvnbQ6D6Ao3Gg6ftiM5tdbR6aAETwjhHV+UKGf5bHGYR69RQvF1ho0JKPcbUON4vy4R7zom13jPjgdOWCQ5hDA==",
++      "dev": true,
++      "hasInstallScript": true,
++      "license": "MIT",
++      "dependencies": {
++        "@types/pug": "^2.0.6",
++        "detect-indent": "^6.1.0",
++        "magic-string": "^0.30.5",
++        "sorcery": "^0.11.0",
++        "strip-indent": "^3.0.0"
++      },
++      "engines": {
++        "node": ">= 16.0.0"
++      },
++      "peerDependencies": {
++        "@babel/core": "^7.10.2",
++        "coffeescript": "^2.5.1",
++        "less": "^3.11.3 || ^4.0.0",
++        "postcss": "^7 || ^8",
++        "postcss-load-config": "^2.1.0 || ^3.0.0 || ^4.0.0 || ^5.0.0",
++        "pug": "^3.0.0",
++        "sass": "^1.26.8",
++        "stylus": "^0.55.0",
++        "sugarss": "^2.0.0 || ^3.0.0 || ^4.0.0",
++        "svelte": "^3.23.0 || ^4.0.0-next.0 || ^4.0.0 || ^5.0.0-next.0",
++        "typescript": ">=3.9.5 || ^4.0.0 || ^5.0.0"
++      },
++      "peerDependenciesMeta": {
++        "@babel/core": {
++          "optional": true
++        },
++        "coffeescript": {
++          "optional": true
++        },
++        "less": {
++          "optional": true
++        },
++        "postcss": {
++          "optional": true
+         },
+-        "chalk": {
+-          "version": "4.1.2",
+-          "resolved": "https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz",
+-          "integrity": "sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==",
+-          "dev": true,
+-          "requires": {
+-            "ansi-styles": "^4.1.0",
+-            "supports-color": "^7.1.0"
+-          }
++        "postcss-load-config": {
++          "optional": true
+         },
+-        "color-convert": {
+-          "version": "2.0.1",
+-          "resolved": "https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz",
+-          "integrity": "sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==",
+-          "dev": true,
+-          "requires": {
+-            "color-name": "~1.1.4"
+-          }
++        "pug": {
++          "optional": true
+         },
+-        "color-name": {
+-          "version": "1.1.4",
+-          "resolved": "https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz",
+-          "integrity": "sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==",
+-          "dev": true
++        "sass": {
++          "optional": true
+         },
+-        "has-flag": {
+-          "version": "4.0.0",
+-          "resolved": "https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz",
+-          "integrity": "sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==",
+-          "dev": true
++        "stylus": {
++          "optional": true
+         },
+-        "supports-color": {
+-          "version": "7.2.0",
+-          "resolved": "https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz",
+-          "integrity": "sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==",
+-          "dev": true,
+-          "requires": {
+-            "has-flag": "^4.0.0"
+-          }
++        "sugarss": {
++          "optional": true
++        },
++        "typescript": {
++          "optional": true
+         }
+       }
+     },
+-    "svelte-i18n": {
+-      "version": "3.3.10",
+-      "resolved": "https://registry.npmjs.org/svelte-i18n/-/svelte-i18n-3.3.10.tgz",
+-      "integrity": "sha512-MWoiZOCgX2P57UqjSp2Sly6csSuySoxbmC/e+vak3valteEa0CqHYzPTA6NNNj8pBCpdaMp9sBRkG1eebk0rFg==",
+-      "requires": {
+-        "deepmerge": "^4.2.2",
+-        "estree-walker": "^2.0.1",
+-        "intl-messageformat": "^9.3.15",
+-        "sade": "^1.7.4",
+-        "tiny-glob": "^0.2.6"
++    "node_modules/svelte-preprocess/node_modules/magic-string": {
++      "version": "0.30.17",
++      "resolved": "https://registry.npmjs.org/magic-string/-/magic-string-0.30.17.tgz",
++      "integrity": "sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==",
++      "dev": true,
++      "license": "MIT",
++      "dependencies": {
++        "@jridgewell/sourcemap-codec": "^1.5.0"
+       }
+     },
+-    "svelte-observable": {
+-      "version": "0.4.0",
+-      "resolved": "https://registry.npmjs.org/svelte-observable/-/svelte-observable-0.4.0.tgz",
+-      "integrity": "sha512-e8CfnkUfOZ/nAIpdFi+g63lS5oU+8J+KKhwkHpO0/reADeTBbIiVbcCqVrLsETp8+i+4ydQoawNCwMP/C8oMyA=="
+-    },
+-    "svelte-preprocess": {
+-      "version": "4.9.2",
+-      "resolved": "https://registry.npmjs.org/svelte-preprocess/-/svelte-preprocess-4.9.2.tgz",
+-      "integrity": "sha512-Eu/09bEpcBD8a9pGxcILEAZssXifnWoi5ad5GgUAgoT4alblNikOIpKrWDFkepMqjgioXciWbIZOROoTX3ZLdA==",
+-      "dev": true,
+-      "requires": {
+-        "@types/pug": "^2.0.4",
+-        "@types/sass": "^1.16.0",
+-        "detect-indent": "^6.0.0",
+-        "magic-string": "^0.25.7",
+-        "sorcery": "^0.10.0",
+-        "strip-indent": "^3.0.0"
++    "node_modules/svelte/node_modules/@sveltejs/acorn-typescript": {
++      "version": "1.0.5",
++      "resolved": "https://registry.npmjs.org/@sveltejs/acorn-typescript/-/acorn-typescript-1.0.5.tgz",
++      "integrity": "sha512-IwQk4yfwLdibDlrXVE04jTZYlLnwsTT2PIOQQGNLWfjavGifnk1JD1LcZjZaBTRcxZu2FfPfNLOE04DSu9lqtQ==",
++      "license": "MIT",
++      "peerDependencies": {
++        "acorn": "^8.9.0"
++      }
++    },
++    "node_modules/svelte/node_modules/@types/estree": {
++      "version": "1.0.7",
++      "resolved": "https://registry.npmjs.org/@types/estree/-/estree-1.0.7.tgz",
++      "integrity": "sha512-w28IoSUCJpidD/TGviZwwMJckNESJZXFu7NBZ5YJ4mEUnNraUn9Pm8HSZm/jDF1pDWYKspWE7oVphigUPRakIQ==",
++      "license": "MIT"
++    },
++    "node_modules/svelte/node_modules/acorn": {
++      "version": "8.14.1",
++      "resolved": "https://registry.npmjs.org/acorn/-/acorn-8.14.1.tgz",
++      "integrity": "sha512-OvQ/2pUDKmgfCg++xsTX1wGxfTaszcHVcTctW4UJB4hibJx2HXxxO5UmVgyjMa+ZDsiaf5wWLXYpRWMmBI0QHg==",
++      "license": "MIT",
++      "bin": {
++        "acorn": "bin/acorn"
++      },
++      "engines": {
++        "node": ">=0.4.0"
++      }
++    },
++    "node_modules/svelte/node_modules/is-reference": {
++      "version": "3.0.3",
++      "resolved": "https://registry.npmjs.org/is-reference/-/is-reference-3.0.3.tgz",
++      "integrity": "sha512-ixkJoqQvAP88E6wLydLGGqCJsrFUnqoH6HnaczB8XmDH1oaWU+xxdptvikTgaEhtZ53Ky6YXiBuUI2WXLMCwjw==",
++      "license": "MIT",
++      "dependencies": {
++        "@types/estree": "^1.0.6"
+       }
+     },
+-    "tailwindcss": {
+-      "version": "2.2.14",
+-      "resolved": "https://registry.npmjs.org/tailwindcss/-/tailwindcss-2.2.14.tgz",
+-      "integrity": "sha512-gQQPKbV8qb8GthGhJGbRR+lKluSpFq+L78CJZLmqumEBKPMDkD+l5wFlOTzlOhWozG4S1I9AUSaPkD1EfnNsug==",
++    "node_modules/svelte/node_modules/magic-string": {
++      "version": "0.30.17",
++      "resolved": "https://registry.npmjs.org/magic-string/-/magic-string-0.30.17.tgz",
++      "integrity": "sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==",
++      "license": "MIT",
++      "dependencies": {
++        "@jridgewell/sourcemap-codec": "^1.5.0"
++      }
++    },
++    "node_modules/tailwindcss": {
++      "version": "2.2.19",
++      "resolved": "https://registry.npmjs.org/tailwindcss/-/tailwindcss-2.2.19.tgz",
++      "integrity": "sha512-6Ui7JSVtXadtTUo2NtkBBacobzWiQYVjYW0ZnKaP9S1ZCKQ0w7KVNz+YSDI/j7O7KCMHbOkz94ZMQhbT9pOqjw==",
+       "dev": true,
+-      "requires": {
++      "license": "MIT",
++      "dependencies": {
+         "arg": "^5.0.1",
+         "bytes": "^3.0.0",
+         "chalk": "^4.1.2",
+@@ -2395,251 +4137,439 @@
+         "resolve": "^1.20.0",
+         "tmp": "^0.2.1"
+       },
++      "bin": {
++        "tailwind": "lib/cli.js",
++        "tailwindcss": "lib/cli.js"
++      },
++      "engines": {
++        "node": ">=12.13.0"
++      },
++      "peerDependencies": {
++        "autoprefixer": "^10.0.2",
++        "postcss": "^8.0.9"
++      }
++    },
++    "node_modules/tailwindcss/node_modules/ansi-styles": {
++      "version": "4.3.0",
++      "resolved": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz",
++      "integrity": "sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==",
++      "dev": true,
+       "dependencies": {
+-        "ansi-styles": {
+-          "version": "4.3.0",
+-          "resolved": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz",
+-          "integrity": "sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==",
+-          "dev": true,
+-          "requires": {
+-            "color-convert": "^2.0.1"
+-          }
+-        },
+-        "chalk": {
+-          "version": "4.1.2",
+-          "resolved": "https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz",
+-          "integrity": "sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==",
+-          "dev": true,
+-          "requires": {
+-            "ansi-styles": "^4.1.0",
+-            "supports-color": "^7.1.0"
+-          }
+-        },
+-        "color-convert": {
+-          "version": "2.0.1",
+-          "resolved": "https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz",
+-          "integrity": "sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==",
+-          "dev": true,
+-          "requires": {
+-            "color-name": "~1.1.4"
+-          }
+-        },
+-        "color-name": {
+-          "version": "1.1.4",
+-          "resolved": "https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz",
+-          "integrity": "sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==",
+-          "dev": true
+-        },
+-        "glob-parent": {
+-          "version": "6.0.1",
+-          "resolved": "https://registry.npmjs.org/glob-parent/-/glob-parent-6.0.1.tgz",
+-          "integrity": "sha512-kEVjS71mQazDBHKcsq4E9u/vUzaLcw1A8EtUeydawvIWQCJM0qQ08G1H7/XTjFUulla6XQiDOG6MXSaG0HDKog==",
+-          "dev": true,
+-          "requires": {
+-            "is-glob": "^4.0.1"
+-          }
+-        },
+-        "has-flag": {
+-          "version": "4.0.0",
+-          "resolved": "https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz",
+-          "integrity": "sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==",
+-          "dev": true
+-        },
+-        "supports-color": {
+-          "version": "7.2.0",
+-          "resolved": "https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz",
+-          "integrity": "sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==",
+-          "dev": true,
+-          "requires": {
+-            "has-flag": "^4.0.0"
+-          }
+-        }
++        "color-convert": "^2.0.1"
++      },
++      "engines": {
++        "node": ">=8"
++      },
++      "funding": {
++        "url": "https://github.com/chalk/ansi-styles?sponsor=1"
++      }
++    },
++    "node_modules/tailwindcss/node_modules/chalk": {
++      "version": "4.1.2",
++      "resolved": "https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz",
++      "integrity": "sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==",
++      "dev": true,
++      "dependencies": {
++        "ansi-styles": "^4.1.0",
++        "supports-color": "^7.1.0"
++      },
++      "engines": {
++        "node": ">=10"
++      },
++      "funding": {
++        "url": "https://github.com/chalk/chalk?sponsor=1"
+       }
+     },
+-    "tarr": {
++    "node_modules/tailwindcss/node_modules/color-convert": {
++      "version": "2.0.1",
++      "resolved": "https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz",
++      "integrity": "sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==",
++      "dev": true,
++      "dependencies": {
++        "color-name": "~1.1.4"
++      },
++      "engines": {
++        "node": ">=7.0.0"
++      }
++    },
++    "node_modules/tailwindcss/node_modules/color-name": {
++      "version": "1.1.4",
++      "resolved": "https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz",
++      "integrity": "sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==",
++      "dev": true
++    },
++    "node_modules/tailwindcss/node_modules/glob-parent": {
++      "version": "6.0.1",
++      "resolved": "https://registry.npmjs.org/glob-parent/-/glob-parent-6.0.1.tgz",
++      "integrity": "sha512-kEVjS71mQazDBHKcsq4E9u/vUzaLcw1A8EtUeydawvIWQCJM0qQ08G1H7/XTjFUulla6XQiDOG6MXSaG0HDKog==",
++      "dev": true,
++      "dependencies": {
++        "is-glob": "^4.0.1"
++      },
++      "engines": {
++        "node": ">=10.13.0"
++      }
++    },
++    "node_modules/tailwindcss/node_modules/has-flag": {
++      "version": "4.0.0",
++      "resolved": "https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz",
++      "integrity": "sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==",
++      "dev": true,
++      "engines": {
++        "node": ">=8"
++      }
++    },
++    "node_modules/tailwindcss/node_modules/supports-color": {
++      "version": "7.2.0",
++      "resolved": "https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz",
++      "integrity": "sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==",
++      "dev": true,
++      "dependencies": {
++        "has-flag": "^4.0.0"
++      },
++      "engines": {
++        "node": ">=8"
++      }
++    },
++    "node_modules/tarr": {
+       "version": "1.1.0",
+       "resolved": "https://registry.npmjs.org/tarr/-/tarr-1.1.0.tgz",
+       "integrity": "sha512-tENbQ43IQckay71stp1p1lljRhoEZpZk10FzEZKW2tJcMcnLwV3CfZdxBAERlH6nwnFvnHMS9eJOJl6IzSsG0g==",
+       "dev": true,
+-      "requires": {
++      "license": "BSD",
++      "dependencies": {
+         "block-stream": "*",
+         "fstream": ">=1.0.12",
+         "inherits": "2"
+       }
+     },
+-    "terser": {
+-      "version": "5.7.2",
+-      "resolved": "https://registry.npmjs.org/terser/-/terser-5.7.2.tgz",
+-      "integrity": "sha512-0Omye+RD4X7X69O0eql3lC4Heh/5iLj3ggxR/B5ketZLOtLiOqukUgjw3q4PDnNQbsrkKr3UMypqStQG3XKRvw==",
++    "node_modules/terser": {
++      "version": "5.31.1",
++      "resolved": "https://registry.npmjs.org/terser/-/terser-5.31.1.tgz",
++      "integrity": "sha512-37upzU1+viGvuFtBo9NPufCb9dwM0+l9hMxYyWfBA+fbwrPqNJAhbZ6W47bBFnZHKHTUBnMvi87434qq+qnxOg==",
+       "dev": true,
+-      "requires": {
++      "license": "BSD-2-Clause",
++      "dependencies": {
++        "@jridgewell/source-map": "^0.3.3",
++        "acorn": "^8.8.2",
+         "commander": "^2.20.0",
+-        "source-map": "~0.7.2",
+-        "source-map-support": "~0.5.19"
++        "source-map-support": "~0.5.20"
++      },
++      "bin": {
++        "terser": "bin/terser"
++      },
++      "engines": {
++        "node": ">=10"
+       }
+     },
+-    "three": {
+-      "version": "0.132.2",
+-      "resolved": "https://registry.npmjs.org/three/-/three-0.132.2.tgz",
+-      "integrity": "sha512-0wcR7LxxkXMn6Gi58gEs3QvY8WpTVXA31L2VOvpjm4ZPYFRHCZC13UqynheFoS5OXDYgtBneN0dhbaNBE8iLhQ=="
++    "node_modules/terser/node_modules/acorn": {
++      "version": "8.12.0",
++      "resolved": "https://registry.npmjs.org/acorn/-/acorn-8.12.0.tgz",
++      "integrity": "sha512-RTvkC4w+KNXrM39/lWCUaG0IbRkWdCv7W/IOW9oU6SawyxulvkQy5HQPVTKxEjczcUvapcrw3cFx/60VN/NRNw==",
++      "dev": true,
++      "license": "MIT",
++      "bin": {
++        "acorn": "bin/acorn"
++      },
++      "engines": {
++        "node": ">=0.4.0"
++      }
++    },
++    "node_modules/three": {
++      "version": "0.176.0",
++      "resolved": "https://registry.npmjs.org/three/-/three-0.176.0.tgz",
++      "integrity": "sha512-PWRKYWQo23ojf9oZSlRGH8K09q7nRSWx6LY/HF/UUrMdYgN9i1e2OwJYHoQjwc6HF/4lvvYLC5YC1X8UJL2ZpA==",
++      "license": "MIT"
+     },
+-    "through": {
++    "node_modules/through": {
+       "version": "2.3.8",
+       "resolved": "https://registry.npmjs.org/through/-/through-2.3.8.tgz",
+-      "integrity": "sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=",
+-      "dev": true
++      "integrity": "sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==",
++      "dev": true,
++      "license": "MIT"
++    },
++    "node_modules/timers-ext": {
++      "version": "0.1.8",
++      "resolved": "https://registry.npmjs.org/timers-ext/-/timers-ext-0.1.8.tgz",
++      "integrity": "sha512-wFH7+SEAcKfJpfLPkrgMPvvwnEtj8W4IurvEyrKsDleXnKLCDw71w8jltvfLa8Rm4qQxxT4jmDBYbJG/z7qoww==",
++      "license": "ISC",
++      "dependencies": {
++        "es5-ext": "^0.10.64",
++        "next-tick": "^1.1.0"
++      },
++      "engines": {
++        "node": ">=0.12"
++      }
+     },
+-    "tiny-glob": {
++    "node_modules/tiny-glob": {
+       "version": "0.2.9",
+       "resolved": "https://registry.npmjs.org/tiny-glob/-/tiny-glob-0.2.9.tgz",
+       "integrity": "sha512-g/55ssRPUjShh+xkfx9UPDXqhckHEsHr4Vd9zX55oSdGZc/MD0m3sferOkwWtp98bv+kcVfEHtRJgBVJzelrzg==",
+-      "requires": {
++      "dependencies": {
+         "globalyzer": "0.1.0",
+         "globrex": "^0.1.2"
+       }
+     },
+-    "tinydate": {
++    "node_modules/tinydate": {
+       "version": "1.3.0",
+       "resolved": "https://registry.npmjs.org/tinydate/-/tinydate-1.3.0.tgz",
+-      "integrity": "sha512-7cR8rLy2QhYHpsBDBVYnnWXm8uRTr38RoZakFSW7Bs7PzfMPNZthuMLkwqZv7MTu8lhQ91cOFYS5a7iFj2oR3w=="
++      "integrity": "sha512-7cR8rLy2QhYHpsBDBVYnnWXm8uRTr38RoZakFSW7Bs7PzfMPNZthuMLkwqZv7MTu8lhQ91cOFYS5a7iFj2oR3w==",
++      "engines": {
++        "node": ">=4"
++      }
+     },
+-    "tmp": {
++    "node_modules/tmp": {
+       "version": "0.2.1",
+       "resolved": "https://registry.npmjs.org/tmp/-/tmp-0.2.1.tgz",
+       "integrity": "sha512-76SUhtfqR2Ijn+xllcI5P1oyannHNHByD80W1q447gU3mp9G9PSpGdWmjUOHRDPiHYacIk66W7ubDTuPF3BEtQ==",
+       "dev": true,
+-      "requires": {
++      "dependencies": {
+         "rimraf": "^3.0.0"
+       },
++      "engines": {
++        "node": ">=8.17.0"
++      }
++    },
++    "node_modules/tmp/node_modules/rimraf": {
++      "version": "3.0.2",
++      "resolved": "https://registry.npmjs.org/rimraf/-/rimraf-3.0.2.tgz",
++      "integrity": "sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==",
++      "deprecated": "Rimraf versions prior to v4 are no longer supported",
++      "dev": true,
+       "dependencies": {
+-        "rimraf": {
+-          "version": "3.0.2",
+-          "resolved": "https://registry.npmjs.org/rimraf/-/rimraf-3.0.2.tgz",
+-          "integrity": "sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==",
+-          "dev": true,
+-          "requires": {
+-            "glob": "^7.1.3"
+-          }
+-        }
++        "glob": "^7.1.3"
++      },
++      "bin": {
++        "rimraf": "bin.js"
++      },
++      "funding": {
++        "url": "https://github.com/sponsors/isaacs"
+       }
+     },
+-    "to-regex-range": {
++    "node_modules/to-regex-range": {
+       "version": "5.0.1",
+       "resolved": "https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz",
+       "integrity": "sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==",
+       "dev": true,
+-      "requires": {
++      "license": "MIT",
++      "dependencies": {
+         "is-number": "^7.0.0"
++      },
++      "engines": {
++        "node": ">=8.0"
+       }
+     },
+-    "totalist": {
++    "node_modules/totalist": {
+       "version": "1.1.0",
+       "resolved": "https://registry.npmjs.org/totalist/-/totalist-1.1.0.tgz",
+-      "integrity": "sha512-gduQwd1rOdDMGxFG1gEvhV88Oirdo2p+KjoYFU7k2g+i7n6AFFbDQ5kMPUsW0pNbfQsB/cwXvT1i4Bue0s9g5g=="
++      "integrity": "sha512-gduQwd1rOdDMGxFG1gEvhV88Oirdo2p+KjoYFU7k2g+i7n6AFFbDQ5kMPUsW0pNbfQsB/cwXvT1i4Bue0s9g5g==",
++      "engines": {
++        "node": ">=6"
++      }
+     },
+-    "tough-cookie": {
++    "node_modules/tough-cookie": {
+       "version": "2.5.0",
+       "resolved": "https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.5.0.tgz",
+       "integrity": "sha512-nlLsUzgm1kfLXSXfRZMc1KLAugd4hqJHDTvc2hDIwS3mZAfMEuMbc03SujMF+GEcpaX/qboeycw6iO8JwVv2+g==",
+       "dev": true,
+-      "requires": {
++      "dependencies": {
+         "psl": "^1.1.28",
+         "punycode": "^2.1.1"
++      },
++      "engines": {
++        "node": ">=0.8"
+       }
+     },
+-    "tslib": {
+-      "version": "2.3.1",
+-      "resolved": "https://registry.npmjs.org/tslib/-/tslib-2.3.1.tgz",
+-      "integrity": "sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw=="
++    "node_modules/tslib": {
++      "version": "2.8.1",
++      "resolved": "https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz",
++      "integrity": "sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==",
++      "license": "0BSD"
+     },
+-    "tunnel-agent": {
++    "node_modules/tunnel-agent": {
+       "version": "0.6.0",
+       "resolved": "https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.6.0.tgz",
+       "integrity": "sha1-J6XeoGs2sEoKmWZ3SykIaPD8QP0=",
+       "dev": true,
+-      "requires": {
++      "dependencies": {
+         "safe-buffer": "^5.0.1"
++      },
++      "engines": {
++        "node": "*"
+       }
+     },
+-    "tweetnacl": {
++    "node_modules/tweetnacl": {
+       "version": "0.14.5",
+       "resolved": "https://registry.npmjs.org/tweetnacl/-/tweetnacl-0.14.5.tgz",
+       "integrity": "sha1-WuaBd/GS1EViadEIr6k/+HQ/T2Q=",
+       "dev": true
+     },
+-    "typescript": {
+-      "version": "4.4.3",
+-      "resolved": "https://registry.npmjs.org/typescript/-/typescript-4.4.3.tgz",
+-      "integrity": "sha512-4xfscpisVgqqDfPaJo5vkd+Qd/ItkoagnHpufr+i2QCHBsNYp+G7UAoyFl8aPtx879u38wPV65rZ8qbGZijalA==",
+-      "dev": true
++    "node_modules/type": {
++      "version": "2.7.3",
++      "resolved": "https://registry.npmjs.org/type/-/type-2.7.3.tgz",
++      "integrity": "sha512-8j+1QmAbPvLZow5Qpi6NCaN8FB60p/6x8/vfNqOk/hC+HuvFZhL4+WfekuhQLiqFZXOgQdrs3B+XxEmCc6b3FQ==",
++      "license": "ISC"
+     },
+-    "universalify": {
++    "node_modules/typescript": {
++      "version": "5.8.3",
++      "resolved": "https://registry.npmjs.org/typescript/-/typescript-5.8.3.tgz",
++      "integrity": "sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==",
++      "dev": true,
++      "license": "Apache-2.0",
++      "bin": {
++        "tsc": "bin/tsc",
++        "tsserver": "bin/tsserver"
++      },
++      "engines": {
++        "node": ">=14.17"
++      }
++    },
++    "node_modules/universalify": {
+       "version": "2.0.0",
+       "resolved": "https://registry.npmjs.org/universalify/-/universalify-2.0.0.tgz",
+       "integrity": "sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==",
+-      "dev": true
++      "dev": true,
++      "engines": {
++        "node": ">= 10.0.0"
++      }
+     },
+-    "uri-js": {
++    "node_modules/update-browserslist-db": {
++      "version": "1.1.3",
++      "resolved": "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.1.3.tgz",
++      "integrity": "sha512-UxhIZQ+QInVdunkDAaiazvvT/+fXL5Osr0JZlJulepYu6Jd7qJtDZjlur0emRlT71EN3ScPoE7gvsuIKKNavKw==",
++      "dev": true,
++      "funding": [
++        {
++          "type": "opencollective",
++          "url": "https://opencollective.com/browserslist"
++        },
++        {
++          "type": "tidelift",
++          "url": "https://tidelift.com/funding/github/npm/browserslist"
++        },
++        {
++          "type": "github",
++          "url": "https://github.com/sponsors/ai"
++        }
++      ],
++      "license": "MIT",
++      "dependencies": {
++        "escalade": "^3.2.0",
++        "picocolors": "^1.1.1"
++      },
++      "bin": {
++        "update-browserslist-db": "cli.js"
++      },
++      "peerDependencies": {
++        "browserslist": ">= 4.21.0"
++      }
++    },
++    "node_modules/uri-js": {
+       "version": "4.4.1",
+       "resolved": "https://registry.npmjs.org/uri-js/-/uri-js-4.4.1.tgz",
+       "integrity": "sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==",
+       "dev": true,
+-      "requires": {
++      "dependencies": {
+         "punycode": "^2.1.0"
+       }
+     },
+-    "url-parse-as-address": {
++    "node_modules/url-parse-as-address": {
+       "version": "1.0.0",
+       "resolved": "https://registry.npmjs.org/url-parse-as-address/-/url-parse-as-address-1.0.0.tgz",
+       "integrity": "sha1-+4CQGIPzOLPL7TU49fqiatr38uc=",
+       "dev": true
+     },
+-    "util-deprecate": {
++    "node_modules/util-deprecate": {
+       "version": "1.0.2",
+       "resolved": "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz",
+       "integrity": "sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=",
+       "dev": true
+     },
+-    "uuid": {
++    "node_modules/uuid": {
+       "version": "3.4.0",
+       "resolved": "https://registry.npmjs.org/uuid/-/uuid-3.4.0.tgz",
+       "integrity": "sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==",
+-      "dev": true
++      "deprecated": "Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.",
++      "dev": true,
++      "bin": {
++        "uuid": "bin/uuid"
++      }
+     },
+-    "verror": {
++    "node_modules/verror": {
+       "version": "1.10.0",
+       "resolved": "https://registry.npmjs.org/verror/-/verror-1.10.0.tgz",
+       "integrity": "sha1-OhBcoXBTr1XW4nDB+CiGguGNpAA=",
+       "dev": true,
+-      "requires": {
++      "engines": [
++        "node >=0.6.0"
++      ],
++      "dependencies": {
+         "assert-plus": "^1.0.0",
+         "core-util-is": "1.0.2",
+         "extsprintf": "^1.2.0"
+       }
+     },
+-    "wrappy": {
++    "node_modules/wrappy": {
+       "version": "1.0.2",
+       "resolved": "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz",
+       "integrity": "sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=",
+       "dev": true
+     },
+-    "ws": {
+-      "version": "7.5.4",
+-      "resolved": "https://registry.npmjs.org/ws/-/ws-7.5.4.tgz",
+-      "integrity": "sha512-zP9z6GXm6zC27YtspwH99T3qTG7bBFv2VIkeHstMLrLlDJuzA7tQ5ls3OJ1hOGGCzTQPniNJoHXIAOS0Jljohg==",
+-      "dev": true
++    "node_modules/ws": {
++      "version": "7.5.10",
++      "resolved": "https://registry.npmjs.org/ws/-/ws-7.5.10.tgz",
++      "integrity": "sha512-+dbF1tHwZpXcbOJdVOkzLDxZP1ailvSxM6ZweXTegylPny803bFhA+vqBYw4s31NSAk4S2Qz+AKXK9a4wkdjcQ==",
++      "dev": true,
++      "license": "MIT",
++      "engines": {
++        "node": ">=8.3.0"
++      },
++      "peerDependencies": {
++        "bufferutil": "^4.0.1",
++        "utf-8-validate": "^5.0.2"
++      },
++      "peerDependenciesMeta": {
++        "bufferutil": {
++          "optional": true
++        },
++        "utf-8-validate": {
++          "optional": true
++        }
++      }
+     },
+-    "xtend": {
++    "node_modules/xbytes": {
++      "version": "1.9.1",
++      "resolved": "https://registry.npmjs.org/xbytes/-/xbytes-1.9.1.tgz",
++      "integrity": "sha512-29E0ygMFWrM5JW2W1ypmezjyR2FOS5aCszdLe620ymSJBoZzL0/RCLJKCoUFu3DfQGhZ/FWykEBp5dfEy6+hjA==",
++      "dev": true,
++      "license": "Apache-2.0",
++      "engines": {
++        "node": ">=1"
++      }
++    },
++    "node_modules/xtend": {
+       "version": "4.0.2",
+       "resolved": "https://registry.npmjs.org/xtend/-/xtend-4.0.2.tgz",
+       "integrity": "sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==",
+-      "dev": true
++      "dev": true,
++      "engines": {
++        "node": ">=0.4"
++      }
+     },
+-    "yaml": {
++    "node_modules/yaml": {
+       "version": "1.10.2",
+       "resolved": "https://registry.npmjs.org/yaml/-/yaml-1.10.2.tgz",
+       "integrity": "sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==",
+-      "dev": true
++      "dev": true,
++      "engines": {
++        "node": ">= 6"
++      }
++    },
++    "node_modules/zimmerframe": {
++      "version": "1.1.2",
++      "resolved": "https://registry.npmjs.org/zimmerframe/-/zimmerframe-1.1.2.tgz",
++      "integrity": "sha512-rAbqEGa8ovJy4pyBxZM70hg4pE6gDgaQ0Sl9M3enG3I0d6H4XSAM3GeNGLKnsBpuijUow064sf7ww1nutC5/3w==",
++      "license": "MIT"
+     }
+   }
+ }
+diff --git a/package.json b/package.json
+index 4a992c9..55a037c 100644
+--- a/package.json
++++ b/package.json
+@@ -14,30 +14,28 @@
+     "@rollup/plugin-json": "^4.1.0",
+     "@rollup/plugin-node-resolve": "^11.0.0",
+     "@rollup/plugin-typescript": "^8.0.0",
+-    "@tsconfig/svelte": "^2.0.0",
+-    "@types/dat.gui": "^0.7.7",
+-    "@types/three": "^0.131.0",
+-    "autoprefixer": "^10.3.4",
+-    "postcss": "^8.3.6",
+-    "rollup": "^2.3.4",
+-    "rollup-plugin-css-only": "^3.1.0",
+-    "rollup-plugin-livereload": "^2.0.0",
+-    "rollup-plugin-svelte": "^7.0.0",
+-    "rollup-plugin-terser": "^7.0.0",
+-    "surge": "^0.23.0",
+-    "svelte": "^3.0.0",
+-    "svelte-check": "^2.0.0",
+-    "svelte-preprocess": "^4.0.0",
+-    "tailwindcss": "^2.2.14",
+-    "tslib": "^2.0.0",
+-    "typescript": "^4.4.2"
++    "@tsconfig/svelte": "^5.0.4",
++    "@types/dat.gui": "^0.7.13",
++    "@types/three": "^0.176.0",
++    "autoprefixer": "^10.4.21",
++    "postcss": "^8.5.3",
++    "rollup": "^2.79.2",
++    "rollup-plugin-css-only": "^4.5.2",
++    "rollup-plugin-livereload": "^2.0.5",
++    "rollup-plugin-svelte": "^7.2.2",
++    "rollup-plugin-terser": "^7.0.2",
++    "surge": "^0.24.6",
++    "svelte": "^5.28.2",
++    "svelte-check": "^3.8.6",
++    "svelte-preprocess": "^5.1.4",
++    "tailwindcss": "^2.2.19",
++    "tslib": "^2.8.1",
++    "typescript": "^5.8.3"
+   },
+   "dependencies": {
+-    "dat.gui": "^0.7.7",
+-    "rxjs": "^7.3.0",
++    "dat.gui": "^0.7.9",
+     "sirv-cli": "^1.0.0",
+-    "svelte-i18n": "^3.3.10",
+-    "svelte-observable": "^0.4.0",
+-    "three": "^0.132.2"
++    "svelte-i18n": "^4.0.1",
++    "three": "^0.176.0"
+   }
+ }
+diff --git a/public/global.css b/public/global.css
+index 06fc2be..f540720 100644
+--- a/public/global.css
++++ b/public/global.css
+@@ -1,4 +1,17 @@
+ :root {
++       /* Original colors */
+        --primary-color: #fec5bb;
+-       --secondary-color: #5F4A47;
++       --secondary-color: #5F4A47;
++
++       /* High contrast mode variables */
++       --high-contrast-primary: #ff9a8c;
++       --high-contrast-secondary: #3a2d2b;
++}
++
++/* Apply high contrast mode when user prefers it */
++@media (prefers-contrast: more) {
++       :root {
++               --primary-color: var(--high-contrast-primary);
++               --secondary-color: var(--high-contrast-secondary);
++       }
+ }
+\ No newline at end of file
+diff --git a/rollup.config.js b/rollup.config.js
+index 8d65eab..36fcfcd 100644
+--- a/rollup.config.js
++++ b/rollup.config.js
+@@ -52,7 +52,13 @@ export default {
+                        }),
+                        compilerOptions: {
+                                // enable run-time checks when not in production
+-                               dev: !production
++                               dev: !production,
++                               // Enable Svelte 5 runes mode
++                               runes: true,
++                               // Enable compatibility with Svelte 4 component API
++                               compatibility: {
++                                       componentApi: 4
++                               }
+                        }
+                }),
+                // we'll extract any component CSS out into
+diff --git a/src/App.svelte b/src/App.svelte
+index 7d9a05e..692ba61 100644
+--- a/src/App.svelte
++++ b/src/App.svelte
+@@ -1,35 +1,105 @@
+ <script lang="ts">
+     import * as i18n from './i18n';
++    import { _, locale } from 'svelte-i18n';
+     import Navigation from "./Navigation.svelte";
+     import Heart from "./Heart.svelte";
+     import ContentCard from "./ContentCard.svelte";
++    import { onMount } from 'svelte';
+
+-    // initializes localization
+     i18n;
+
++    let appTitle = $state('For my love Vici');
++    let appLanguage = $state('de');
++    let isContentRevealed = $state(false);
++
++    // Accessibility text for click hint
++    let heartClickHint = $derived($_('heart.clickHint'));
++
+     function toggleOverlay() {
+         const overlay_right = document.getElementById('overlay_right');
+         const overlay_left = document.getElementById('overlay_left');
+         const button = document.getElementById('overlay_button');
++        const hint = document.getElementById('click_hint');
++
++        overlay_left?.classList.add('scale-down-hor-right');
++        overlay_right?.classList.add('scale-down-hor-left');
++        button?.classList.add('rotate-center');
++        hint?.classList.add('fade-out');
+
+-        overlay_left.classList.add('scale-down-hor-right');
+-        overlay_right.classList.add('scale-down-hor-left');
+-        button.classList.add('rotate-center');
++        // Set state to indicate content has been revealed after animation finishes (1.5s)
++        setTimeout(() => {
++            isContentRevealed = true;
++        }, 1500);
+     }
++
++    onMount(() => {
++        // Update document lang attribute dynamically based on the selected language
++        document.documentElement.lang = appLanguage;
++        document.title = appTitle;
++
++        // Add pulsing animation to heart button to draw attention
++        const heartButton = document.getElementById('overlay_button');
++        if (heartButton) {
++            heartButton.classList.add('pulse-animation');
++
++            // Remove pulsing after the first click
++            heartButton.addEventListener('click', () => {
++                heartButton.classList.remove('pulse-animation');
++            }, { once: true });
++        }
++
++    });
+ </script>
+-<Navigation />
+-<div id="overlay_left" class="overlay overlay-left"></div>
+-<div id="overlay_right" class="overlay overlay-right"></div>
+-<div id="overlay_button" class="heart-shape" on:click={toggleOverlay}></div>
+
++<!-- First element in the DOM - no hidden DOM elements before it -->
+ <Heart />
+-<ContentCard />
++
++<!-- Rest of the application on top of it -->
++<div class="app-container" role="application" aria-label="Interactive love message display">
++    <header>
++        <Navigation language={appLanguage} />
++    </header>
++
++    <main>
++        <!-- Initial overlays that hide the content -->
++        <div id="overlay_left" class="overlay overlay-left" aria-hidden="true"></div>
++        <div id="overlay_right" class="overlay overlay-right" aria-hidden="true"></div>
++
++        <!-- Click hint that only shows until content is revealed -->
++        <div id="click_hint" class="click-hint" aria-hidden="true">
++            <span class="hint-text">{heartClickHint}</span>
++            <div class="arrow-down"></div>
++        </div>
++
++        <button
++            id="overlay_button"
++            class="heart-shape"
++            onclick={toggleOverlay}
++            aria-label="Reveal content"
++            tabindex="0"
++        ></button>
++
++        <!-- Content is hidden initially and only loaded after heart animation -->
++        {#if isContentRevealed}
++            <ContentCard />
++        {/if}
++
++        <!-- Copyright footer - always visible -->
++        <footer class="copyright-footer">
++            <p>© {new Date().getFullYear()} <a href="https://dorfstetter.at" target="_blank" rel="noopener noreferrer">dorfstetter.at</a></p>
++            <p class="love-message">{$_('ui.footerMessage')}</p>
++        </footer>
++    </main>
++</div>
+
+ <style global lang="postcss">
+     @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
+
++       /* Import a nice cursive font for the footer love message */
++    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
++
+     :root {
+         @apply font-sans;
+     }
+@@ -38,34 +108,160 @@
+         @apply bg-primary text-white;
+     }
+
++    /* Globally applied focus styles for better keyboard navigation */
++    *:focus {
++        @apply outline-none ring-2 ring-offset-2 ring-secondary;
++    }
++
++    /* Hide focus styles when using mouse, but show when using keyboard */
++    .js-focus-visible :focus:not(.focus-visible) {
++        @apply outline-none ring-0 ring-offset-0;
++    }
++
++    /* Skip to main content link - visually hidden until focused */
++    .skip-link {
++        @apply absolute m-3 px-3 py-2 bg-secondary text-white -top-full;
++        transition: top 0.2s;
++    }
++
++    .skip-link:focus {
++        @apply top-0 z-50;
++    }
++
++    .app-container {
++        @apply min-h-screen relative;
++        background: transparent;
++        z-index: 1;
++    }
++
++    main {
++        @apply relative min-h-screen w-full;
++        position: relative;
++        z-index: 2;
++        background: transparent;
++    }
++
+     .overlay {
+-        @apply absolute top-0 z-10 w-1/2 h-screen bg-primary;
++        position: absolute;
++        top: 0;
++        z-index: 10;
++        width: 50%;
++        height: 100vh;
++        background-color: var(--primary-color);
+     }
+
+     .overlay-left {
+-        @apply right-0;
++        right: 0;
+     }
+
+     .overlay-right {
+-        @apply left-0;
++        left: 0;
++    }
++
++    /* Click hint styling */
++    .click-hint {
++        @apply absolute z-50 flex flex-col items-center;
++        top: 30%;
++        left: 50%;
++        transform: translateX(-50%);
++        animation: float 2s ease-in-out infinite;
++    }
++
++    .hint-text {
++        @apply mb-2 px-4 py-2 rounded-lg bg-white/80 backdrop-blur-sm text-primary font-medium;
++        @apply shadow-md text-center;
++        border: 1px solid rgba(255, 255, 255, 0.5);
++    }
++
++    .arrow-down {
++        width: 0;
++        height: 0;
++        border-left: 10px solid transparent;
++        border-right: 10px solid transparent;
++        border-top: 10px solid rgba(255, 255, 255, 0.8);
++        animation: bounce 1s ease-in-out infinite;
++    }
++
++    @keyframes float {
++        0%, 100% {
++            transform: translateX(-50%) translateY(0);
++        }
++        50% {
++            transform: translateX(-50%) translateY(-10px);
++        }
++    }
++
++    @keyframes bounce {
++        0%, 100% {
++            transform: translateY(0);
++        }
++        50% {
++            transform: translateY(5px);
++        }
+     }
+
+     #overlay_button {
+-        @apply absolute z-20 ml-auto mr-auto;
+-        top: calc(50% - 5em);  /* position the top  edge of the element at the middle of the parent */
++        @apply absolute z-50 ml-auto mr-auto;
++        @apply cursor-pointer;
++        @apply border-none;
++        top: calc(50% - 5em);  /* position the top edge of the element at the middle of the parent */
+         left: calc(50% - 5em); /* position the left edge of the element at the middle of the parent */
++        display: block !important; /* Ensure it's always displayed */
++        transform: rotate(45deg);
++        transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
++    }
++
++    /* Pulsing animation for the heart button */
++    .pulse-animation {
++        animation: pulse 2s infinite;
++    }
++
++    @keyframes pulse {
++        0% {
++            transform: rotate(45deg) scale(1);
++            box-shadow: 0 0 0 0 rgba(255, 165, 175, 0.7);
++        }
++
++        70% {
++            transform: rotate(45deg) scale(1.05);
++            box-shadow: 0 0 0 15px rgba(255, 165, 175, 0);
++        }
++
++        100% {
++            transform: rotate(45deg) scale(1);
++            box-shadow: 0 0 0 0 rgba(255, 165, 175, 0);
++        }
++    }
++
++    /* This adds a subtle animation when heart button is focused for better visibility */
++    #overlay_button:focus-visible {
++        @apply ring-2 ring-white ring-offset-4 ring-offset-primary;
++        transform: rotate(45deg) scale(1.05);
++    }
++
++    #overlay_button:hover {
++        transform: rotate(45deg) scale(1.08);
++        filter: brightness(1.1);
+     }
+
+     .scale-down-hor-right {
+-        animation: scale-down-hor-right 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
++        animation: scale-down-hor-right 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
++        animation-fill-mode: forwards;
+     }
+
+     .scale-down-hor-left {
+-        animation: scale-down-hor-left 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
++        animation: scale-down-hor-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
++        animation-fill-mode: forwards;
+     }
+
+     .rotate-center {
+-        animation: fade-out 2.5s ease-in-out both;
++        animation: fade-out 1.3s ease-in-out both;
++        animation-fill-mode: forwards;
++    }
++
++    .fade-out {
++        animation: fade-out 0.7s ease-in-out both;
++        animation-fill-mode: forwards;
+     }
+
+     /**
+@@ -106,8 +302,10 @@
+     }
+
+     .heart-shape {
+-        @apply relative w-40 h-40 transform-gpu bg-secondary rotate-45;
++        @apply relative w-40 h-40 transform-gpu bg-secondary;
+         box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.35);
++        position: absolute !important; /* Ensure it's positioned correctly */
++        z-index: 50 !important; /* Make sure it's on top of other elements */
+     }
+
+     .heart-shape:before, .heart-shape:after {
+@@ -123,4 +321,60 @@
+     .heart-shape:after {
+         @apply right-0 -top-20;
+     }
+-</style>
+\ No newline at end of file
++
++    /* Add reduced motion preferences for users who prefer reduced motion */
++    @media (prefers-reduced-motion: reduce) {
++        .scale-down-hor-right,
++        .scale-down-hor-left,
++        .rotate-center,
++        .fade-out,
++        .pulse-animation,
++        .click-hint,
++        .arrow-down {
++            animation-duration: 0.01ms !important;
++            animation-iteration-count: 1 !important;
++            transition-duration: 0.01ms !important;
++        }
++    }
++
++    /* Copyright Footer Styles */
++    .copyright-footer {
++        position: fixed;
++        bottom: 0;
++        left: 0;
++        width: 100%;
++        padding: 0.75rem;
++        padding-bottom: 1rem;
++        text-align: center;
++        font-size: 0.75rem;
++        color: var(--secondary-color); /* Secondary color for better readability */
++        z-index: 25; /* Above the heart but below the controls */
++        pointer-events: none; /* Allow clicks to pass through */
++    }
++
++    .copyright-footer p {
++        margin: 0.25rem 0;
++        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); /* Text shadow for better readability */
++    }
++
++    .copyright-footer a {
++        color: var(--secondary-color);
++        text-decoration: none;
++        pointer-events: auto; /* Make the link clickable */
++        transition: color 0.2s, text-shadow 0.2s;
++        font-weight: bold;
++    }
++
++    .copyright-footer a:hover,
++    .copyright-footer a:focus {
++        color: white;
++        text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
++        outline: none;
++    }
++
++    .love-message {
++        font-family: 'Dancing Script', cursive;
++        font-size: 1rem;
++        color: var(--secondary-color);
++    }
++</style>
+diff --git a/src/ContentCard.svelte b/src/ContentCard.svelte
+index 08c049b..f6ce57b 100644
+--- a/src/ContentCard.svelte
++++ b/src/ContentCard.svelte
+@@ -1,37 +1,888 @@
+ <script lang="ts">
+-    import {json} from 'svelte-i18n';
++    import {json, _} from 'svelte-i18n';
++    import { onMount } from 'svelte';
+
+-    export let index: number = 0
+-    let greetings = 0;
+-    let showGreetings = false;
++    // Force load the Dancing Script font
++    const loadFont = () => {
++        const link = document.createElement('link');
++        link.href = 'https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap';
++        link.rel = 'stylesheet';
++        document.head.appendChild(link);
++    };
+
+-    setInterval(() => {
+-        index = Math.floor(Math.random() * $json('wishes').length);
+-        greetings = Math.floor(Math.random() * $json('greetings').length);
++    // Maintain history of messages for back/next navigation
++    type MessageHistory = {
++        index: number;
++        isGreeting: boolean;
++    };
++
++    let currentIndex = $state(Math.floor(Math.random() * 17)); // Random index from 0-16 (wishes)
++    let greetings = $state(Math.floor(Math.random() * 16));    // Random index from 0-15 (greetings)
++    let showGreetings = $state(Math.random() < 0.5);           // 50% chance to show greetings first
++    let isPaused = $state(false);
++    let isHighContrast = $state(false);
++    let messageInterval = $state(10000); // Default 10 seconds
++    let activeInterval: ReturnType<typeof setInterval>;
++    let progressValue = $state(0);       // Progress bar value (0-100)
++    let progressInterval: ReturnType<typeof setInterval> | undefined;  // For progress bar animation
++
++    // History management - store last 3 messages
++    // Initialize with empty array, will be populated in onMount
++    let messageHistory = $state<MessageHistory[]>([]);
++    let historyPosition = $state(-1); // -1 means we're at the current message, not in history
++
++    // Translations for the slider with derived values
++    let speedLabel = $derived($_('ui.messageSpeed'));
++    let slowLabel = $derived($_('ui.slow'));
++    let mediumLabel = $derived($_('ui.medium'));
++    let fastLabel = $derived($_('ui.fast'));
++
++    function getWishesLength(): number {
++        return Object.keys($json('wishes') as object || {}).length;
++    }
++
++    function getGreetingsLength(): number {
++        return Object.keys($json('greetings') as object || {}).length;
++    }
++
++    function togglePause() {
++        isPaused = !isPaused;
++
++        // When unpausing, make sure the progress bar is properly reset
++        if (!isPaused) {
++            resetProgressBar();
++        }
++    }
++
++    // Function to update the message rotation speed
++    function updateSpeed(event: Event) {
++        // Make sure we can parse the value as a number
++        const value = parseInt((event.target as HTMLInputElement).value, 10);
++        if (isNaN(value)) return;
++
++        // Store previous interval for reference
++        const previousInterval = messageInterval;
++
++        // Map slider values (1-3) to actual intervals in milliseconds
++        switch(value) {
++            case 1: // Slow
++                messageInterval = 15000; // 15 seconds
++                break;
++            case 2: // Medium
++                messageInterval = 10000; // 10 seconds
++                break;
++            case 3: // Fast
++                messageInterval = 5000; // 5 seconds
++                break;
++            default:
++                messageInterval = 10000; // Default to medium
++        }
++
++        // Clear existing intervals
++        if (activeInterval) {
++            clearInterval(activeInterval);
++        }
++
++        // Start new rotation with updated timing
++        startMessageRotationWithoutChangingMessage();
++
++        // Make sure progress bar is updated with new interval but maintains current progress
++        resetProgressBar(true);
++    }
++
++    // Start rotation without changing the current message
++    function startMessageRotationWithoutChangingMessage() {
++        // Clear any existing interval
++        if (activeInterval) {
++            clearInterval(activeInterval);
++        }
++
++        // Set interval for future rotations
++        activeInterval = setInterval(() => {
++            if (!isPaused) {
++                // Store current message in history before changing
++                addToHistory();
++
++                // Compute new random values that are different from current ones
++                let newIndex, newGreetings;
++
++                do {
++                    newIndex = Math.floor(Math.random() * getWishesLength());
++                } while (newIndex === currentIndex && getWishesLength() > 1);
++
++                do {
++                    newGreetings = Math.floor(Math.random() * getGreetingsLength());
++                } while (newGreetings === greetings && getGreetingsLength() > 1);
++
++                // Update with new random values
++                currentIndex = newIndex;
++                greetings = newGreetings;
++                showGreetings = !showGreetings;
++
++                // Reset progress animation when message changes
++                resetProgressBar();
++            }
++        }, messageInterval);
++    }
++
++    // Helper function to properly render emoji characters
++    function formatText(text: string): string {
++        // Replace any escaped unicode sequences with actual characters
++        return text
++            .replace(/\\n/g, '\n')                           // Replace escaped newlines
++            .replace(/\\u([0-9a-fA-F]{4})/g, (m: string, code: string) => {  // Replace unicode escapes
++                return String.fromCharCode(parseInt(code, 16));
++            });
++    }
++
++    // Function to handle message rotation
++    // Navigate to previous message in history
++    function goToPreviousMessage() {
++        if (messageHistory.length === 0) return;
++
++        // If we're not already in history, save current state before moving back
++        if (historyPosition === -1) {
++            historyPosition = 0;
++        } else {
++            // If we're already navigating history, move back one more step
++            historyPosition = Math.min(historyPosition + 1, messageHistory.length - 1);
++        }
++
++        // Get the message from history
++        const historyItem = messageHistory[historyPosition];
++
++        // Apply the historical message
++        currentIndex = historyItem.index;
++        showGreetings = historyItem.isGreeting;
++
++        // Reset progress bar without pausing
++        resetProgressBar();
++    }
++
++    // Navigate to next message in history or generate new random message
++    function goToNextMessage() {
++        // If we're already at the latest message or history is empty
++        if (historyPosition <= 0 || messageHistory.length === 0) {
++            // Use the changeMessage function to change to a new message
++            changeMessage();
++
++            // Reset history position to current message
++            historyPosition = -1;
++
++            return;
++        }
++
++        // Move forward in history
++        historyPosition--;
++
++        // Apply the message from history
++        const historyItem = messageHistory[historyPosition];
++        currentIndex = historyItem.index;
++        showGreetings = historyItem.isGreeting;
++    }
++
++    // Add current message to history before changing
++    function addToHistory() {
++        // Create new history entry
++        const historyEntry: MessageHistory = {
++            index: showGreetings ? greetings : currentIndex,
++            isGreeting: showGreetings
++        };
++
++        // Add to start of array (most recent first)
++        messageHistory = [historyEntry, ...messageHistory.slice(0, 2)];
++
++        // Reset position since we've added a new item
++        historyPosition = -1;
++    }
++
++    // Function to change to a new random message
++    function changeMessage() {
++        // Store current message in history before changing
++        addToHistory();
++
++        // Compute new random values that are different from current ones
++        let newIndex, newGreetings;
++
++        do {
++            newIndex = Math.floor(Math.random() * getWishesLength());
++        } while (newIndex === currentIndex && getWishesLength() > 1);
++
++        do {
++            newGreetings = Math.floor(Math.random() * getGreetingsLength());
++        } while (newGreetings === greetings && getGreetingsLength() > 1);
++
++        // Update with new random values
++        currentIndex = newIndex;
++        greetings = newGreetings;
+         showGreetings = !showGreetings;
+-    }, 10000);
++
++        // Reset progress bar animation
++        resetProgressBar();
++    }
++
++    // Reset progress bar animation
++    function resetProgressBar(maintainProgress: boolean = false) {
++        // Clear existing progress interval if any
++        if (progressInterval) {
++            clearInterval(progressInterval);
++            progressInterval = undefined;
++        }
++
++        // Reset progress to 0 only when we're not paused and not maintaining progress
++        if (!isPaused && !maintainProgress) {
++            progressValue = 0;
++        }
++
++        // Don't start progress if paused
++        if (isPaused) return;
++
++        // Set up progress update interval - update every 50ms for smoother animation
++        // Ensure we reach 100% exactly at the message interval
++        let duration = messageInterval - 100; // Subtract 100ms to ensure we reach 100% before the message changes
++
++        // If maintaining progress, adjust duration based on current progress
++        if (maintainProgress && progressValue > 0) {
++            // Calculate remaining time based on current progress
++            duration = duration * (1 - (progressValue / 100));
++        }
++
++        const increment = 100 / (duration / 50);
++
++        // If we're maintaining progress, we don't need to reset the initial value
++        // Otherwise, force an initial update to make sure the progress bar shows some value
++        if (!maintainProgress) {
++            progressValue = increment;
++        }
++
++        progressInterval = setInterval(() => {
++            if (!isPaused) {
++                // Update progress, ensuring we don't exceed 100
++                progressValue = Math.min(progressValue + increment, 100);
++
++                // If progress reaches 100%, trigger message change immediately
++                if (progressValue >= 100 && historyPosition === -1) {
++                    // Clear the current interval to prevent double triggers
++                    if (activeInterval) {
++                        clearInterval(activeInterval);
++                    }
++
++                    // Trigger message change immediately
++                    changeMessage();
++
++                    // Restart the message rotation with the new interval
++                    startMessageRotationWithoutChangingMessage();
++                }
++            }
++        }, 50);
++    }
++
++    function startMessageRotation() {
++        // Clear any existing interval
++        if (activeInterval) {
++            clearInterval(activeInterval);
++        }
++
++        // Start progress bar immediately - this needs to happen FIRST
++        resetProgressBar();
++
++        // Set interval for message rotations
++        activeInterval = setInterval(() => {
++            if (!isPaused && historyPosition === -1) { // Only rotate if we're not looking at history
++                // Use the changeMessage function to change to a new message
++                changeMessage();
++            }
++        }, messageInterval);
++    }
++
++    // Ensure the progress bar is initialized right away
++    $effect(() => {
++        if (!isPaused && !progressInterval) {
++            resetProgressBar();
++        }
++    });
++
++    onMount(() => {
++        // Load the Dancing Script font
++        loadFont();
++
++        // Check for high contrast preference
++        const prefersHighContrast = window.matchMedia('(prefers-contrast: more)');
++        isHighContrast = prefersHighContrast.matches;
++
++        // Set up a listener for changes
++        prefersHighContrast.addEventListener('change', (e) => {
++            isHighContrast = e.matches;
++        });
++
++        // Store initial message in history immediately
++        const initialEntry: MessageHistory = {
++            index: showGreetings ? greetings : currentIndex,
++            isGreeting: showGreetings
++        };
++        messageHistory = [initialEntry];
++
++        // Force start progress bar immediately
++        progressValue = 0;
++        if (progressInterval) {
++            clearInterval(progressInterval);
++            progressInterval = undefined;
++        }
++
++        // Start the timer immediately
++        isPaused = false;
++        resetProgressBar();
++
++        // Start message rotation immediately
++        startMessageRotation();
++
++        // First message change in 3 seconds, but don't set up a new interval
++        const firstChangeTimeout = setTimeout(() => {
++            // Use the changeMessage function to change to a new message
++            changeMessage();
++
++            // We don't need to set up a new interval here since we already started
++            // message rotation at the beginning of onMount
++        }, 3000);
++
++        return () => {
++            clearTimeout(firstChangeTimeout);
++            if (activeInterval) clearInterval(activeInterval);
++            if (progressInterval) clearInterval(progressInterval);
++            prefersHighContrast.removeEventListener('change', () => {});
++        };
++    });
++
++    // Get text from the dictionary using object notation with $derived
++    const currentText = $derived(
++        showGreetings
++            ? $json(`greetings.${greetings}.text`)
++            : $json(`wishes.${currentIndex}.text`)
++    );
++
++    // Get sender name with default to "Dominik" if missing
++    const currentFrom = $derived(
++        showGreetings
++            ? ($json(`greetings.${greetings}.from`) || "Dominik") // Use "Dominik" as default author
++            : null
++    );
++
++    // Get current speed setting for the slider
++    const currentSpeedValue = $derived(
++        messageInterval === 15000 ? 1 :
++        messageInterval === 5000 ? 3 : 2
++    );
+ </script>
+
+-<div class="content-card">
+-    {#if (showGreetings)}
+-        <div class="greeting">"{$json('greetings')[greetings].text}"<br><div class="greeter">{$json('greetings')[greetings].from}</div></div>
+-    {:else}
+-        <div class="greeting">{$json('wishes')[index].text}</div>
+-    {/if}
++<section
++    id="main"
++    class="content-display-container"
++    class:high-contrast={isHighContrast}
++    aria-live="polite"
++>
++    <!-- Progress bar at the top of the page -->
++    <div class="top-progress-container"
++         role="progressbar"
++         aria-valuenow={progressValue}
++         aria-valuemin="0"
++         aria-valuemax="100"
++         aria-label={$_('ui.progressBar')}
++    >
++        <div
++            class="top-progress-bar"
++            style="width: {progressValue}%;"
++            class:paused={isPaused}
++        ></div>
++    </div>
++    <div class="greeting-container">
++        <div class="greeting" aria-label={showGreetings ? $_('ui.greetingLabel') : $_('ui.messageLabel')}>
++            <p class="message">
++                {#if showGreetings}"{currentText}"{/if}
++                {#if !showGreetings}{currentText}{/if}
++            </p>
+
+-</div>
++            {#if showGreetings}
++                <div class="greeter" aria-label={$_('ui.fromLabel')}>
++                    {currentFrom}
++                </div>
++            {/if}
++        </div>
++    </div>
+
++    <!-- Controls at the bottom of the page -->
++    <div class="controls-container">
++        <div class="controls">
++            <button
++                class="pause-button"
++                onclick={togglePause}
++                aria-label={isPaused ? $_('ui.resumeButton') : $_('ui.pauseButton')}
++                title={isPaused ? $_('ui.resumeButton') : $_('ui.pauseButton')}
++            >
++                {isPaused ? '▶' : '❚❚'}
++            </button>
++
++            <div class="speed-control" role="group" aria-labelledby="speed-label">
++                <span id="speed-label" class="speed-label">{speedLabel}</span>
++                <div class="slider-container">
++                    <span class="slider-label">{slowLabel}</span>
++                    <input
++                        type="range"
++                        min="1"
++                        max="3"
++                        value={currentSpeedValue}
++                        class="speed-slider"
++                        onchange={updateSpeed}
++                        aria-valuemin="1"
++                        aria-valuemax="3"
++                        aria-valuenow={currentSpeedValue}
++                        aria-valuetext={currentSpeedValue === 1
++                            ? slowLabel
++                            : currentSpeedValue === 3
++                                ? fastLabel
++                                : mediumLabel
++                        }
++                    />
++                    <span class="slider-label">{fastLabel}</span>
++                </div>
++            </div>
++
++            <!-- Navigation buttons for message history -->
++            <div class="history-navigation" role="group" aria-label={$_('ui.messageNavigation')}>
++                <button
++                    class="nav-button prev-button"
++                    onclick={goToPreviousMessage}
++                    disabled={messageHistory.length === 0}
++                    aria-label={$_('ui.prevButton')}
++                    title={$_('ui.prevButton')}
++                >
++                    <span class="nav-icon" aria-hidden="true">&#x25C0;</span>
++                </button>
++                <button
++                    class="nav-button next-button"
++                    onclick={goToNextMessage}
++                    disabled={false}
++                    aria-label={$_('ui.nextButton')}
++                    title={$_('ui.nextButton')}
++                >
++                    <span class="nav-icon" aria-hidden="true">&#x25B6;</span>
++                </button>
++            </div>
++        </div>
++    </div>
++</section>
+ <style lang="postcss">
+-    .content-card {
+-        @apply absolute items-center justify-center flex max-h-36;
+-        @apply bg-transparent pointer-events-none text-secondary font-serif;
+-        @apply top-1/2 w-full text-center;
++    /* Direct font styles - we'll load the font dynamically in the script */
++
++    .content-display-container {
++        @apply fixed inset-0 flex flex-col justify-between overflow-hidden;
++        @apply bg-transparent text-secondary;
++        @apply z-20 pointer-events-none; /* Allow clicks to pass through to the heart */
++        height: 100vh; /* Use viewport height */
++        max-height: 100vh; /* Prevent scrolling */
+     }
+-    .greeter {
+-        @apply font-bold mt-4;
++
++    /* High contrast mode version */
++    .content-display-container.high-contrast {
++        @apply text-white;
++        text-shadow: 1px 1px 2px #000, -1px -1px 2px #000, 1px -1px 2px #000, -1px 1px 2px #000;
+     }
++
++    /* Greeting container - perfectly centered vertically and horizontally */
++    .greeting-container {
++        @apply flex items-center justify-center;
++        position: absolute;
++        top: 0;
++        left: 0;
++        right: 0;
++        bottom: 0;
++        margin: auto;
++        height: 100%;
++        @apply px-4;
++    }
++
+     .greeting {
+-        @apply text-4xl lg:text-5xl text-center leading-10 p-6;
+-        @apply max-w-screen-lg;
++        position: relative;
++        text-align: center;
++        line-height: 1.6;
++        max-width: 55rem; /* Increased from 42rem to 55rem for wider display */
++        width: 90vw; /* Take 90% of viewport width */
++        margin-left: auto;
++        margin-right: auto;
++        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
++        pointer-events: auto; /* Make this element clickable */
++        border-radius: 0.75rem;
++        padding: 1.5rem; /* Slightly more padding */
++
++        /* Apply cursive font directly */
++        font-family: "Dancing Script", cursive !important;
++        font-size: clamp(1.5rem, 4vw, 2.3rem); /* Adjusted responsive font size */
++
++        /* Semi-transparent background */
++        background-color: rgba(255, 255, 255, 0.2);
++        backdrop-filter: blur(10px);
++        -webkit-backdrop-filter: blur(10px);
++        border: 1px solid rgba(255, 255, 255, 0.1);
++
++        /* Added scrolling for long content */
++        max-height: 70vh; /* Limit height */
++        overflow-y: auto; /* Enable vertical scrolling */
++
++        /* Smooth scrolling */
++        scroll-behavior: smooth;
++
++        /* Style scrollbar */
++        scrollbar-width: thin; /* Firefox */
++        scrollbar-color: rgba(255, 255, 255, 0.5) transparent; /* Firefox */
++
++        display: flex;
++        flex-direction: column;
++        justify-content: flex-start; /* Align content to top for scrolling */
++    }
++
++    /* Webkit scrollbar styling */
++    .greeting::-webkit-scrollbar {
++        width: 6px;
++    }
++
++    .greeting::-webkit-scrollbar-track {
++        background: transparent;
++    }
++
++    .greeting::-webkit-scrollbar-thumb {
++        background-color: rgba(255, 255, 255, 0.5);
++        border-radius: 10px;
++    }
++
++    .message {
++        margin-bottom: 1rem;
++        overflow-wrap: break-word;
++        word-break: break-word;
++        hyphens: auto;
++        text-align: center;
++        font-family: "Dancing Script", cursive !important;
++        white-space: pre-line; /* Preserve newlines in text */
++    }
++
++    .greeter {
++        font-weight: bold;
++        margin-top: 1rem;
++        border-top: 1px solid rgba(255, 255, 255, 0.3);
++        padding-top: 0.75rem;
++        font-size: 0.85em; /* Slightly smaller than the message */
++        text-align: center;
++    }
++
++    /* Controls container fixed at the bottom */
++    .controls-container {
++        width: 100%;
++        display: flex;
++        justify-content: center;
++        align-items: center;
++        margin-bottom: 5rem; /* Increased from 3rem to 5rem to make more room for footer */
++        padding-left: 1rem;
++        padding-right: 1rem;
++        pointer-events: none; /* Allow clicks to reach underneath */
++        position: fixed;
++        bottom: 0;
++        left: 0;
++        right: 0;
++        z-index: 30; /* Ensure controls are above other elements */
++    }
++
++    /* Controls */
++    .controls {
++        display: flex;
++        flex-direction: row;
++        align-items: center;
++        justify-content: center;
++        gap: 1rem;
++        max-width: 28rem;
++        width: 100%;
++        border-radius: 9999px;
++        background-color: rgba(255, 255, 255, 0.3);
++        backdrop-filter: blur(8px);
++        -webkit-backdrop-filter: blur(8px);
++        padding: 0.75rem 1rem 0.5rem;
++        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
++        pointer-events: auto; /* Make controls clickable */
++        border: 1px solid rgba(255, 255, 255, 0.3);
++        position: relative; /* For absolute positioning of progress bar */
++    }
++
++    /* Top progress bar container */
++    .top-progress-container {
++        position: fixed;
++        top: 0;
++        left: 0;
++        right: 0;
++        height: 4px;
++        background-color: rgba(255, 255, 255, 0.2);
++        overflow: hidden;
++        z-index: 100; /* Ensure it appears above everything */
++        pointer-events: none; /* Allow clicks to pass through */
++    }
++
++    /* Actual top progress bar */
++    .top-progress-bar {
++        height: 100%;
++        background-color: var(--secondary-color);
++        transition: width 0.1s linear;
++        box-shadow: 0 0 3px rgba(255, 255, 255, 0.5);
++    }
++
++    /* Style for paused progress */
++    .top-progress-bar.paused {
++        opacity: 0.5;
++        background-image: linear-gradient(
++            45deg,
++            rgba(255, 255, 255, 0.3) 25%,
++            transparent 25%,
++            transparent 50%,
++            rgba(255, 255, 255, 0.3) 50%,
++            rgba(255, 255, 255, 0.3) 75%,
++            transparent 75%,
++            transparent
++        );
++        background-size: 10px 10px;
++        animation: progressStripes 1s linear infinite;
++    }
++
++    @keyframes progressStripes {
++        0% { background-position: 0 0; }
++        100% { background-position: 20px 0; }
++    }
++
++    /* Pause button */
++    .pause-button {
++        background-color: var(--secondary-color);
++        color: var(--primary-color);
++        border-radius: 9999px;
++        width: 2.5rem;
++        height: 2.5rem;
++        display: flex;
++        align-items: center;
++        justify-content: center;
++        font-size: 1.25rem;
++        border: none;
++        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
++        flex-shrink: 0;
++        transition: transform 0.2s;
++    }
++
++    .pause-button:hover,
++    .pause-button:focus {
++        transform: scale(1.1);
++        outline: none;
++        box-shadow: 0 0 0 2px white, 0 0 0 4px var(--secondary-color);
++    }
++
++    /* Speed control container */
++    .speed-control {
++        flex: 1;
++        display: flex;
++        flex-direction: column;
++        align-items: center;
++        justify-content: center;
++        margin-left: 0.5rem;
++    }
++
++    .speed-label {
++        font-size: 0.875rem;
++        font-weight: 500;
++        width: 100%;
++        text-align: center;
++        margin-bottom: 0.25rem;
++    }
++
++    /* Slider container */
++    .slider-container {
++        display: flex;
++        align-items: center;
++        justify-content: space-between;
++        gap: 0.5rem;
++        width: 100%;
++    }
++
++    .slider-label {
++        font-size: 0.75rem;
++        font-weight: 500;
++        white-space: nowrap;
++    }
++
++    /* History navigation styling */
++    .history-navigation {
++        display: flex;
++        gap: 0.5rem;
++        margin-left: 0.75rem;
++    }
++
++    .nav-button {
++        width: 2rem;
++        height: 2rem;
++        border-radius: 9999px;
++        background-color: var(--secondary-color);
++        color: var(--primary-color);
++        display: flex;
++        align-items: center;
++        justify-content: center;
++        border: none;
++        cursor: pointer;
++        transition: transform 0.2s, opacity 0.2s;
++        padding: 0; /* Remove default padding */
++        line-height: 1; /* Ensure consistent line height */
++    }
++
++    .nav-icon {
++        display: flex;
++        align-items: center;
++        justify-content: center;
++        font-size: 1rem; /* Increased size for better visibility */
++        height: 100%;
++        width: 100%;
++        position: relative;
++    }
++
++    /* Make sure both icons are centered properly */
++    .prev-button .nav-icon,
++    .next-button .nav-icon {
++        display: block;
++        text-align: center;
++        line-height: 2rem; /* Match the button height */
++    }
++
++    /* Make the prev icon slightly larger to match the next icon's visual size */
++    .prev-button .nav-icon {
++        font-size: 1.1rem; /* Slightly larger than the base size */
++    }
++
++    .nav-button:disabled {
++        opacity: 0.5;
++        cursor: not-allowed;
++    }
++
++    .nav-button:not(:disabled):hover,
++    .nav-button:not(:disabled):focus {
++        transform: scale(1.1);
++        outline: none;
++    }
++
++    /* Custom slider styling */
++    .speed-slider {
++        width: 100%;
++        height: 0.5rem;
++        margin-left: 0.5rem;
++        margin-right: 0.5rem;
++        -webkit-appearance: none;
++        appearance: none;
++        background: rgba(255, 255, 255, 0.3);
++        outline: none;
++        border-radius: 15px;
++    }
++
++    .speed-slider::-webkit-slider-thumb {
++        -webkit-appearance: none;
++        appearance: none;
++        width: 18px;
++        height: 18px;
++        background-color: var(--secondary-color);
++        border-radius: 9999px;
++        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
++        cursor: pointer;
++        transition: transform 0.1s;
++    }
++
++    .speed-slider::-moz-range-thumb {
++        width: 18px;
++        height: 18px;
++        background-color: var(--secondary-color);
++        border-radius: 9999px;
++        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
++        border: none;
++        cursor: pointer;
++        transition: transform 0.1s;
++    }
++
++    .speed-slider::-webkit-slider-thumb:hover,
++    .speed-slider::-moz-range-thumb:hover {
++        transform: scale(1.2);
++    }
++
++    .speed-slider:focus {
++        outline: none;
++        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5), 0 0 0 4px var(--secondary-color);
++        opacity: 0.5;
++    }
++
++    /* Focus styles for accessibility */
++    .speed-slider:focus::-webkit-slider-thumb {
++        box-shadow: 0 0 0 2px white;
++    }
++
++    .speed-slider:focus::-moz-range-thumb {
++        box-shadow: 0 0 0 2px white;
++    }
++
++    /* Media query for smaller screens */
++    @media (max-width: 640px) {
++        .greeting {
++            padding: 1rem;
++            width: 95vw; /* Take more width on mobile */
++            max-width: 95vw;
++            font-size: clamp(1.2rem, 5vw, 1.8rem); /* Smaller font on mobile */
++        }
++
++        .controls {
++            flex-direction: column;
++            padding: 0.75rem;
++            border-radius: 0.75rem;
++            max-width: min(90vw, 300px);
++        }
++
++        .speed-control {
++            margin-top: 0.5rem;
++            margin-left: 0;
++            width: 100%;
++        }
++
++        .history-navigation {
++            margin-left: 0;
++            margin-top: 0.5rem;
++            justify-content: center;
++        }
++    }
++
++    /* For very short screens */
++    @media (max-height: 500px) {
++        .greeting {
++            max-height: 50vh; /* Reduced maximum height */
++            padding: 0.75rem;
++            font-size: clamp(1rem, 3.5vw, 1.4rem); /* Smaller font */
++            margin-bottom: 70px; /* Push up more to make room for controls and footer */
++        }
++
++        .controls-container {
++            margin-bottom: 4rem; /* More space for footer */
++        }
++
++        .controls {
++            padding-top: 0.25rem;
++            padding-bottom: 0.25rem;
++            padding-left: 0.75rem;
++            padding-right: 0.75rem;
++            transform: scale(0.9); /* Slightly smaller controls */
++        }
++
++        .greeting-container {
++            align-items: center; /* Keep centered vertically */
++            padding-bottom: 80px; /* Increased offset for controls and footer */
++        }
++    }
++
++    /* For extra wide screens */
++    @media (min-width: 1600px) {
++        .greeting {
++            max-width: 65rem; /* Even wider on large screens */
++            padding: 2rem;
++        }
+     }
+-</style>
+\ No newline at end of file
++</style>
+diff --git a/src/Heart.svelte b/src/Heart.svelte
+index a02db16..f770ec8 100644
+--- a/src/Heart.svelte
++++ b/src/Heart.svelte
+@@ -1,97 +1,92 @@
+ <script lang="ts">
+-    import * as THREE from "three";
+-    import {Camera, Mesh, Scene, Texture, WebGLRenderer} from "three";
+-    import {OrbitControls} from "three/examples/jsm/controls/OrbitControls";
+-    import {onMount} from "svelte";
+-
+-    const textureLoader = new THREE.TextureLoader();
+-    let normalTexture: Texture;
+-    let backgroundTexture: Texture;
+-    const scene: Scene = new THREE.Scene();
+-    let aspectRatio: number;
+-    let camera: Camera;
+-    let renderer: WebGLRenderer;
+-    let heart: Mesh;
+-    // --- TORUS SHAPE ---
+-    const geometry = new THREE.TorusGeometry(10, 3, 16, 100);
+-    const material = new THREE.MeshStandardMaterial({
+-        color: 0xffffff,
+-        roughness: 0.75,
+-        metalness: 0.5,
+-        normalMap: normalTexture
+-    });
+-
+-    // --- Lights & Helpers ---
+-    const ambientLight = new THREE.AmbientLight(0xFFFFFF);
+-    const pointLight = new THREE.PointLight(0xFA3600);
+-    const pointLight2 = new THREE.PointLight(0x009BFA);
+-    pointLight.position.set(-20, 30, 20);
+-    pointLight2.position.set(20, -5, 20);
++    import {onMount} from 'svelte';
++    import * as THREE from 'three';
++    import {_} from 'svelte-i18n';
+
+-    const lightHelper = new THREE.PointLightHelper(pointLight);
+-    const gridHelper = new THREE.GridHelper(200, 50);
++    let isMounted = $state(false);
++    let canvasElement: HTMLCanvasElement;
+
+-    let mouseX = 0;
+-    let mouseY = 0;
+-    let targetX = 0;
+-    let targetY = 0;
+-
+-    // --- Controls ---
+-    let controls: OrbitControls;
++    let scene: THREE.Scene;
++    let camera: THREE.PerspectiveCamera;
++    let renderer: THREE.WebGLRenderer;
++    let heart: THREE.Mesh;
++    let aspectRatio: number;
+
+-    onMount(async () => {
++    // Accessibility translations
++    let heartDescription = $derived($_('heart.description', {default: '3D animated heart visualization'}));
+
++    function initThreeJs() {
++        if (!canvasElement) {
++            return;
++        }
+
++        scene = new THREE.Scene();
+         aspectRatio = window.innerWidth / window.innerHeight;
+-        camera = new THREE.PerspectiveCamera( 85, aspectRatio, 0.25, 2000);
++        camera = new THREE.PerspectiveCamera(85, aspectRatio, 0.25, 2000);
++
+         renderer = new THREE.WebGLRenderer({
+-            canvas: document.querySelector('#bg'),
++            canvas: canvasElement,
+             antialias: true
+         });
+-        controls = new OrbitControls(camera, renderer.domElement);
+-        renderer.setPixelRatio( window.devicePixelRatio );
+-        renderer.setSize( window.innerWidth, window.innerHeight );
++
++        renderer.setPixelRatio(window.devicePixelRatio);
++        renderer.setSize(window.innerWidth, window.innerHeight);
++
+         camera.position.setZ(60);
+         camera.position.setX(45);
+         camera.position.setY(15);
+
+         scene.background = new THREE.Color(0xfec5bb);
+
++        const material = new THREE.MeshStandardMaterial({
++            color: 0xffffff,
++            roughness: 0.75,
++            metalness: 0.5
++        });
++
++        const pointLight = new THREE.PointLight(0xFA3600);
++        const pointLight2 = new THREE.PointLight(0x009BFA);
++        pointLight.position.set(-20, 30, 20);
++        pointLight2.position.set(20, -5, 20);
+         scene.add(pointLight, pointLight2);
+
+-        // add stars
+-        Array(300).fill(null).map(addStar);
++        Array(300).fill(null).forEach(() => addStar());
++
++        addLove(material);
+
+-        addLove();
+         animate();
+-    });
++
++        window.addEventListener('resize', onWindowResize, false);
++
++        isMounted = true;
++    }
+
+     function addStar() {
+         const geometry = new THREE.SphereGeometry(0.1, 10, 10);
+         const material = new THREE.MeshToonMaterial({color: 0xFFFFFF});
+-        const star = new THREE.Mesh( geometry, material );
++        const star = new THREE.Mesh(geometry, material);
+
+         const [x, y, z] = Array(3).fill(null).map(() => THREE.MathUtils.randFloatSpread(100));
+         star.position.set(x, y, z);
+         scene.add(star);
+     }
+
+-    function addLove() {
+-
++    function addLove(material: THREE.MeshStandardMaterial) {
+         let x = -25, y = 0;
+         let heartShape = new THREE.Shape();
+-        heartShape.moveTo( x + 25, y + 25 );
+-        heartShape.bezierCurveTo( x + 25, y + 25, x + 20, y, x, y );
+-        heartShape.bezierCurveTo( x - 30, y, x - 30, y + 35,x - 30,y + 35 );
+-        heartShape.bezierCurveTo( x - 30, y + 55, x - 10, y + 77, x + 25, y + 95 );
+-        heartShape.bezierCurveTo( x + 60, y + 77, x + 80, y + 55, x + 80, y + 35 );
+-        heartShape.bezierCurveTo( x + 80, y + 35, x + 80, y, x + 50, y );
+-        heartShape.bezierCurveTo( x + 35, y, x + 25, y + 25, x + 25, y + 25 );
+-        let extrudeSettings = { depth: 4 };
++        heartShape.moveTo(x + 25, y + 25);
++        heartShape.bezierCurveTo(x + 25, y + 25, x + 20, y, x, y);
++        heartShape.bezierCurveTo(x - 30, y, x - 30, y + 35, x - 30, y + 35);
++        heartShape.bezierCurveTo(x - 30, y + 55, x - 10, y + 77, x + 25, y + 95);
++        heartShape.bezierCurveTo(x + 60, y + 77, x + 80, y + 55, x + 80, y + 35);
++        heartShape.bezierCurveTo(x + 80, y + 35, x + 80, y, x + 50, y);
++        heartShape.bezierCurveTo(x + 35, y, x + 25, y + 25, x + 25, y + 25);
++
++        const extrudeSettings = {depth: 4};
+         const geometryHeart = new THREE.ExtrudeGeometry(heartShape, extrudeSettings);
+
+         heart = new THREE.Mesh(geometryHeart, material);
+-        let flip = new THREE.Matrix4().makeScale(1,-1,1);
++        let flip = new THREE.Matrix4().makeScale(1, -1, 1);
+         heart.applyMatrix4(flip);
+         heart.translateY(-40);
+         heart.scale.set(0.15, 0.15, 0.15);
+@@ -99,41 +94,69 @@
+     }
+
+     function animate() {
+-        requestAnimationFrame(animate);
+-
+-        //heart.rotation.x += 0.01;
+-        heart.rotation.y += 0.01;
++        if (!isMounted) {
++            return;
++        }
+
++        requestAnimationFrame(animate);
+
+-        controls.update();
++        if (heart) {
++            heart.rotation.y += 0.01;
++        }
+
+-        renderer.render(scene, camera);
++        if (renderer && scene && camera) {
++            renderer.render(scene, camera);
++        }
+     }
+
+-    window.addEventListener( 'resize', onWindowResize, false );
+-
+     function onWindowResize() {
++        if (!camera || !renderer) return;
++
+         aspectRatio = window.innerWidth / window.innerHeight;
+-        (camera as any).aspect = window.innerWidth / window.innerHeight;
+-        (camera as any).updateProjectionMatrix();
++        camera.aspect = aspectRatio;
++        camera.updateProjectionMatrix();
+
+-        renderer.setSize( window.innerWidth, window.innerHeight );
++        renderer.setSize(window.innerWidth, window.innerHeight);
+         renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+     }
+
+-    window.addEventListener( 'mousemove', onDocumentMouseMove);
++    onMount(() => {
++        if (canvasElement) {
++            initThreeJs();
++        } else {
++            // Try to initialize after a short delay to ensure the canvas is bound
++            setTimeout(() => {
++                if (canvasElement) {
++                    initThreeJs();
++                }
++            }, 100);
++            return;
++        }
++
++        return () => {
++            window.removeEventListener('resize', onWindowResize);
++
++            if (renderer) {
++                renderer.dispose();
++            }
++        };
++    });
+
+-    function onDocumentMouseMove(event: Event) {
+-        //mouseX = (event.clientX - windowY)
+-    }
+ </script>
+
+-<canvas id="bg">
+-    <!-- threejs canvas -->
+-</canvas>
++<div class="canvas-container"
++     role="region"
++     aria-label={heartDescription}>
++    <canvas bind:this={canvasElement} aria-hidden="true"></canvas>
++</div>
+
+ <style lang="postcss">
+-    #bg {
+-        @apply max-w-full max-h-full z-0;
++    .canvas-container {
++        @apply fixed top-0 left-0 w-screen h-screen overflow-hidden;
++        z-index: -1;
++    }
++    canvas {
++        @apply block w-full h-full max-w-full max-h-full;
++        background-color: #fec5bb;
+     }
+-</style>
+\ No newline at end of file
++</style>
+diff --git a/src/Navigation.svelte b/src/Navigation.svelte
+index 2240a1e..fab5541 100644
+--- a/src/Navigation.svelte
++++ b/src/Navigation.svelte
+@@ -1,26 +1,155 @@
+ <script lang="ts">
+     import { locale, _ } from 'svelte-i18n';
++    import { onMount } from 'svelte';
+
++    // Use $props() for Svelte 5 instead of export let
++    const { language = 'en' } = $props();
++    let appLanguage = $state(language);
++
++    // Track dropdown open state
++    let isDropdownOpen = $state(false);
++
++    // Track focused menu item index
++    let focusedIndex = $state(-1);
++
++    // Computed property for available languages (excluding current)
++    let availableLanguages = $derived([
++        { code: 'es', name: $_('shortcode.es') },
++        { code: 'de', name: $_('shortcode.de') },
++        { code: 'en', name: $_('shortcode.en') }
++    ].filter(item => item.code !== appLanguage));
++
+     function changeLocale(l: string) {
+-        locale.set(l)
++        locale.set(l);
++        appLanguage = l;
++        isDropdownOpen = false;
++    }
++
++    function toggleDropdown() {
++        isDropdownOpen = !isDropdownOpen;
++        if (isDropdownOpen) {
++            // Set focus to first item when menu opens
++            setTimeout(() => {
++                focusedIndex = 0;
++                const menuItem = document.getElementById(`lang-option-${focusedIndex}`);
++                if (menuItem) menuItem.focus();
++            }, 10);
++        }
++    }
++
++    function handleKeyDown(event: KeyboardEvent) {
++        if (!isDropdownOpen) {
++            if (event.key === 'Enter' || event.key === ' ' || event.key === 'ArrowDown') {
++                event.preventDefault();
++                toggleDropdown();
++            }
++            return;
++        }
++
++        switch (event.key) {
++            case 'Escape':
++                event.preventDefault();
++                isDropdownOpen = false;
++                document.getElementById('language-selector')?.focus();
++                break;
++            case 'ArrowDown':
++                event.preventDefault();
++                focusedIndex = Math.min(focusedIndex + 1, availableLanguages.length - 1);
++                document.getElementById(`lang-option-${focusedIndex}`)?.focus();
++                break;
++            case 'ArrowUp':
++                event.preventDefault();
++                focusedIndex = Math.max(focusedIndex - 1, 0);
++                document.getElementById(`lang-option-${focusedIndex}`)?.focus();
++                break;
++            case 'Home':
++                event.preventDefault();
++                focusedIndex = 0;
++                document.getElementById(`lang-option-${focusedIndex}`)?.focus();
++                break;
++            case 'End':
++                event.preventDefault();
++                focusedIndex = availableLanguages.length - 1;
++                document.getElementById(`lang-option-${focusedIndex}`)?.focus();
++                break;
++        }
++    }
++
++    function handleMenuItemKeyDown(event: KeyboardEvent, langCode: string) {
++        if (event.key === 'Enter' || event.key === ' ') {
++            event.preventDefault();
++            changeLocale(langCode);
++        }
+     }
++
++    // Close dropdown when clicking outside
++    function handleClickOutside(event: MouseEvent) {
++        const dropdown = document.querySelector('.dropdown');
++        if (dropdown && !dropdown.contains(event.target as Node) && isDropdownOpen) {
++            isDropdownOpen = false;
++        }
++    }
++
++    onMount(() => {
++        document.addEventListener('click', handleClickOutside);
++        return () => {
++            document.removeEventListener('click', handleClickOutside);
++        };
++    });
+ </script>
+
+ <div class="navmenu p-4 lg:p-8">
+-    <nav class="navbar">
+-        <div class="heading">
++    <nav class="navbar" aria-label="Main navigation">
++        <a href="#main" class="skip-link">Skip to main content</a>
++
++        <h1 class="heading">
+             { $_('logoText') }
+-        </div>
++        </h1>
++
+         <div class="dropdown inline-block relative">
+-            <button class="btnlanguage font-semibold py-2 px-4 rounded inline-flex items-center">
++            <button
++                id="language-selector"
++                class="btnlanguage font-semibold py-2 px-4 rounded inline-flex items-center"
++                aria-haspopup="listbox"
++                aria-expanded={isDropdownOpen}
++                aria-label="Select language"
++                onclick={toggleDropdown}
++                onkeydown={handleKeyDown}
++            >
+                 <span>{ $_('language') }</span>
+-                <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
++                <svg
++                    class="arrow"
++                    xmlns="http://www.w3.org/2000/svg"
++                    viewBox="0 0 20 20"
++                    aria-hidden="true"
++                    focusable="false"
++                >
++                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
++                </svg>
+             </button>
+-            <ul class="dropdown-menu">
+-                <li class="p-5 hover:cursor-pointer hover:underline" on:click={() => changeLocale('es')}>{ $_('shortcode.es') }</li>
+-                <li class="dropdown-item" on:click={() => changeLocale('de')}>{ $_('shortcode.de') }</li>
+-                <li class="dropdown-item" on:click={() => changeLocale('en')}>{ $_('shortcode.en') }</li>
+-            </ul>
++
++            {#if isDropdownOpen && availableLanguages.length > 0}
++                <ul
++                    class="dropdown-menu"
++                    role="listbox"
++                    aria-labelledby="language-selector"
++                    tabindex="-1"
++                >
++                    {#each availableLanguages as item, index}
++                        <li
++                            id="lang-option-{index}"
++                            class="dropdown-item"
++                            role="option"
++                            aria-selected={focusedIndex === index}
++                            tabindex="0"
++                            onclick={() => changeLocale(item.code)}
++                            onkeydown={(e) => handleMenuItemKeyDown(e, item.code)}
++                        >
++                            { item.name }
++                        </li>
++                    {/each}
++                </ul>
++            {/if}
+         </div>
+     </nav>
+ </div>
+@@ -30,30 +159,61 @@
+         @apply z-30 bg-transparent absolute w-full top-0;
+     }
+
+-    .dropdown:hover .dropdown-menu {
+-        @apply block;
++    /* Make dropdown open on hover for mouse users, keyboard users will use the JS controls */
++    @media (hover: hover) {
++        .dropdown:hover .dropdown-menu {
++            @apply block;
++        }
+     }
+
+     .btnlanguage {
+         @apply bg-primary text-secondary flex justify-between w-36;
+         @apply border-2 border-solid border-secondary;
++        /* Ensure good padding for touch targets */
++        @apply py-2 px-4 rounded;
++    }
++
++    /* Focus and hover state */
++    .btnlanguage:hover,
++    .btnlanguage:focus {
++        @apply bg-secondary text-primary;
++        @apply outline-none;
+     }
+
+     .dropdown-menu {
+         @apply bg-primary border-2 border-secondary border-solid rounded;
+-        @apply text-secondary font-bold w-36 -mt-0.5 absolute hidden pt-1;
++        @apply text-secondary font-bold w-36 mt-0 absolute pt-1;
++        /* Add a little shadow for depth */
++        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+     }
+
+     .dropdown-item {
+-        @apply pr-5 pb-5 pl-5 hover:cursor-pointer hover:underline;
++        @apply pr-5 pb-5 pl-5 cursor-pointer;
++        /* Better padding for touch targets */
++        @apply py-3 px-4;
++        transition: background-color 0.2s;
++    }
++
++    /* Focus and hover state for items */
++    .dropdown-item:hover,
++    .dropdown-item:focus {
++        @apply bg-secondary text-primary;
++        @apply outline-none;
+     }
+
+     .arrow {
+         @apply text-secondary fill-current h-4 w-4;
++        @apply ml-2;
++    }
++
++    /* Flip arrow when dropdown is open */
++    [aria-expanded="true"] .arrow {
++        transform: rotate(180deg);
++        transition: transform 0.2s;
+     }
+
+     .heading {
+-        @apply text-secondary font-bold pointer-events-none;
++        @apply text-secondary font-bold;
+         @apply text-xl leading-6 uppercase;
+     }
+
+diff --git a/src/i18n.ts b/src/i18n.ts
+index 5e23aa1..149848d 100644
+--- a/src/i18n.ts
++++ b/src/i18n.ts
+@@ -1,19 +1,60 @@
+-// src/i18n.js
++// src/i18n.ts
+ import { init, getLocaleFromNavigator, addMessages } from 'svelte-i18n';
+
++// Import locale files
+ import en from './lang/en.json';
+ import de from './lang/de.json';
+ import es from './lang/es.json';
+
+-// @ts-ignore
+-addMessages('en', en);
+-// @ts-ignore
+-addMessages('de', de);
+-// @ts-ignore
+-addMessages('es', es);
+-// starts loading 'en-US' and 'en'
++// Define our own dictionary type
++type LocaleDictionary = {
++  [key: string]: string | LocaleDictionary | null;
++};
+
++// Convert to compatible format with type assertion
++const processLocale = (locale: any): Record<string, any> => {
++  // Create a flattened version of the locale that conforms to requirements
++  const processedLocale: Record<string, any> = {};
++
++  // Process top-level strings directly
++  for (const key in locale) {
++    if (typeof locale[key] === 'string') {
++      processedLocale[key] = locale[key];
++    } else if (typeof locale[key] === 'object' && !Array.isArray(locale[key])) {
++      // Handle nested objects (like 'shortcode')
++      processedLocale[key] = locale[key];
++    } else if (Array.isArray(locale[key])) {
++      // For arrays, create an object with keys that match the array indices
++      processedLocale[key] = {};
++      locale[key].forEach((item: any, index: number) => {
++        if (typeof item === 'object') {
++          // For objects in arrays (like wishes and greetings entries)
++          // Create an entry with proper formatting
++          const itemKey = `${index}`;
++          processedLocale[key][itemKey] = {};
++
++          // Add each property of the item to the dictionary
++          for (const itemProp in item) {
++            processedLocale[key][itemKey][itemProp] = item[itemProp];
++          }
++        } else {
++          // For primitive values in arrays
++          processedLocale[key][`${index}`] = item;
++        }
++      });
++    }
++  }
++
++  return processedLocale;
++};
++
++// Process and add messages for each locale
++addMessages('en', processLocale(en));
++addMessages('de', processLocale(de));
++addMessages('es', processLocale(es));
++
++// Initialize with fallback locale and get browser locale
+ init({
+-    fallbackLocale: 'de',
+-    initialLocale: getLocaleFromNavigator(),
++    fallbackLocale: 'en',  // Changed fallback from 'de' to 'en'
++    initialLocale: 'de',   // Set initial locale to 'de' directly
+ });
+\ No newline at end of file
+diff --git a/src/lang/de.json b/src/lang/de.json
+index 29cd247..51102dd 100644
+--- a/src/lang/de.json
++++ b/src/lang/de.json
+@@ -1,6 +1,26 @@
+ {
+   "language": "Sprache",
+   "logoText": "Für Victoria, von Dominik",
++  "heart": {
++    "description": "3D animierte Herz-Visualisierung",
++    "clickHint": "Klick auf das Herz um Inhalte anzuzeigen"
++  },
++  "ui": {
++    "messageSpeed": "Nachrichtenwechselgeschwindigkeit",
++    "slow": "Langsam",
++    "medium": "Mittel",
++    "fast": "Schnell",
++    "footerMessage": "Für meine Frau Vici, ich liebe dich",
++    "pauseButton": "Nachrichtenrotation pausieren",
++    "resumeButton": "Nachrichtenrotation fortsetzen",
++    "prevButton": "Vorherige Nachricht anzeigen",
++    "nextButton": "Nächste Nachricht anzeigen",
++    "greetingLabel": "Grußbotschaft",
++    "messageLabel": "Liebesnachricht",
++    "fromLabel": "Von",
++    "messageNavigation": "Nachrichtennavigation",
++    "progressBar": "Nachrichtenfortschritt"
++  },
+   "shortcode": {
+     "de": "Deutsch",
+     "en": "Englisch",
+@@ -154,7 +174,7 @@
+     },
+     {
+       "id": 15,
+-      "text": "Mein Viky, du verdienst das Beste auf der Welt, weil du dieser spirituelle Mensch und voller Liebe zu anderen bist, mit einer Karriere, die Schritt für Schritt gemacht wurde, mit großen Anstrengungen, das Leben hat große Segnungen für dich, dieses Glück, ❣️ und Prost sei immer bei dir \\uD83C\\uDF82\\uD83D\\uDE4F\\uD83E\\uDD17\\nIch liebe dich sehr deine Tante",
++      "text": "Mein Viky, du verdienst das Beste auf der Welt, weil du dieser spirituelle Mensch und voller Liebe zu anderen bist, mit einer Karriere, die Schritt für Schritt gemacht wurde, mit großen Anstrengungen, das Leben hat große Segnungen für dich, dieses Glück, ❣️ und Prost sei immer bei dir 🎂🙏🤗\nIch liebe dich sehr deine Tante",
+       "from": "Sony"
+     }
+   ]
+diff --git a/src/lang/en.json b/src/lang/en.json
+index fd76ec0..936a405 100644
+--- a/src/lang/en.json
++++ b/src/lang/en.json
+@@ -1,6 +1,26 @@
+ {
+   "logoText": "For Victoria, by Dominik",
+   "language": "Language",
++  "heart": {
++    "description": "3D animated heart visualization",
++    "clickHint": "Click the heart to reveal content"
++  },
++  "ui": {
++    "messageSpeed": "Message rotation speed",
++    "slow": "Slow",
++    "medium": "Medium",
++    "fast": "Fast",
++    "footerMessage": "For my wife Vici, I love you",
++    "pauseButton": "Pause message rotation",
++    "resumeButton": "Resume message rotation",
++    "prevButton": "Show previous message",
++    "nextButton": "Show next message",
++    "greetingLabel": "Greeting",
++    "messageLabel": "Love message",
++    "fromLabel": "From",
++    "messageNavigation": "Message navigation",
++    "progressBar": "Message progress"
++  },
+   "shortcode": {
+     "de": "German",
+     "en": "English",
+diff --git a/src/lang/es.json b/src/lang/es.json
+index 3b2962c..27b3f61 100644
+--- a/src/lang/es.json
++++ b/src/lang/es.json
+@@ -1,6 +1,26 @@
+ {
+   "logoText": "Para Victoria, de Dominik",
+   "language": "Idioma",
++  "heart": {
++    "description": "Visualización de corazón 3D animado",
++    "clickHint": "Haz clic en el corazón para revelar el contenido"
++  },
++  "ui": {
++    "messageSpeed": "Velocidad de rotación de mensajes",
++    "slow": "Lento",
++    "medium": "Medio",
++    "fast": "Rápido",
++    "footerMessage": "Para mi esposa Vici, te amo",
++    "pauseButton": "Pausar rotación de mensajes",
++    "resumeButton": "Reanudar rotación de mensajes",
++    "prevButton": "Mostrar mensaje anterior",
++    "nextButton": "Mostrar mensaje siguiente",
++    "greetingLabel": "Saludo",
++    "messageLabel": "Mensaje de amor",
++    "fromLabel": "De",
++    "messageNavigation": "Navegación de mensajes",
++    "progressBar": "Progreso del mensaje"
++  },
+   "shortcode": {
+     "de": "Alemán",
+     "en": "Inglés",
+diff --git a/src/main.ts b/src/main.ts
+index d80e9a3..1ef1cda 100644
+--- a/src/main.ts
++++ b/src/main.ts
+@@ -1,7 +1,8 @@
+ import App from './App.svelte';
+
++// Use the compatibility component API
+ const app = new App({
+-       target: document.body,
++    target: document.body
+ });
+
+ export default app;
+\ No newline at end of file
+diff --git a/tsconfig.json b/tsconfig.json
+index b71db10..0d705ff 100644
+--- a/tsconfig.json
++++ b/tsconfig.json
+@@ -4,7 +4,17 @@
+     "resolveJsonModule": true,
+     "module": "es2020",
+     "sourceMap": false,
+-    "typeRoots": ["node_modules/@types"]
++    "typeRoots": ["node_modules/@types"],
++    "target": "es2022",
++    "moduleResolution": "node",
++    "jsx": "preserve",
++    "importHelpers": true,
++    "experimentalDecorators": true,
++    "skipLibCheck": true,
++    "esModuleInterop": true,
++    "allowSyntheticDefaultImports": true,
++    "forceConsistentCasingInFileNames": true,
++    "useDefineForClassFields": true
+   },
+   "include": ["src/**/*"],
+   "exclude": ["node_modules/*", "__sapper__/*", "public/*"]
+
+LINE LIMIT EXCEEDED
