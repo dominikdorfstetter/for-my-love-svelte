@@ -11,10 +11,11 @@
     "publish": "npm run build && surge public iheartvici.surge.sh"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^19.0.2",
+    "@rollup/plugin-commonjs": "^28.0.3",
     "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-node-resolve": "^16.0.1",
     "@rollup/plugin-typescript": "^12.1.2",
+    "@rollup/plugin-terser": "^0.4.4",
     "@tailwindcss/postcss": "^4.1.5",
     "@tsconfig/svelte": "^5.0.4",
     "autoprefixer": "^10.4.21",
@@ -23,7 +24,6 @@
     "rollup-plugin-css-only": "^4.5.2",
     "rollup-plugin-livereload": "^2.0.5",
     "rollup-plugin-svelte": "^7.2.2",
-    "rollup-plugin-terser": "^7.0.2",
     "surge": "^0.24.6",
     "svelte": "^5.28.2",
     "svelte-check": "^4.1.6",
