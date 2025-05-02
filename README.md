@@ -4,7 +4,7 @@ A beautiful interactive web application that displays love messages and greeting
 
 ## Live Demo
 
-Visit the live application at [https://iheartvici.surge.sh](https://iheartvici.surge.sh)
+Visit the live application at [https://para-vici.netlify.com](https://para-vici.netlify.com)
 
 ## Features
 
