@@ -1,167 +1,176 @@
 <script lang="ts">
     import {onMount} from 'svelte';
-    import * as THREE from 'three';
     import {_} from 'svelte-i18n';
 
-    let isMounted = $state(false);
-    let canvasElement: HTMLCanvasElement;
-
-    let scene: THREE.Scene;
-    let camera: THREE.PerspectiveCamera;
-    let renderer: THREE.WebGLRenderer;
-    let heart: THREE.Mesh;
-    let aspectRatio: number;
-
     // Accessibility translations
-    let heartDescription = $derived($_('heart.description', {default: '3D animated heart visualization'}));
+    let heartDescription = $derived($_('heart.description', {default: 'Floating hearts background'}));
 
-    function initThreeJs() {
-        if (!canvasElement) {
-            return;
-        }
+    // Number of hearts to create
+    const HEART_COUNT = 30;
 
-        scene = new THREE.Scene();
-        aspectRatio = window.innerWidth / window.innerHeight;
-        camera = new THREE.PerspectiveCamera(85, aspectRatio, 0.25, 2000);
+    // Function to calculate color based on size
+    // Smaller hearts are lighter, bigger hearts are darker
+    function calculateHeartColor(size: number): string {
+        // Size ranges from 10px to 40px
+        // Map this to a lightness value (lighter for smaller hearts)
+        // The secondary color is #5F4A47 (brown)
 
-        renderer = new THREE.WebGLRenderer({
-            canvas: canvasElement,
-            antialias: true
-        });
+        // Normalize size to 0-1 range (where 0 is smallest, 1 is largest)
+        const normalizedSize = (size - 10) / 30;
 
-        renderer.setPixelRatio(window.devicePixelRatio);
-        renderer.setSize(window.innerWidth, window.innerHeight);
+        // Calculate lightness (smaller hearts are lighter)
+        // Range from 60% (lightest) to 30% (darkest)
+        const lightness = 60 - (normalizedSize * 30);
 
-        camera.position.setZ(60);
-        camera.position.setX(45);
-        camera.position.setY(15);
-
-        scene.background = new THREE.Color(0xfec5bb);
-
-        const material = new THREE.MeshStandardMaterial({
-            color: 0xffffff,
-            roughness: 0.75,
-            metalness: 0.5
-        });
-
-        const pointLight = new THREE.PointLight(0xFA3600);
-        const pointLight2 = new THREE.PointLight(0x009BFA);
-        pointLight.position.set(-20, 30, 20);
-        pointLight2.position.set(20, -5, 20);
-        scene.add(pointLight, pointLight2);
-
-        Array(300).fill(null).forEach(() => addStar());
-
-        addLove(material);
-
-        animate();
-
-        window.addEventListener('resize', onWindowResize, false);
-
-        isMounted = true;
+        // Return the color in HSL format
+        // Hue: 10 (reddish-brown), Saturation: 15% (muted)
+        return `hsl(10, 15%, ${lightness}%)`;
     }
 
-    function addStar() {
-        const geometry = new THREE.SphereGeometry(0.1, 10, 10);
-        const material = new THREE.MeshToonMaterial({color: 0xFFFFFF});
-        const star = new THREE.Mesh(geometry, material);
+    // Generate hearts with better distribution using a grid-based approach
+    function generateHearts() {
+        const result = [];
 
-        const [x, y, z] = Array(3).fill(null).map(() => THREE.MathUtils.randFloatSpread(100));
-        star.position.set(x, y, z);
-        scene.add(star);
-    }
+        // Define a grid to ensure better distribution
+        // Divide the screen into a 6x5 grid (30 cells for 30 hearts)
+        const gridCols = 6;
+        const gridRows = 5;
 
-    function addLove(material: THREE.MeshStandardMaterial) {
-        let x = -25, y = 0;
-        let heartShape = new THREE.Shape();
-        heartShape.moveTo(x + 25, y + 25);
-        heartShape.bezierCurveTo(x + 25, y + 25, x + 20, y, x, y);
-        heartShape.bezierCurveTo(x - 30, y, x - 30, y + 35, x - 30, y + 35);
-        heartShape.bezierCurveTo(x - 30, y + 55, x - 10, y + 77, x + 25, y + 95);
-        heartShape.bezierCurveTo(x + 60, y + 77, x + 80, y + 55, x + 80, y + 35);
-        heartShape.bezierCurveTo(x + 80, y + 35, x + 80, y, x + 50, y);
-        heartShape.bezierCurveTo(x + 35, y, x + 25, y + 25, x + 25, y + 25);
+        // Create a heart for each cell in the grid
+        for (let row = 0; row < gridRows; row++) {
+            for (let col = 0; col < gridCols; col++) {
+                // Calculate the base position for this grid cell
+                const baseX = (col / gridCols) * 100;
+                const baseY = (row / gridRows) * 100;
 
-        const extrudeSettings = {depth: 4};
-        const geometryHeart = new THREE.ExtrudeGeometry(heartShape, extrudeSettings);
+                // Add some randomness within the cell (±33% of cell size)
+                const cellWidth = 100 / gridCols;
+                const cellHeight = 100 / gridRows;
+                const randomX = baseX + (Math.random() * 0.66 * cellWidth);
+                const randomY = baseY + (Math.random() * 0.66 * cellHeight);
 
-        heart = new THREE.Mesh(geometryHeart, material);
-        let flip = new THREE.Matrix4().makeScale(1, -1, 1);
-        heart.applyMatrix4(flip);
-        heart.translateY(-40);
-        heart.scale.set(0.15, 0.15, 0.15);
-        scene.add(heart);
-    }
+                const size = Math.random() * 30 + 10; // Random size between 10px and 40px
 
-    function animate() {
-        if (!isMounted) {
-            return;
+                result.push({
+                    id: Math.random().toString(36).substring(2, 9),
+                    size: size,
+                    x: randomX, // Grid-based x position with randomness
+                    y: randomY, // Grid-based y position with randomness
+                    duration: Math.random() * 15 + 15, // Random animation duration (15-30s)
+                    delay: Math.random() * 10, // Random delay (0-10s)
+                    opacity: Math.random() * 0.6 + 0.2, // Random opacity (0.2-0.8)
+                    horizontalMovement: Math.random() * 10 - 5, // Random horizontal movement (-5% to 5%)
+                    color: calculateHeartColor(size), // Calculate color based on size
+                    baseRotation: 45, // Base rotation for heart shape
+                    rotationVariation: Math.random() * 10 - 5 // Small random rotation variation (-5 to 5 degrees)
+                });
+            }
         }
 
-        requestAnimationFrame(animate);
-
-        if (heart) {
-            heart.rotation.y += 0.01;
-        }
-
-        if (renderer && scene && camera) {
-            renderer.render(scene, camera);
-        }
+        return result;
     }
 
-    function onWindowResize() {
-        if (!camera || !renderer) return;
+    let hearts = $state(generateHearts());
 
-        aspectRatio = window.innerWidth / window.innerHeight;
-        camera.aspect = aspectRatio;
-        camera.updateProjectionMatrix();
-
-        renderer.setSize(window.innerWidth, window.innerHeight);
-        renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    // Handle window resize
+    function handleResize() {
+        // No specific resize handling needed for CSS animations
     }
 
     onMount(() => {
-        if (canvasElement) {
-            initThreeJs();
-        } else {
-            // Try to initialize after a short delay to ensure the canvas is bound
-            setTimeout(() => {
-                if (canvasElement) {
-                    initThreeJs();
-                }
-            }, 100);
-            return;
-        }
+        window.addEventListener('resize', handleResize);
 
         return () => {
-            window.removeEventListener('resize', onWindowResize);
-
-            if (renderer) {
-                renderer.dispose();
-            }
+            window.removeEventListener('resize', handleResize);
         };
     });
-
 </script>
 
-<div class="canvas-container"
+<div class="hearts-container"
      role="region"
      aria-label={heartDescription}>
-    <canvas bind:this={canvasElement} aria-hidden="true"></canvas>
+    {#each hearts as heart (heart.id)}
+        <div class="heart" 
+             style="--size: {heart.size}px; 
+                    --x: {heart.x}%; 
+                    --y: {heart.y}%; 
+                    --duration: {heart.duration}s; 
+                    --delay: {heart.delay}s; 
+                    --opacity: {heart.opacity}; 
+                    --horizontal-movement: {heart.horizontalMovement}%;
+                    --heart-color: {heart.color};
+                    --base-rotation: {heart.baseRotation}deg;
+                    --rotation-variation: {heart.rotationVariation}deg;"
+             aria-hidden="true">
+        </div>
+    {/each}
 </div>
 
 <style lang="postcss">
-    .canvas-container {
+    .hearts-container {
         @apply fixed top-0 left-0 w-screen h-screen overflow-hidden;
         z-index: -10;
-    }
-    /* Define variables for heart canvas */
-    :root {
-        --heart-bg-color: #fec5bb;
+        background-color: var(--primary-color);
     }
 
-    canvas {
-        @apply block w-full h-full max-w-full max-h-full;
-        background-color: var(--heart-bg-color);
+    /* Heart shape using CSS - improved shape */
+    .heart {
+        @apply absolute block;
+        width: var(--size);
+        height: var(--size);
+        opacity: var(--opacity);
+        left: var(--x);
+        top: var(--y);
+        animation: float var(--duration) ease-in-out infinite;
+        animation-delay: var(--delay);
+        will-change: transform;
+        position: relative;
+        background-color: var(--heart-color, var(--secondary-color));
+        /* Apply initial rotation to ensure hearts are oriented correctly before animation starts */
+        transform: rotate(calc(var(--base-rotation) + var(--rotation-variation) * 0));
+    }
+
+    .heart:before, .heart:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: var(--heart-color, var(--secondary-color));
+        border-radius: 50%;
+    }
+
+    .heart:before {
+        left: -50%;
+        top: 0;
+    }
+
+    .heart:after {
+        top: -50%;
+        left: 0;
+    }
+
+    @keyframes float {
+        0% {
+            transform: translateY(0) translateX(0) rotate(calc(var(--base-rotation) + var(--rotation-variation) * 0));
+        }
+        25% {
+            transform: translateY(-20px) translateX(calc(var(--horizontal-movement) * 0.5)) rotate(calc(var(--base-rotation) + var(--rotation-variation) * 0.5));
+        }
+        50% {
+            transform: translateY(-40px) translateX(var(--horizontal-movement)) rotate(calc(var(--base-rotation) + var(--rotation-variation)));
+        }
+        75% {
+            transform: translateY(-20px) translateX(calc(var(--horizontal-movement) * 0.5)) rotate(calc(var(--base-rotation) + var(--rotation-variation) * 0.5));
+        }
+        100% {
+            transform: translateY(0) translateX(0) rotate(calc(var(--base-rotation) + var(--rotation-variation) * 0));
+        }
+    }
+
+    /* Reduce motion for users who prefer reduced motion */
+    @media (prefers-reduced-motion: reduce) {
+        .heart {
+            animation: none;
+        }
     }
 </style>
