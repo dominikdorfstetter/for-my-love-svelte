@@ -4,7 +4,7 @@ A beautiful interactive web application that displays love messages and greeting
 
 ## Live Demo
 
-Visit the live application at [https://para-vici.netlify.com](https://para-vici.netlify.com)
+Visit the live application at [https://para-vici.netlify.app/](https://para-vici.netlify.app/)
 
 ## Features
 
